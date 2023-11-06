@@ -1,0 +1,216 @@
+@media (max-width: 700px) {
+  .menu {max-width: 600px;padding-bottom: 20px;}
+  .header-menu-img {max-width: 60%;}
+  .header-menu-title-text {font-size: 22px;}
+  .header-menu-text {font-size: 23px;}
+  .menu-button-text {font-size: 16px;}
+  .header-menu {border-radius: 20px;}
+  .menu-grid {
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;}
+  .nav-item {
+    padding: 12px 17px;}
+  .tile-item-img {max-width: 180px;}
+  .tile-item-title {font-size: 28px;}
+  .tile-item {
+    min-height: fit-content;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 20px;
+    margin-bottom: 10px;}
+  .tile-item-subtitle {font-size: 21px;}
+  .blue-button {
+    font-size: 22px;
+    line-height: 1.4em;
+    padding: 14px 15px;}
+}
+
+@media (max-width: 600px) {
+  .blue-button {
+    max-width: 70%;
+    font-size: 21px;
+    padding: 14px 15px;}
+  .header-menu-img {margin-bottom: 9px;}
+  .header-menu-text {font-size: 22px;}
+  .menu-button.btn_11, .menu-button.btn_12 {height: 120px;}
+  .green-skew-fon {max-width: 60%;}
+  .app-header-title-mini,
+  .app-header-title-mini+p{
+    position: relative;
+    left: -30px;}
+  .app-header-title-mini, .app-header-title-mini+p {
+    left: 2px;}
+}
+
+@media (max-width: 500px) {
+  .app-header-title-mini, .app-header-title-mini+p {
+    left: -12px;}
+  .tile-item {
+    padding-left: 9px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 15px;
+    margin-bottom: 9px;}
+  .tile-item-img{
+    order: -1;
+    margin-bottom: 15px;}
+  .tile-item-title, .tile-item-subtitle{text-align: center;}
+  .tile-item-text{min-width: 100%;}
+  .paragraph-18 br:not(.br){display: none;}
+  .instructions-content{min-width: 100%;}
+  .instructions-img{order: -1;margin-bottom: 10px;}
+  .slide-item, .top-slider-carousel {min-height: 460px;}
+  .top-nav-title-medium {max-width: 50%;}
+  .special-line{height: 0;}
+  .wrapper {padding: 0;}
+  .menu-button-text {font-size: 15px;}
+  .header-menu {
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;}
+  .menu-button-img {max-width: 35px;}
+  .menu-button {min-height: 100px;}
+  .menu-body {
+    padding-left: 5px;
+    padding-right: 5px;}
+  .menu {padding-bottom: 10px;border-radius: 10px;}
+  .header-menu-text {font-size: 22px;}
+  .menu-button.btn_11, .menu-button.btn_12 {height: 106px;}
+  .carousel-row-title {font-size: 26px;}
+  .green-skew-fon {max-width: 65%;}
+  .header-menu-title {
+    padding-top: 3px;
+    padding-bottom: 3px;}
+}
+
+@media (max-width: 450px) {
+  .blue-button {
+    max-width: 70%;
+    font-size: 19px;}
+  .app-header-title-mini, .app-header-title-mini+p {
+    left: -2px;}
+  .app-header-title-mini+p.paragraph-18{
+    font-size: 17px;}
+  .app-header-title-mini {margin-bottom: 6px;}
+  .best_end_day .app-header-wrap-title{
+    margin-top: 10px;}
+  .green-skew-fon {max-width: 78%;}
+  .app-header-title {font-size: 22px;}
+  .carousel-title {font-size: 27px;}
+  .carousel-row-title {font-size: 26px;}
+  .slide-item, .top-slider-carousel {min-height: 430px;}
+  .dot {
+    font-size: 17px;
+    width: 22px;
+    height: 22px;
+    margin-right: 2px;}
+  .instructions-img {
+    min-width: 100px;
+    max-width: 40%;}
+  .inner-page {margin-top: 45px;}
+  .nav-item {font-size: 16px;}
+  .header-menu-img {max-width: 70%;}
+  .app-header-title-mini {font-size: 20px;}
+  .menu-button-text {font-size: 14px;}
+  .menu-button {border-radius: 7px;min-height: 95px;}
+  .top-nav-back {
+    height: 30px;
+    width: 30px;}
+  .right-top-nav i {font-size: 25px;}
+  .top-nav {min-height: 45px;}
+  .left-top-nav {max-width: 45px;}
+  .right-top-nav {max-width: 45px;}
+  .paragraph-18.paragraph-18-1lh {
+    line-height: 1.2em;}
+}
+
+@media (max-width: 393px) {
+  .blue-button {
+    max-width: 77%;}
+  .app-header-title-mini, .app-header-title-mini+p {
+    left: -9px;}
+  .carousel-title {font-size: 26px;}
+  .green-skew-fon {max-width: 82%;}
+  .header-menu-text {font-size: 20px;}
+  .menu-button-img {max-width: 32px;}
+  .dot {
+    font-size: 15px;
+    width: 20px;
+    height: 20px;}
+  .left-bottom-slider-carousel, .right-bottom-slider-carousel {
+    width: 45px;
+    height: 45px;}
+}
+
+@media (max-width: 384px) {
+  .header-menu-title-text{
+    font-size: 19px;}
+  .app-header-title-mini+p.paragraph-18 {
+    font-size: 16px;}
+  .app-header-title-mini, .app-header-title-mini+p {
+    left: -2px;}
+  .best_end_day .app-header-wrap-title {width: 76%;}
+  .instructions-descriptions-img {max-width: 65px;}
+  .instructions {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;}
+  .slide-item, .top-slider-carousel {min-height: 420px;}
+  .left-bottom-slider-carousel,
+  .right-bottom-slider-carousel {
+    width: 40px;
+    height: 40px;}
+  .carousel-row-title {font-size: 24px;}
+  .instructions-img {margin-bottom: 5px;}
+  .menu-button.btn_11, .menu-button.btn_12 {height: 96px;}
+  .menu-button {box-shadow: inset 6px 6px 6px #fff, inset -6px -6px 5px -2px #d1d9e6, -5px -5px 9px -9px #fff, 3px 3px 8px -4px #d1d9e6;}
+}
+
+@media (max-width: 375px) {
+  .header-menu-title-text {font-size: 18px;}
+}
+
+@media (max-width: 360px) {
+  .app-header-title-mini, .app-header-title-mini+p {left: -2px;}
+  .header-menu-text {font-size: 19px;}
+  .best_end_day .app-header-wrap-title {margin-top: 6px;}
+  .header-menu-title-text {font-size: 20px;}
+  .carousel-title {font-size: 25px;}
+  .nav-item {padding: 10px 12px;}
+  .menu-button-img {max-width: 29px;}
+  .menu-button {min-height: 90px;}
+  .menu-button.btn_11, .menu-button.btn_12 {height: 90px;}
+  .paragraph-18 {font-size: 17px;}
+  .left-bottom-slider-carousel,
+  .right-bottom-slider-carousel {
+    width: 35px;
+    height: 35px;
+    background-size: 15px;}
+  .slide-item, .top-slider-carousel {min-height: 390px;}
+  .carousel-row-title {font-size: 22px;}
+  .tile-item-img {max-width: 170px;}
+  .tile-item-title {font-size: 25px;}
+  .tile-item-subtitle {font-size: 19px;}
+  .green-skew-fon {max-width: 84%;}
+  .tiles {padding: 10px 15px 15px 15px;}
+}
+
+@media (max-width: 330px) {
+  .app-header-title {font-size: 19px;}
+  .green-skew-fon {max-width: 85%;}
+  .header-menu-title-text {font-size: 18px;}
+  .menu-button.btn_11, .menu-button.btn_12 {height: 85px;}
+  .menu-button-text {font-size: 13px;}
+  .menu-button-img {max-width: 28px;}
+  .menu-button {min-height: 85px;}
+  .dot {
+    font-size: 14px;
+    width: 17px;
+    height: 18px;}
+  .right-bottom-slider-carousel {
+    width: 35px;
+    height: 35px;}
+  .app-header-title-mini {font-size: 18px;}
+  .app-header-title-mini, .app-header-title-mini+p {left: -4px;}
+  .blue-button {max-width: 88%;}
+}
