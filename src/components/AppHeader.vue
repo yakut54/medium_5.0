@@ -1,7 +1,7 @@
 <template>
   <header
       ref="header"
-      :class="[backgroungImg === 'best_end_day'
+      :class="[backgroungImg === 'best_end_day' || backgroungImg === 'new-menu'
         ? 'best_end_day app-header'
         : 'app-header']"
       v-if="$route.name !== 'menu'"
@@ -10,16 +10,15 @@
         radial-gradient(circle at 100%, rgba(255, 255, 255, .53), rgba(0, 0, 0, 0))`
       }">
     <div
-        class="app-header-wrap-title"
-        :style="{left}">
+        :style="{left}"
+        class="app-header-wrap-title">
       <div class="app-header-title" v-html="title"></div>
-
     </div>
-    <div v-if="backgroungImg === 'best_end_day'"
-         class="app-header-title-mini asb"
-         v-html="'МЕДИТАЦИИ ПЕРЕД СНОМ'"></div>
-    <p v-if="backgroungImg === 'best_end_day'"
-       class="paragraph-18 paragraph-18-1lh">Быстрое засыпание<br class="br">Глубокий сон всю ночь</p>
+
+    <template v-if="backgroungImg === 'best_end_day'">
+      <div class="app-header-title-mini asb" v-html="'МЕДИТАЦИИ ПЕРЕД СНОМ'"></div>
+      <p class="paragraph-18 paragraph-18-1lh">Быстрое засыпание <br class="br">Глубокий сон всю ночь</p>
+    </template>
   </header>
 </template>
 
