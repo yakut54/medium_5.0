@@ -2,7 +2,7 @@
   <div class="drop-menu">
     <div class="top-nav">
       <div class="left-top-nav">
-        <back-button />
+        <back-button :theme="'dark-arrow'"/>
       </div>
       <div class="center-top-nav">
         <img alt="" src="@/assets/images/title_medium.png" class="top-nav-title-medium"/>

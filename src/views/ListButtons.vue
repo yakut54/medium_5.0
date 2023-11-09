@@ -24,17 +24,11 @@
 
 import DropNav from "@/components/DropNav"
 import AppHeader from "@/components/AppHeader"
-import ButtonItem from "@/components/list-buttons-components/ButtonItem.vue";
-import {mapMutations, mapState} from "vuex";
+import ButtonItem from "@/components/list-buttons-components/ButtonItem"
+import {mapMutations, mapState} from "vuex"
 
 export default {
   name: "ListItems",
-  data() {
-    return {
-      title: '',
-      defaultChapterName: 'best_start_day'
-    }
-  },
   methods: {
     ...mapMutations(['changeChapter']),
     toClose(){
@@ -42,7 +36,10 @@ export default {
     }
   },
   computed: {
-    ...mapState(['data', 'chapterName']),
+    data() {
+      return data
+    },
+    ...mapState(['data', 'chapterName', 'defaultChapterName']),
     background() {
       return this.chapterName === ''
           ? this.defaultChapterName
@@ -58,8 +55,9 @@ export default {
     if (this.chapterName === '') {
       const chapter = localStorage.getItem('chapter-name') ?? this.defaultChapterName
       this.changeChapter(chapter)
+
+      console.log('this.chapterName >>>', this.chapterName)
     }
-    this.title = this.data[this.chapterName].title
 
     window.scrollTo(0, 0)
   },

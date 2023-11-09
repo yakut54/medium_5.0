@@ -349,8 +349,8 @@ export const data = {
         title: `МАШИНА ВРЕМЕНИ`,
         duration: `27 минут`,
         outLink: `??`,
-        outLinkText: `??`,
-        outUnderText: `??`,
+        outLinkText: `ПЕРЕРОДИТЕЛЬСТВО`,
+        outUnderText: `Исправление жизненного сценария`,
         img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_0.png`,
         source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/a-est-li-problema.mp3`,
         text: `
@@ -529,6 +529,452 @@ export const data = {
           </div>
         `,
       },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ВЫБЕРИ СЕБЯ`,
+        duration: `17 минут`,
+        outLink: `??`,
+        outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
+        outUnderText: `Дизайн человеческих ресурсов`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_8.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/vyberi-sebya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            На двери жизни висит одно объявление. <br>
+            Бог повесил его ещё до того, как сотворил человека. <br>
+            Узнай, что написано в том объявлении, и запомни.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ДВА БРАТА`,
+        duration: `11 минут`,
+        outLink: `??`,
+        outLinkText: `УРОКИ МАГИИ`,
+        outUnderText: `школы Крайона`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_9.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/dva-brata.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Как часто ты обнаруживаешь, что люди не понимают тебя? <br>
+            Или понимают по-своему, перевернув всё с ног на голову. <br>
+            Это удручает, а порой так и откровенно бесит. <br>
+            Чтобы перестать досадовать/переживать, эта медитация.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ДВА ГОЛОСА`,
+        duration: `9 минут`,
+        outLink: `??`,
+        outLinkText: `УРОКИ МАГИИ`,
+        outUnderText: `школы Крайона`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_10.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/dva-golosa.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Разбили идола. <br class="br">
+            Один человек узнал эту новость и всего лишь пожал плечами: <br>
+            разбили и разбили, в первый раз, что ли. Но вдруг раздался <br>
+            стук в его дверь. Что было дальше, в этой медитации
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ДРУГ КОРОЛЯ`,
+        duration: `14 минут`,
+        outLink: `??`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_11.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/drug-korolya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Эта медитация может изменить твою жизнь,  <br>
+            перевернув все нынешние устои. А может, этого  <br>
+            не случится. Все будет зависеть от того, как твоё  <br>
+            подсознание воспримет финал этой красивой притчи
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ЗЕРКАЛА`,
+        duration: `12 минут`,
+        outLink: `??`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_12.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/zerkala.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Один психолог занимался исследованием любви и ненависти. <br>
+            Группе из 15 студентов он дал задание: за 30 секунд написать <br>
+            имена людей, которых они недолюбливают. Что из этого вышло, <br>
+            узнай, проведя эту медитацию. И ты обретёшь очень ценное знание.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `Как победить без меча, <br>и сколько весят жизненные трудности`,
+        duration: `19 минут`,
+        outLink: `??`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_13.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/kak-pobedit-bez-mecha.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Существует одно боевое искусство. Оно заключается не в том, <br>
+            чтобы победить, а в том, чтобы не быть побежденным. <br>
+            Это очень тонкое искусство. Если им овладеть, то конфликты <br>
+            будут разрешаться следующим образом: нападающая сторона <br>
+            не побеждает и не проигрывает, а просто остаётся с носом.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ПЛАВАНИЕ ПО БЫТИЮ`,
+        duration: `18 минут`,
+        outLink: `??`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_14.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/plavanie-po-bytiyu.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Жить активно, двигаться очень быстро – и не приходить никуда. <br>
+            В наше стремительное время этот феномен проявляется настолько  <br>
+            часто, что он близок к тому, чтобы быть названным повальным  <br>
+            явлением. Но есть счастливые исключения: люди, отказавшиеся  <br>
+            от высоких скоростей. Но почему именно они наиболее успешны?  <br>
+            Просто они знают и применяют один секрет. Проведи эту медитацию,  <br>
+            чтобы узнать этот бесценный секрет.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ПОЛНЫЕ МЕШКИ СЧАСТЬЯ`,
+        duration: `21 минутa`,
+        outLink: `??`,
+        outLinkText: `ПЕРЕРОДИТЕЛЬСТВО`,
+        outUnderText: `Исправление жизненного сценария`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_15.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/polnye-meshki-schastya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Однажды утром люди по всему миру, едва проснувшись, <br>
+            услышали странное сообщение. Ничего подобного им слышать  <br>
+            еще не приходилось. Никто не понимал, откуда взялась эта  <br>
+            небывалая весть, однако её слова оказались предельно ясны.  <br>
+            Может, она пришла с небес, а может, откуда-то изнутри.  <br>
+            Источник был неизвестен. Но весть была потрясающей.  <br>
+            Прими эту весть, проведя эту медитацию.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `РАЗНОВИДНОСТИ САМООБМАНА`,
+        duration: `15 минут`,
+        outLink: `??`,
+        outLinkText: `ПЕРЕРОДИТЕЛЬСТВО`,
+        outUnderText: `Исправление жизненного сценария`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_16.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/raznovidnosti-samoobmana.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Этому взрослому качеству сильно удивляются дети.  <br>
+            Им непонятно, зачем мы это делаем, да ещё так в этом  <br>
+            упорствуем. Но мы настолько упоённо это делаем, что это  <br>
+            становится нашим наваждением. И при этом друг в друге  <br>
+            это качество нас раздражает, и ещё как. Может, перестанем  <br>
+            так делать? Но для начала нужно осознать, что именно –  <br>
+            ведь это, в силу самообмана, далеко не всегда очевидно.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `САМАЯ ДЕШЁВАЯ ВЕЩЬ НА СВЕТЕ`,
+        duration: `16 минут`,
+        outLink: `??`,
+        outLinkText: `СИЛА ТОТЕМА`,
+        outUnderText: `Сверхъестественный ресурс`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_17.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/samaya-deshevaya-veshch-na-svete.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Есть нечто, что не стоит ничего. Но мы, придавая этому <br>
+            большое значение, порой платим за это гигантски много.  <br>
+            Мы даже можем понимать, что сильно переплачиваем - и всё  <br>
+            равно это делаем. Может, отменим ценность этой вещи? Ведь  <br>
+            жизнь без затрат на неё - куда проще.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `Секрет для нерешительных`,
+        duration: `17 минут`,
+        outLink: `??`,
+        outLinkText: `СИЛА ТОТЕМА`,
+        outUnderText: `Сверхъестественный ресурс`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_18.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/sekret-dlya-nereshitelnyh.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Этот секрет такого свойства, что, когда его принимаешь <br>
+            как данность, то от нерешительности не остается и следа.  <br>
+            Но если не принять его во внимание, то будет как у большинства  <br>
+            людей: своей жизнью будешь управлять не ты, а твои страхи.  <br>
+            К чему такое управление приводит, известно. Картина печальная.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `СКАЗОЧНАЯ МЕДИТАЦИЯ`,
+        duration: `18 минут`,
+        outLink: `??`,
+        outLinkText: `СИЛА ТОТЕМА`,
+        outUnderText: `Сверхъестественный ресурс`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_19.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/skazochnaya-meditaciya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты до сих пор не сознаёшь, что являешься сокровищницей, <br>
+            набитой драгоценностями, тебе срочно показана эта медитация
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `СКВЕРНАЯ ПОСПЕШНОСТЬ`,
+        duration: `13 минут`,
+        outLink: `??`,
+        outLinkText: `ИГУАНА`,
+        outUnderText: `Женская магическая практика`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_20.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/skvernaya-pospeshnost.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Почему мы злословим? Что заставляет так непростительно <br>
+            часто проявляться в нелицеприятных суждениях о других? Оказалось, <br>
+            причиной тому является скверная поспешность, которая проявляется <br>
+            на каждом шагу. Если ты не знаешь, в чем она, то эта медитация <br>
+            станет для тебя настоящим откровением.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `СЧАСТЛИВЫЙ ИМПЕРАТОР`,
+        duration: `21 минутa`,
+        outLink: `??`,
+        outLinkText: `ИГУАНА`,
+        outUnderText: `Женская магическая практика`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_21.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/schastlivyj-imperator.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Порой даже абсолютной королевской власти не хватает, <br>
+            чтобы избавиться от горестей и печалей. Но есть один способ,  <br>
+            который помогает в этом буквально на раз. И кто знает, возможно,  <br>
+            именно этот способ подойдёт тебе идеально – и ты освободишься  <br>
+            от того, что на тебя давит.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ТО, ЧЕГО НЕТ`,
+        duration: `16 минут`,
+        outLink: `??`,
+        outLinkText: `ИГУАНА`,
+        outUnderText: `Женская магическая практика`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_22.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/to-chego-net.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Можно ли отбросить своё эго, вознамерившись сделать это? <br>
+            Один способ есть. Он вроде простой. И вместе с тем очень трудный. <br>
+            Те, кто им воспользовался, ни разу не пожалели об этом. Что они обрели?  <br>
+            И от чего избавились, что ощущают такими счастливыми? Парадокс в том,  <br>
+            что эти люди ничего не обрели и ни от чего не избавились. Они нечто  <br>
+            такое поняли, что перенесло их в реальность, свободную от всего  <br>
+            тягостного. Возможно, это ещё не рай, но то, что это где-то  <br>
+            на его подступах – определённо.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `УДИВИТЕЛЬНОЕ СОВПАДЕНИЕ`,
+        duration: `13 минут`,
+        outLink: `??`,
+        outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
+        outUnderText: `Матричная энерготерапия`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_23.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/udivitelnoe-sovpadenie.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Эта медитация для тебя только в том случае, если ты веришь в Бога. <br>
+            И она тем более для тебя, если ты в Него не веришь.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ХУДОЖНИК И РУДОКОП`,
+        duration: `11 минут`,
+        outLink: `??`,
+        outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
+        outUnderText: `Матричная энерготерапия`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_24.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/hudozhnik-i-rudokop.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Строго говоря, это не притча, а реальная история. <br>
+            Но она настолько пронзительная, что похожа на сказочную притчу. <br>
+            Если ты не понаслышке знаешь, что мерило доброты – это польза,  <br>
+            приносимая людям, то эта история найдёт в тебе отклик. И ещё  <br>
+            больше укрепит тебя в святом убеждении, что истинная доброта <br>
+            проявлена именно в этом – в пользе людям.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ЦЕНА СВЯТОСТИ`,
+        duration: `13 минут`,
+        outLink: `??`,
+        outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
+        outUnderText: `Матричная энерготерапия`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_25.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/cena-svyatosti.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Почём нынче святость? Этот прагматичный вопрос полезно  <br>
+            себе задавать, чтобы по доброте душевной не стать жертвой  <br>
+            лицемерия. Точнее, больше не быть жертвой лицемерия, ведь  <br>
+            этот печальный опыт у тебя точно есть. Вспомни о том, как  <br>
+            это было, и пусть это больше никогда не повторится.  <br>
+            В помощь – эта медитация, где «доброта» и проявляющиеся  <br>
+            в ней святоши выводятся на чистую воду.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `МОЛЧАНИЕ ЗА ПРЕДЕЛАМИ ЗВУКА`,
+        duration: `12 минут`,
+        outLink: `??`,
+        outLinkText: `АЗБУКА СНА`,
+        outUnderText: `Чтобы спать крепко, вкусно, интересно`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_26.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/molchanie_za_predelami_zvuka.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Отложи в сторону свои планы, потому что после этой медитации <br>
+            ты просто заснёшь. Когда этот трек закончится, не делай ничего, <br>
+            т.к. после этой медитации тому, кто в твоём уме существует <br>
+            как Делающий, ничего делать не разрешается.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `НЕТОРОПЛИВЫЙ И ПРАВИТЕЛЬ`,
+        duration: `25 минут`,
+        outLink: `??`,
+        outLinkText: `АЗБУКА СНА`,
+        outUnderText: `Чтобы спать крепко, вкусно, интересно`,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_27.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/NETOROPLIVIY_I_PRAVITEL.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Позволь себе отдохнуть и просто слушай, как мы в детстве <br>
+            слушали сказки. Впрочем, то, что ты будешь слышать, сказка <br>
+            и есть. Просто сказка, без всякой морали. Поэтому не нужно <br>
+            отыскивать в ней какие-то скрытые смыслы, стремясь понять, <br>
+            какие послания в ней содержатся, и как они помогут тебе <br>
+            и твоему телу. Просто слушай. Внимательно или невнимательно, <br>
+            как получится, позволяя возникать образам, самым разным образам. <br class="br"><br class="br">
+            
+            В ночь после медитации твой сон посетит сновидение. <br>
+            То, что будет в нем передано, удержится после пробуждения <br>
+            15 секунд. Это даст тебе возможность расшифровать послание. <br>
+            Или хотя бы понять его намёк.
+          </div>
+        `,
+      },
     ]
   },
   women_energy: {
@@ -538,23 +984,42 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `НАСЫЩЕНИЕ САМОЙ СИЛЬНОЙ ЭНЕРГИЕЙ`,
+        duration: `18 минут`,
+        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_1.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/nasyshenie_samoi_silnoi_energiei.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты утратила прежний тонус, в чём-то застряла <br>
+            или даже чувствуешь выгорание, то немедленно сделай <br>
+            так, чтобы выйти из этого обесточенного состояния. <br>
+            Эта сессия в этом тебе поможет.
           </div>
         `,
       },
@@ -567,23 +1032,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },
@@ -596,23 +1059,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },
@@ -625,23 +1086,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },
@@ -654,23 +1113,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },
@@ -683,23 +1140,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },
@@ -712,23 +1167,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },
@@ -741,23 +1194,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },
@@ -770,23 +1221,21 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: false,
-        type: `video`,
-        title: `ЧУДЕСНОЕ УТРО`,
-        duration: `25 мин`,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
         outLink: `https://marta-ng.com/2023/zhensovet/`,
-        outLinkText: `ЖенСовет`,
-        outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
+        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
         text: `
-          <div class="embed-description">
-            <div class="paragraph-18">
-              Этот ритуал включает в себя всё необходимое, <br>
-              чтобы зарядиться энергией на весь день <br>
-              и быть в хорошем настроении на протяжении всего дня, <br>
-              вне зависимости от обстоятельств.
-            </div>
+          <div class="paragraph-18">
+            В ходе этой медитации ты станешь наполняться <br>
+            энергией преображения всего. Принимая эту энергию, <br>
+            ты будешь понимать и чувствовать, на что способна <br>
+            эта энергия, и сможешь принять решение, <br>
+            куда именно её направить.
           </div>
         `,
       },

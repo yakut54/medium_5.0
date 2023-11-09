@@ -1,7 +1,7 @@
 <template>
   <header
       ref="header"
-      :class="[backgroungImg === 'best_end_day'
+      :class="[backgroungImg === 'best_end_day' || backgroungImg === 'new-menu'
         ? 'best_end_day app-header'
         : 'app-header']"
       v-if="$route.name !== 'menu'"

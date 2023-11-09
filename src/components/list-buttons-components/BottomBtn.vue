@@ -1,6 +1,6 @@
 <template>
   <div class="bottom-list-button">
-    <div class="embed-bottom" @click="test">
+    <div class="embed-bottom" @click="openMedia">
       <img
           class="list-bottom-img"
           :title="seans.title.replace(regPattern, '')"
@@ -36,7 +36,7 @@ export default {
   computed: mapState(['regPattern', 'data', 'chapterName']),
   methods: {
     ...mapMutations(['openMediaView']),
-    test() {
+    openMedia() {
       const index = this.data[this.chapterName]?.seanses.indexOf(this.seans)
       this.openMediaView(index)
       localStorage.setItem('index', `${index}`)

@@ -8,9 +8,9 @@ export default createStore({
     data,
     btns,
     isDrop: false,
-    isNormBack: true,
+    isPlay: false,
+    defaultChapterName: 'best_start_day',
     chapterName: '',
-    index: 0,
     regPattern: /<br( class="show_\d{3}")*>/
   },
   mutations: {
@@ -24,11 +24,11 @@ export default createStore({
       router.push(`/${linkTo}`)
     },
     openMediaView: (state, index) => {
-      state.index = index
       localStorage.setItem('index', `${index}`)
       router.push(`/${state.chapterName}/${state.data[state.chapterName].seanses[index].type}`)
     },
     toggleIsDrop: state => state.isDrop = !state.isDrop,
+    toggleIsPlay: (state, bool) => state.isPlay = bool,
     changeChapter: (state, chapter) => state.chapterName = chapter,
   },
 })
