@@ -1,13 +1,14 @@
-<script>
-export default {
-name: "Audio"
-}
-</script>
-
 <template>
-  $END$
+  <div class="media">
+    <div class="max-top">
+      <back-button />
+      <img alt="" src="@/assets/images/title_medium.png"/>
+    </div>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<script>
+export default {
+  name: "Audio"
+}
+</script>
