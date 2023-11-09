@@ -9,7 +9,9 @@
             :title="seans.title.replace(regPattern, '')"
             :alt="seans.title.replace(regPattern, '')"
             :src="seans.img" class="img-box-main-img"/>
-        <a :href="seans.source" class="img-box-save" target="_blank"></a>
+        <a :href="seans.source" class="img-box-save" target="_blank">
+          <i class="fa fa-download" aria-hidden="true"></i>
+        </a>
       </div>
 
       <div class="media-title" v-html="seans.title"></div>

@@ -43,7 +43,7 @@ export default {
     onChangePage(linkTo) {
       this.changePage(linkTo)
       this.changeChapter(linkTo)
-      this.toggleIsDrop()
+      this.toggleIsDrop(false)
     }
   },
   computed: {

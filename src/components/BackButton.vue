@@ -1,13 +1,22 @@
 <script>
+import {mapMutations} from "vuex";
+
 export default {
   name: "BackButton",
-  props: ['theme']
+  props: ['theme'],
+  methods: {
+    ...mapMutations(['toggleIsDrop']),
+    onToBack() {
+      this.$router.back()
+      this.toggleIsDrop(false)
+    }
+  }
 }
 </script>
 
 <template>
   <img
-      @click="$router.back()"
+      @click="onToBack"
       :src="require(`@/assets/images/${theme}.png`)"
       alt="" class="top-nav-back">
 </template>

@@ -27,7 +27,7 @@ export default createStore({
       localStorage.setItem('index', `${index}`)
       router.push(`/${state.chapterName}/${state.data[state.chapterName].seanses[index].type}`)
     },
-    toggleIsDrop: state => state.isDrop = !state.isDrop,
+    toggleIsDrop: (state, bool) => state.isDrop = bool,
     toggleIsPlay: (state, bool) => state.isPlay = bool,
     changeChapter: (state, chapter) => state.chapterName = chapter,
   },

@@ -729,6 +729,9 @@ html, body, #app, .wrapper{
 .bottom-list-button .paragraph-18{
   margin-bottom: 12px;
 }
+.bottom-list-button .mb8 .paragraph-18{
+  margin-bottom: 8px;
+}
 blockquote {
   border-left: 5px solid #e2e2e2;
   margin: 0 0 10px;
@@ -767,6 +770,7 @@ blockquote {
   max-width: 500px;
   background-image: radial-gradient(circle, #fff, #92edfc);
   border-radius: 50px;
+  margin-top: 15px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -864,10 +868,6 @@ blockquote {
   width: 40px;
   height: 40px;
   background-color: #fff;
-  background-image: url("../images/_35.png");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 24px;
   border: 1px solid #2288af;
   border-radius: 50px;
   position: absolute;
@@ -875,6 +875,13 @@ blockquote {
   left: auto;
   right: -4%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-box-save i{
+  font-size: 24px;
+  color: black;
 }
 .img-box-save:hover {
   background-color: #daf3fc;

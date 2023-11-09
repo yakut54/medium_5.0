@@ -119,7 +119,7 @@
   .scale-wrapper{
     padding-left: 0;
     padding-right: 0;}
-  .media {border-radius: 10px;}
+  .media {border-radius: 10px;height: 100vh;}
   .dop-link-btn {max-width: 290px;}
   .media-scene{
     padding: 3% 3% 4%;
@@ -188,6 +188,9 @@
   .cross-y {left: 25%;}
   .cross-x, .cross-y {top: 46%;}
   .embed-bottom {padding: 4% 3% 3% 3%;}
+  #app ul{
+    padding-left: 25px;
+    font-size: 18px;}
 }
 
 @media (max-width: 393px) {
@@ -243,6 +246,7 @@
   .center-button p, .no-standart .center-button p {font-size: 18px;}
   .img-box-save {top: 74%;}
   .news-btn-left{min-width: 200px;}
+  .img-box-save i {font-size: 21px;}
 }
 
 @media (max-width: 360px) {
