@@ -1141,16 +1141,64 @@ blockquote {
   border-radius: 10px;
 }
 
+/*sos*/
 
+.sos-btns-wrapper{
+  padding: 10px 2%;
+}
+.sos-btn{
+  width: 100%;
+  min-height: 90px;
+  color: var(--black);
+  background-color: #92edff;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 2% 3% 2% 5%;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, .22);
+  cursor: pointer;
+}
+.sos-btn-text{
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 150px;
+}
+.sos-btn:hover{
+  box-shadow: none;
+}
+.sos-btn-img{
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 70px;
+  min-width: 50px;
+}
+.inner-sos-btn-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-sos-btn-img img {
+  width: 50px;
+}
+.sos-btn-text p{
+  font-size: 24px;
+  line-height: 1.2em;
+}
 
-
-
-
-
-
-
-
-
+.fz24{
+  font-size: 24px;}
+.red{
+  color: #ca0003;}
 
 
 

@@ -3,6 +3,7 @@
     <special-line/>
     <router-view/>
   </div>
+<!--  <logger />-->
 </template>
 
 <style>
@@ -12,9 +13,11 @@
 
 <script>
 import SpecialLine from "@/components/SpecialLine.vue";
+// import Logger from "@/components/Logger.vue";
 
 export default {
   components: {
+    // Logger,
     SpecialLine
   }
 }

@@ -33,11 +33,17 @@ import {mapMutations, mapState} from "vuex";
 export default {
   props: ['seans'],
   name: "BottomBtn",
-  computed: mapState(['regPattern', 'data', 'chapterName']),
+  computed: mapState(['regPattern', 'data', 'chapterName', 'isSOSPage']),
   methods: {
     ...mapMutations(['openMediaView']),
     openMedia() {
-      const index = this.data[this.chapterName]?.seanses.indexOf(this.seans)
+      let index
+      let obj = localStorage.getItem('obj') || 'chapter-0'
+      if(!this.isSOSPage){
+        index = this.data[this.chapterName]?.seanses.indexOf(this.seans)
+      } else {
+        index = this.data['sos_programs']?.chapters[obj].seanses.indexOf(this.seans)
+      }
       this.openMediaView(index)
       localStorage.setItem('index', `${index}`)
     }

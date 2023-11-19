@@ -50,7 +50,7 @@ export default {
         {
           title: `метахилинг`,
           link: `https://marta-ng.com/2022/meta_hiling/nt.html`,
-          subtitle: `Выличись силой слова`
+          subtitle: `Вылeчись силой слова`
         },
         {
           title: `Нейрокорректоры`,

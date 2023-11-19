@@ -18,6 +18,11 @@ const routes = [
     component: () => import('../views/NewMenu')
   },
   {
+    path: '/sos_programs',
+    name: 'sos_programs',
+    component: () => import('../views/SOSMenu')
+  },
+  {
     path: '/instructions',
     name: 'instructions',
     component: () => import('../views/Instructions')

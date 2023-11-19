@@ -47,6 +47,7 @@
   .scale-text {
     padding-left: 6px;
     padding-right: 6px;}
+  .fz24 {font-size: 21px;}
 }
 
 @media (max-width: 500px) {
@@ -94,6 +95,7 @@
 }
 
 @media (max-width: 450px) {
+  .fz24 {font-size: 20px;}
   .news-btn-left p {font-size: 22px;}
   .news-btn {
     min-height: 80px;
@@ -211,6 +213,7 @@
 }
 
 @media (max-width: 384px) {
+  .fz24 {font-size: 19px;}
   .header-menu-title-text{
     font-size: 19px;}
   .app-header-title-mini+p.paragraph-18 {

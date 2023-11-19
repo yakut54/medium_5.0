@@ -35,16 +35,20 @@ export default {
     newSeanses() {
       let b = []
 
+
       Object.entries(this.data).forEach(([key, value]) => {
-        value.seanses.forEach(item => {
-          if(item.isNew){
-            b.push({
-              chapter: key,
-              img: item.img,
-              title: item.title
-            })
-          }
-        })
+        if (value?.seanses) {
+          value.seanses.forEach(item => {
+            if (item.isNew) {
+              b.push({
+                chapter: key,
+                img: item.img,
+                title: item.title
+              })
+            }
+          })
+        }
+
       })
 
       return b

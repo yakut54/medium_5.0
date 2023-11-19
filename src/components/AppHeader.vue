@@ -19,6 +19,14 @@
       <div class="app-header-title-mini asb" v-html="'МЕДИТАЦИИ ПЕРЕД СНОМ'"></div>
       <p class="paragraph-18 paragraph-18-1lh">Быстрое засыпание <br class="br">Глубокий сон всю ночь</p>
     </template>
+
+    <template v-if="backgroungImg === 'chapter-0'">
+      <div class="app-header-title-mini asb" v-html="'ОТ БЕСПОКОЙСТВА'"></div>
+    </template>
+
+    <template v-if="backgroungImg === 'chapter-1'">
+      <div class="app-header-title-mini asb" v-html="'ЭКСТРЕННАЯ ПОМОЩЬ <br>ПРИ НЕДОМОГАНИЯХ'"></div>
+    </template>
   </header>
 </template>
 

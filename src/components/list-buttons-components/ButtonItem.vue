@@ -1,7 +1,7 @@
 <template>
   <div class="list-button"
        :class="seans.isStandart ? 'list-button' : 'list-button no-standart'">
-    <!--top-btn-->
+
     <div :id="`id_${idx}`"
          @click="toggleOpen(idx)"
          :class="seans.isOpen
@@ -10,8 +10,7 @@
       <div class="left-button" v-if="seans.isNew">NEW</div>
       <div class="left-button" v-if="!seans.isStandart">
         <img
-          :title="seans?.title.replace(regPattern, '')"
-          :alt="seans?.title.replace(regPattern, '')"
+          alt=""
           :src="seans?.img"/>
       </div>
       <div class="center-button">
@@ -21,7 +20,7 @@
         <cross/>
       </div>
     </div>
-    <!--bottom-btn-->
+
     <transition name="expand" @enter="enter" @after-enter="afterEnter" @leave="leave">
       <div
           class="bottom-list-button"

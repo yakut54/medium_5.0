@@ -114,7 +114,6 @@ export default {
       clearTimeout(timeController.value)
     }
     const onMouseleaveController = () => {
-      console.log(isPlay.value)
       if (isPlay.value) {
         timeController.value = setTimeout(() => {
           isControllerView.value = false

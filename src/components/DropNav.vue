@@ -8,7 +8,7 @@
         <img alt="" src="@/assets/images/title_medium.png" class="top-nav-title-medium"/>
       </div>
       <div class="right-top-nav">
-        <i :class="['fa', isDrop ? 'fa-times' : 'fa-bars']" @click="toggleIsDrop"></i>
+        <i :class="['fa', isDrop ? 'fa-times' : 'fa-bars']" @click="toggleIsDrop(!isDrop)"></i>
       </div>
     </div>
     <div :class="[isDrop ? 'drop-nav drop' : 'drop-nav']">
@@ -31,23 +31,26 @@ export default {
   name: "DropNav",
   watch: {
     $route() {
-      if (this.$route.name === 'list-items') {
-        this.changeChapter(this.$route.params.chapter)
-        this.data[this.$route.params.chapter]
-            .seanses.forEach(item => item.isOpen = false)
-      }
+
+      // if (this.$route.name === 'list-items') {
+      //   this.changeChapter(this.$route.params.chapter)
+      //   this.data[this.$route.params.chapter]
+      //       .seanses.forEach(item => item.isOpen = false)
+      // }
     }
   },
   methods: {
-    ...mapMutations(['toggleIsDrop', 'changePage', 'changeChapter']),
+    ...mapMutations(['toggleIsDrop', 'changePage', 'changeChapter', 'toggleIsSOSPage']),
     onChangePage(linkTo) {
       this.changePage(linkTo)
       this.changeChapter(linkTo)
       this.toggleIsDrop(false)
+      this.toggleIsSOSPage(false)
+      window.scrollTo(0, 0)
     }
   },
   computed: {
-    ...mapState(['isDrop', 'btns', 'chapterName', 'regPattern', 'data']),
+    ...mapState(['isDrop', 'btns', 'chapterName', 'regPattern', 'data', 'isSOSPage']),
     dropBtn() {
       return this.btns.filter((item, idx) => {
         if (idx < 11) return item

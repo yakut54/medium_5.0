@@ -5,10 +5,8 @@
     <div class="media-scene">
 
       <div class="img-box">
-        <img
-            :title="seans.title.replace(regPattern, '')"
-            :alt="seans.title.replace(regPattern, '')"
-            :src="seans.img" class="img-box-main-img"/>
+        <img alt=""
+             :src="seans.img" class="img-box-main-img"/>
         <a :href="seans.source" class="img-box-save" target="_blank">
           <i class="fa fa-download" aria-hidden="true"></i>
         </a>
@@ -22,8 +20,11 @@
 
     </div>
 
-    <a :href="seans.outLink" class="dop-link-btn asb" v-html="seans.outLinkText"></a>
-    <div class="under-text asb" v-html="seans.outUnderText"></div>
+
+    <template v-if="!isSOSPage">
+      <a :href="seans.outLink" class="dop-link-btn asb" v-html="seans.outLinkText"></a>
+      <div class="under-text asb" v-html="seans.outUnderText"></div>
+    </template>
   </div>
 </template>
 
@@ -41,17 +42,26 @@ export default {
   },
   data() {
     return {
-      index: 0
+      index: 0,
+      obj: ''
     }
   },
   name: "Audio",
   components: {Player, MediaHeader},
   computed: {
-    ...mapState(['chapterName', 'data', 'defaultChapterName', 'regPattern']),
+    ...mapState(['chapterName', 'data', 'defaultChapterName', 'regPattern', 'isSOSPage']),
     seanses() {
-      return this.chapterName === ''
-          ? this.data[this.defaultChapterName].seanses
-          : this.data[this.chapterName].seanses
+      if (!this.isSOSPage) {
+        return this.chapterName === ''
+            ? this.data[this.defaultChapterName].seanses
+            : this.data[this.chapterName].seanses
+      } else {
+        if (this.obj === '') {
+          return 'chapter-0'
+        } else {
+          return this.data['sos_programs'].chapters[this.obj].seanses
+        }
+      }
     },
     seans() {
       return this.seanses[this.index]
@@ -59,9 +69,14 @@ export default {
   },
   methods: mapMutations(['changeChapter']),
   mounted() {
-    if (this.chapterName === '') {
-      const chapter = localStorage.getItem('chapter-name') ?? this.defaultChapterName
-      this.changeChapter(chapter)
+    if (!this.isSOSPage) {
+      if (this.chapterName === '') {
+        const chapter = localStorage.getItem('chapter-name') ?? this.defaultChapterName
+        this.changeChapter(chapter)
+      }
+    } else {
+      this.obj = localStorage.getItem('obj') || 'chapter-0'
+      this.changeChapter(this.obj)
     }
 
     this.index = localStorage.getItem('index') ?? 0

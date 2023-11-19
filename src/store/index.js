@@ -7,6 +7,7 @@ export default createStore({
   state: {
     data,
     btns,
+    isSOSPage: false,
     isDrop: false,
     isPlay: false,
     defaultChapterName: 'best_start_day',
@@ -25,9 +26,16 @@ export default createStore({
     },
     openMediaView: (state, index) => {
       localStorage.setItem('index', `${index}`)
-      router.push(`/${state.chapterName}/${state.data[state.chapterName].seanses[index].type}`)
+      const obj = localStorage.getItem('obj') || 'chapter-0'
+      if(!state.isSOSPage){
+        router.push(`/${state.chapterName}/${state.data[state.chapterName].seanses[index].type}`)
+      } else {
+        router.push(`/${state.chapterName}/${state.data['sos_programs'].chapters[obj].seanses[index].type}`)
+      }
+
     },
     toggleIsDrop: (state, bool) => state.isDrop = bool,
+    toggleIsSOSPage: (state, bool) => state.isSOSPage = bool,
     toggleIsPlay: (state, bool) => state.isPlay = bool,
     changeChapter: (state, chapter) => state.chapterName = chapter,
   },
