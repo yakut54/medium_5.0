@@ -12,9 +12,8 @@
             поддержки. Специалисты ответят в этот же день.
           </p>
           <br>
-<!--          <div class="blue-button" @click="test2">Задать вопрос</div>-->
-<!--          <div class="blue-button">Оставить отзыв</div>-->
-<!--          <div class="blue-button">Заказать обратный звонок</div>-->
+          <div class="blue-button" @click="openJivo('call')">Заказать обратный звонок</div>
+          <div class="blue-button" @click="openJivo('chat')">Задать вопрос в чате</div>
           <a :href="refLink" class="blue-button">НАПИСАТЬ В ПОДДЕРЖКУ</a>
         </div>
       </div>
@@ -39,24 +38,29 @@ export default {
     }
   },
   methods: {
-    test(){
-      jivo_api.open({start : 'call'});
+    openJivo(arg){
+      let params = {start: arg};
+      let apiResult = jivo_api.open(params);
+
+      if (apiResult.result === 'fail') {
+        console.log('Widget failed to open');
+      } else {
+        console.log('Widget open successfully');
+        $jdiv.style.visibility = 'visible'
+      }
     },
-    test2(){
-      // jivo_api.showProactiveInvitation("How can I help you?");
-      // jivo_api.open();
-      console.log('Widget fully loaded', jivo_api);
-    },
-    onTouchstart(){
-      this.isHover = true
-    },
-    huj(){
-      jivo_onOpen()
-    }
   },
   mounted() {
     window.scrollTo(0, 0)
 
+    if(document.documentElement.querySelector('[class^="closeIcon_"]')){
+      const $jclose = document.documentElement.querySelector('[class^="closeIcon_"]')
+      $jclose.onclick = () => {
+        setTimeout(() => {
+          $jdiv.style.visibility = 'hidden'
+        }, 300)
+      }
+    }
   },
   components: {
     AppHeader,

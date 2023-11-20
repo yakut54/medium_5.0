@@ -26,12 +26,24 @@
     <meta name="msapplication-TileImage" content="./icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <title>Medium</title>
-<!--	  <script src="//code.jivosite.com/widget/uvQF4qneqx" async></script>-->
+	  <script src="//code.jivosite.com/widget/uvQF4qneqx" async></script>
+	  <style>
+		  .__jivoCallbackBtn {display:none !important;}
+	  </style>
   </head>
   <body>
     <div id="app" class="ar"></div>
     <!-- built files will be auto injected -->
     <script src="https://use.fontawesome.com/9d4b450ba2.js"></script>
-
+		<script>
+			let $jdiv
+			let interval = setInterval(() => {
+				if(document.documentElement.querySelector('jdiv')){
+					$jdiv = document.documentElement.querySelector('jdiv')
+					$jdiv.style.visibility = 'hidden'
+					clearInterval(interval)
+				}
+			}, 10)
+		</script>
   </body>
 </html>

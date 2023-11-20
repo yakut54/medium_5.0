@@ -19,6 +19,9 @@ export default {
   components: {
     // Logger,
     SpecialLine
+  },
+  mounted() {
+
   }
 }
 </script>

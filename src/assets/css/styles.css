@@ -536,6 +536,7 @@ html, body, #app, .wrapper{
   display: block;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, .2);
   padding: 9px 15px;
+  text-transform: uppercase;
 }
 .blue-button:hover{
   box-shadow: inset 2px 4px 5px rgba(0, 0, 0, .2);
