@@ -8,13 +8,20 @@
       <div class="support ph">
         <div class="inner-support">
           <p class="paragraph-18">
-            При наличии вопросов в отношении этого приложения пиши в службу
-            поддержки. Специалисты ответят в этот же день.
+            При наличии вопросов в отношении <br class="br">
+            этого приложения пиши в службу поддержки. <br class="br">
+            Специалисты ответят в этот же день.
           </p>
           <br>
-          <div class="blue-button" @click="openJivo('call')">Заказать обратный звонок</div>
-          <div class="blue-button" @click="openJivo('chat')">Задать вопрос в чате</div>
-          <a :href="refLink" class="blue-button">НАПИСАТЬ В ПОДДЕРЖКУ</a>
+          <div class="blue-button" @click="openJivo('call')">
+            <i class="fa fa-phone"></i>&nbsp;&nbsp;<span>Заказать обратный звонок</span>
+          </div>
+          <div class="blue-button" @click="openJivo('chat')">
+            <i class="fa fa-comment"></i>&nbsp;&nbsp;<span>Задать вопрос в чате</span>
+          </div>
+          <a :href="refLink" class="blue-button">
+            <i class="fa fa-support"></i>&nbsp;&nbsp;<span>НАПИСАТЬ В ПОДДЕРЖКУ</span>
+          </a>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@
     margin-bottom: 10px;}
   .tile-item-subtitle {font-size: 21px;}
   .blue-button {
-    font-size: 22px;
+    font-size: 19px;
     line-height: 1.4em;
     padding: 14px 15px;}
 }
@@ -28,7 +28,7 @@
 @media (max-width: 600px) {
   .blue-button {
     max-width: 70%;
-    font-size: 21px;
+    font-size: 18px;
     padding: 14px 15px;}
   .header-menu-img {margin-bottom: 9px;}
   .header-menu-text {font-size: 22px;}
@@ -145,8 +145,10 @@
   .inner-side img {width: 25px;}
   .app-header-wrap-title {padding: 2% 10px 2% 13px;}
   .blue-button {
+    padding: 10px 11px;
     max-width: 70%;
-    font-size: 19px;}
+    font-size: 17px;}
+  .blue-button i {font-size: 18px;}
   .app-header-title-mini, .app-header-title-mini+p {
     left: -2px;}
   .app-header-title-mini+p.paragraph-18{
@@ -237,6 +239,7 @@
 }
 
 @media (max-width: 375px) {
+  .blue-button {font-size: 16px;}
   .app-header {min-height: 160px;}
   .news-btn-right {max-width: 65px;}
   .news-btn {min-height: 65px;padding: 2% 3% 2% 4%;}
@@ -283,6 +286,7 @@
   .bottom-footer-side {max-width: 65px;}
   .center-button {padding: 6px 5px 6px 10px;}
   .news-btn-left p {font-size: 18px;}
+  .inner-support {padding: 3% 2% 30px;}
 }
 
 @media (max-width: 330px) {
@@ -311,4 +315,5 @@
   .inner-side {
     width: 45px;
     height: 45px;}
+  .paragraph-18 {font-size: 16px;}
 }

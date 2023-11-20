@@ -520,26 +520,58 @@ html, body, #app, .wrapper{
 .inner-support{
   padding: 3% 3% 30px;
 }
+/*.blue-button{*/
+/*  background-color: var(--blue);*/
+/*  color: #fff;*/
+/*  margin-bottom: 10px;*/
+/*  width: 100%;*/
+/*  max-width: 330px;*/
+/*  cursor: pointer;*/
+/*  text-align: center;*/
+/*  border-radius: 50px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  font-size: 20px;*/
+/*  line-height: 2em;*/
+/*  display: block;*/
+/*  box-shadow: 2px 4px 5px rgba(0, 0, 0, .2);*/
+/*  padding: 9px 15px;*/
+/*  text-transform: uppercase;*/
+/*}*/
+/*.blue-button:hover{*/
+/*  box-shadow: inset 2px 4px 5px rgba(0, 0, 0, .2);*/
+/*}*/
+
 .blue-button{
-  background-color: var(--blue);
+  background-color: #016c74;
   color: #fff;
   margin-bottom: 10px;
   width: 100%;
-  max-width: 330px;
+  max-width: 300px;
   cursor: pointer;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  line-height: 2em;
-  display: block;
+  line-height: 1.4em;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, .2);
   padding: 9px 15px;
   text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .blue-button:hover{
   box-shadow: inset 2px 4px 5px rgba(0, 0, 0, .2);
+}
+.blue-button i{
+  font-size: 20px;
+}
+.blue-button span{
+  flex: 1;
+  text-align: center;
 }
 .tiles{
   width: 100%;
