@@ -47,6 +47,7 @@ export default {
       } else {
         console.log('Widget open successfully');
         $jdiv.style.visibility = 'visible'
+        jivo_api.setWidgetColor('#016c74', '#016c74');
       }
     },
   },
