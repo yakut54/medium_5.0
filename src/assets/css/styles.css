@@ -314,7 +314,7 @@ html, body, #app, .wrapper{
   background-color: #92edff;
   background-position: 100%, 0 0;
   background-repeat: no-repeat, repeat;
-  background-size: contain, auto;
+  background-size: 100%, auto;
   border-radius: 0 0 10px 10px;
   padding: 3% 5% 5%;
   margin-bottom: 10px;
@@ -1232,9 +1232,28 @@ blockquote {
   font-size: 24px;}
 .red{
   color: #ca0003;}
+.tile-item-subtitle .spec-ul{
+  padding-left: 0;
+}
 
-
-
+.spec-ul{
+  list-style-type: none;
+}
+.spec-ul li{
+  text-align: left;
+  position: relative;
+  padding-left: 25px;
+}
+.spec-ul li:after{
+  content: '۞';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 0;
+}
+.spec-ul.romb li:after{
+  content: '◈';
+}
 
 
 

@@ -2,7 +2,7 @@
 import {mapState} from 'vuex'
 export default {
   name: "Logger",
-  computed: mapState(['isSOSPage', 'chapterName'])
+  computed: mapState(['isSOSPage', 'chapterName', 'isNews', 'newId'])
 }
 </script>
 
@@ -11,6 +11,8 @@ export default {
     <div class="logger">
       <p class="paragraph-18">chapterName: {{chapterName}}</p>
       <p class="paragraph-18">isSOSPage: {{isSOSPage}}</p>
+      <p class="paragraph-18">isNews: {{isNews}}</p>
+      <p class="paragraph-18">newId: {{newId}}</p>
     </div>
   </Teleport>
 </template>

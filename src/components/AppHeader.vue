@@ -27,6 +27,10 @@
     <template v-if="backgroungImg === 'chapter-1'">
       <div class="app-header-title-mini asb" v-html="'ЭКСТРЕННАЯ ПОМОЩЬ <br>ПРИ НЕДОМОГАНИЯХ'"></div>
     </template>
+
+    <template v-if="backgroungImg === 'chapter-2'">
+      <div class="app-header-title-mini asb" v-html="'ЭКСТРЕННАЯ ПОМОЩЬ <br>ПРИ СЛОЖНОЙ ПРОБЛЕМЕ'"></div>
+    </template>
   </header>
 </template>
 

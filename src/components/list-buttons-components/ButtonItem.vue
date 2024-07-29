@@ -10,8 +10,8 @@
       <div class="left-button" v-if="seans.isNew">NEW</div>
       <div class="left-button" v-if="!seans.isStandart">
         <img
-          alt=""
-          :src="seans?.img"/>
+            alt=""
+            :src="seans?.img"/>
       </div>
       <div class="center-button">
         <p v-html="seans.title"></p>
@@ -21,7 +21,12 @@
       </div>
     </div>
 
-    <transition name="expand" @enter="enter" @after-enter="afterEnter" @leave="leave">
+    <transition
+        name="expand"
+        @enter="enter"
+        @leave="leave"
+        @after-enter="afterEnter"
+    >
       <div
           class="bottom-list-button"
           v-if="!seans.isStandart"
@@ -40,15 +45,16 @@
 import $ from 'jquery'
 import Cross from "@/components/list-buttons-components/Cross";
 import BottomBtn from "@/components/list-buttons-components/BottomBtn";
-import {mapState} from "vuex";
+import {mapMutations, mapState} from "vuex";
 
 export default {
   components: {BottomBtn, Cross},
   props: ['seans', 'idx'],
   emits: ['on-close-all-seans-btns'],
   name: "Button",
-  computed: mapState(['regPattern']),
+  computed: mapState(['regPattern', 'isNews', 'newId']),
   methods: {
+    ...mapMutations(['toggleIsNews']),
     enter(el) {
       el.style.height = 'auto'
       const height = getComputedStyle(el).height
@@ -69,6 +75,8 @@ export default {
     },
     toggleOpen(idx) {
 
+      console.log('toggleOpen', idx)
+
       const elem = document.getElementById(`id_${idx}`)
       const isMiddlePhone = () => document.documentElement.clientWidth <= 500
       const isMiniPhone = () => document.documentElement.clientWidth <= 414
@@ -86,6 +94,12 @@ export default {
       }
 
     },
+  },
+  mounted() {
+    if (this.isNews && this.seans.source === this.newId) {
+      this.toggleOpen(this.idx)
+      this.toggleIsNews(false)
+    }
   }
 }
 </script>

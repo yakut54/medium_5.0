@@ -24,6 +24,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -39,11 +40,17 @@ export default {
     openMedia() {
       let index
       let obj = localStorage.getItem('obj') || 'chapter-0'
+
       if(!this.isSOSPage){
-        index = this.data[this.chapterName]?.seanses.indexOf(this.seans)
+        if(obj === 'chapter-2'){
+          index = this.data['sos_programs']?.chapters['chapter-2'].seanses.indexOf(this.seans)
+        } else {
+          index = this.data[this.chapterName]?.seanses.indexOf(this.seans)
+        }
       } else {
         index = this.data['sos_programs']?.chapters[obj].seanses.indexOf(this.seans)
       }
+
       this.openMediaView(index)
       localStorage.setItem('index', `${index}`)
     }

@@ -5,8 +5,7 @@
     <div class="media-scene">
 
       <div class="img-box">
-        <img alt=""
-             :src="seans.img" class="img-box-main-img"/>
+        <img alt="" :src="seans.img" class="img-box-main-img"/>
         <a :href="seans.source" class="img-box-save" target="_blank">
           <i class="fa fa-download" aria-hidden="true"></i>
         </a>
@@ -20,11 +19,11 @@
 
     </div>
 
-
-    <template v-if="!isSOSPage">
+    <template v-if="!isSOSPage || chapterName === 'chapter-2'">
       <a :href="seans.outLink" class="dop-link-btn asb" v-html="seans.outLinkText"></a>
       <div class="under-text asb" v-html="seans.outUnderText"></div>
     </template>
+
   </div>
 </template>
 
@@ -52,9 +51,15 @@ export default {
     ...mapState(['chapterName', 'data', 'defaultChapterName', 'regPattern', 'isSOSPage']),
     seanses() {
       if (!this.isSOSPage) {
-        return this.chapterName === ''
-            ? this.data[this.defaultChapterName].seanses
-            : this.data[this.chapterName].seanses
+
+        if(this.chapterName === 'chapter-2') {
+          return this.data['sos_programs'].chapters['chapter-2'].seanses
+        } else {
+          return this.chapterName === ''
+              ? this.data[this.defaultChapterName].seanses
+              : this.data[this.chapterName].seanses
+        }
+
       } else {
         if (this.obj === '') {
           return 'chapter-0'
@@ -70,6 +75,9 @@ export default {
   methods: mapMutations(['changeChapter']),
   mounted() {
     if (!this.isSOSPage) {
+      if (this.chapterName === 'chapter-2') {
+        this.changeChapter('chapter-2')
+      }
       if (this.chapterName === '') {
         const chapter = localStorage.getItem('chapter-name') ?? this.defaultChapterName
         this.changeChapter(chapter)

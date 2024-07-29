@@ -1,3 +1,30 @@
+import {
+  nk,
+  url,
+  iguana,
+  yabloko,
+  antiaging,
+  zhensovet,
+  azbuka_sna,
+  uroki_magii,
+  biodinamika,
+  sila_totema,
+  meta_hiling,
+  neirohiling,
+  psihonautika,
+  pereroditelstvo,
+  torpedo_terapia,
+  formula_molitvy,
+  gipn_progressiya,
+  kvantovyi_gipnoz,
+  denezhnaya_magia,
+  neiro_cibernetika,
+  nabor_ot_depressii,
+  gipn_modernizaciya,
+  razm_tvoego_proshlogo,
+  mgnovennaya_progressiya,
+} from './constants'
+
 export const data = {
   best_start_day: {
     title: 'ЛУЧШЕЕ НАЧАЛО ДНЯ',
@@ -9,12 +36,12 @@ export const data = {
         type: `video`,
         title: `ЧУДЕСНОЕ УТРО`,
         duration: `25 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_best_start_day.png`,
+        img: `${url}__medium__/images/best_start_day_0.png`,
+        source: `${url}luchshee-nachalo-dnya/luchshee_nachalo_dnya-2.mp4`,
+        poster: `${url}__medium__/images/poster_best_start_day.png`,
         text: `
           <div class="paragraph-18">
             Этот ритуал включает в себя всё необходимое, <br>
@@ -31,11 +58,11 @@ export const data = {
         type: `audio`,
         title: `ПУСТЬ ЗА МНОЙ НАБЛЮДАЕТ БОГ`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/pust_za_mnoi_nabludaet_bog.mp3`,
+        img: `${url}__medium__/images/best_start_day_1.png`,
+        source: `${url}player/tracks/pust_za_mnoi_nabludaet_bog.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе медитации передаётся чуть ли ни <br>
@@ -60,11 +87,11 @@ export const data = {
         type: `audio`,
         title: `КРУГЛЫЕ СУТКИ «ДА»`,
         duration: `9 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/sutki_da.mp3`,
+        img: `${url}__medium__/images/best_start_day_2.png`,
+        source: `${url}player/tracks/sutki_da.mp3`,
         text: `
           <div class="paragraph-18">
             Приготовься. Сейчас ты получишь предложение <br>
@@ -83,11 +110,11 @@ export const data = {
         type: `audio`,
         title: `ДЕНЬ, ДОСТОЙНЫЙ МЕНЯ`,
         duration: `15 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/den_dostoinyi_menya.mp3`,
+        img: `${url}__medium__/images/best_start_day_3.png`,
+        source: `${url}player/tracks/den_dostoinyi_menya.mp3`,
         text: `
           <div class="paragraph-18">
             Эта медитация поможет тебе в двух вещах:
@@ -112,11 +139,11 @@ export const data = {
         type: `audio`,
         title: `ВЫСЕЧЕНИЕ ИСКРЫ`,
         duration: `11 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/vysechenie_iskry.mp3`,
+        img: `${url}__medium__/images/best_start_day_4.png`,
+        source: `${url}player/tracks/vysechenie_iskry.mp3`,
         text: `
           <div class="paragraph-18">
             Есть хороший способ запрограммировать <br>
@@ -134,11 +161,11 @@ export const data = {
         type: `audio`,
         title: `ДОБРО ПОЖАЛОВАТЬ В СЕЙЧАС`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/dobro_pozhalovat_v_seichas.mp3`,
+        img: `${url}__medium__/images/best_start_day_5.png`,
+        source: `${url}player/tracks/dobro_pozhalovat_v_seichas.mp3`,
         text: `
           <div class="paragraph-18">
             Сейчас – это единственная константа в жизни. <br>
@@ -162,11 +189,11 @@ export const data = {
         type: `audio`,
         title: `ТО, ДЛЯ ЧЕГО МНЕ СТОИТ ЖИТЬ`,
         duration: `10 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/to_dlya_cego_mne_stoit_zhit.mp3`,
+        img: `${url}__medium__/images/best_start_day_6.png`,
+        source: `${url}player/tracks/to_dlya_cego_mne_stoit_zhit.mp3`,
         text: `
           <div class="paragraph-18">
             Отдайся этому упражнению по максимуму, ведь <br>
@@ -183,11 +210,11 @@ export const data = {
         type: `audio`,
         title: `ПРОГУЛКА С УДАЧЕЙ`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/affirmacii/progulka_s_udachey.mp3`,
+        img: `${url}__medium__/images/best_start_day_7.png`,
+        source: `${url}luchshee-nachalo-dnya/affirmacii/progulka_s_udachey.mp3`,
         text: `
           <div class="paragraph-18">
             Представь, что удача – это женщина: красивая, умная, <br>
@@ -206,11 +233,11 @@ export const data = {
         type: `audio`,
         title: `УТРЕННЯЯ МЕДИТАЦИЯ НА ХОДУ`,
         duration: `33 минуты`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_8.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/affirmacii/utrennyaya_meditacia.mp3`,
+        img: `${url}__medium__/images/best_start_day_8.png`,
+        source: `${url}luchshee-nachalo-dnya/affirmacii/utrennyaya_meditacia.mp3`,
         text: `
           <ul class="list">
             <li><div class="paragraph-18">Для хорошего самочувствия в течение всего дня</div></li>
@@ -226,11 +253,11 @@ export const data = {
         type: `audio`,
         title: `Я СЧАСТЛИВЫЙ ЧЕЛОВЕК`,
         duration: `5 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_start_day_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/affirmacii/ya-schastliviy_celovek.mp3`,
+        img: `${url}__medium__/images/best_start_day_9.png`,
+        source: `${url}luchshee-nachalo-dnya/affirmacii/ya-schastliviy_celovek.mp3`,
         text: `
           <div class="paragraph-18">
             Убеди себя в своём счастье, и ему, твоему счастью, <br>
@@ -247,7 +274,7 @@ export const data = {
         isStandart: false,
         isOpen: false,
         title: `Почему медитации - это <br>лучшее завершение дня?`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/mrt.png`,
+        img: `${url}__medium__/images/mrt.png`,
         content: `
           <div class="embed-bottom">
           
@@ -344,15 +371,15 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
         type: `audio`,
         title: `МАШИНА ВРЕМЕНИ`,
-        duration: `27 минут`,
-        outLink: `https://marta-ng.com/2022/pereroditelstvo/nt.html`,
+        duration: `37 минут`,
+        outLink: pereroditelstvo,
         outLinkText: `ПЕРЕРОДИТЕЛЬСТВО`,
         outUnderText: `Исправление жизненного сценария`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/a-est-li-problema.mp3`,
+        img: `${url}__medium__/images/best_end_day_0.png`,
+        source: `${url}mashina_vremeni.mp3`,
         text: `
           <div class="paragraph-18">
             Проведи эту медитацию, когда уже ляжешь спать. <br>
@@ -371,11 +398,11 @@ export const data = {
         type: `audio`,
         title: `А ЕСТЬ ЛИ ПРОБЛЕМА?`,
         duration: `11 минут`,
-        outLink: `https://marta-ng.com/azbuka_sna_2022/nt.html`,
+        outLink: azbuka_sna,
         outLinkText: `АЗБУКА СНА`,
         outUnderText: `Чтобы спать крепко, вкусно, интересно`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/a-est-li-problema.mp3`,
+        img: `${url}__medium__/images/best_end_day_1.png`,
+        source: `${url}_spa_zhensovet/tracks/a-est-li-problema.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация, помогающая раздвинуть границы видимого  <br>
@@ -391,11 +418,11 @@ export const data = {
         type: `audio`,
         title: `БЕЗГРАНИЧНОЕ СОСТОЯНИЕ`,
         duration: `9 минут`,
-        outLink: `https://marta-ng.com/azbuka_sna_2022/nt.html`,
+        outLink: azbuka_sna,
         outLinkText: `АЗБУКА СНА`,
         outUnderText: `Чтобы спать крепко, вкусно, интересно`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/bezgranichnoe-sostoyanie.mp3`,
+        img: `${url}__medium__/images/best_end_day_2.png`,
+        source: `${url}_spa_zhensovet/tracks/bezgranichnoe-sostoyanie.mp3`,
         text: `
           <div class="paragraph-18">
             Практикуй это упражнение на протяжении хотя бы недели. <br>
@@ -415,11 +442,11 @@ export const data = {
         type: `audio`,
         title: `БРАХМАН`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2022/nabor_ot_depressii_d/`,
+        outLink: nabor_ot_depressii,
         outLinkText: `НАБОР ОТ ДЕПРЕССИИ`,
         outUnderText: `Бокс-антидепрессант`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/brahman.mp3`,
+        img: `${url}__medium__/images/best_end_day_3.png`,
+        source: `${url}_spa_zhensovet/tracks/brahman.mp3`,
         text: `
           <div class="paragraph-18">
             Есть одно великое знание. Оно порой непросто достаётся, <br>
@@ -437,11 +464,11 @@ export const data = {
         type: `audio`,
         title: `ВЕСЁЛЫЙ ФАКИР`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2022/nabor_ot_depressii_d/`,
+        outLink: nabor_ot_depressii,
         outLinkText: `НАБОР ОТ ДЕПРЕССИИ`,
         outUnderText: `Бокс-антидепрессант`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/veselyj-fakir.mp3`,
+        img: `${url}__medium__/images/best_end_day_4.png`,
+        source: `${url}_spa_zhensovet/tracks/veselyj-fakir.mp3`,
         text: `
           <div class="paragraph-18">
             Представь, что тебе дают два волшебных фрукта и говорят: <br>
@@ -463,11 +490,11 @@ export const data = {
         type: `audio`,
         title: `ВМЕСТО БОГА`,
         duration: `15 минут`,
-        outLink: `https://marta-ng.com/2023/gipn_progressiya_2023/nt.html`,
+        outLink: gipn_progressiya,
         outLinkText: `ГИПНОТИЧЕСКАЯ ПРОГРЕССИЯ`,
         outUnderText: `Глубинные изменения за 3 сеанса`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/vmesto-boga.mp3`,
+        img: `${url}__medium__/images/best_end_day_5.png`,
+        source: `${url}_spa_zhensovet/tracks/vmesto-boga.mp3`,
         text: `
           <div class="paragraph-18">
             Без сомнения, требуется большое мужество, чтобы <br>
@@ -489,11 +516,11 @@ export const data = {
         type: `audio`,
         title: `ВОСПРИНЯВШИЙ ДА ОБРЯЩЕТ`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2023/gipn_progressiya_2023/nt.html`,
+        outLink: gipn_progressiya,
         outLinkText: `ГИПНОТИЧЕСКАЯ ПРОГРЕССИЯ`,
         outUnderText: `Глубинные изменения за 3 сеанса`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/vosprinyavshij-da-obryashchet.mp3`,
+        img: `${url}__medium__/images/best_end_day_6.png`,
+        source: `${url}_spa_zhensovet/tracks/vosprinyavshij-da-obryashchet.mp3`,
         text: `
           <div class="paragraph-18">
             Если тебе сказать, что ты упускаешь массу великолепных 
@@ -513,11 +540,11 @@ export const data = {
         type: `audio`,
         title: `ВОСХОЖДЕНИЕ НА ГОРУ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/voshozhdenie-na-goru.mp3`,
+        img: `${url}__medium__/images/best_end_day_7.png`,
+        source: `${url}_spa_zhensovet/tracks/voshozhdenie-na-goru.mp3`,
         text: `
           <div class="paragraph-18">
             Что может воспрепятствовать человеку быть счастливым? <br>
@@ -536,11 +563,11 @@ export const data = {
         type: `audio`,
         title: `ВЫБЕРИ СЕБЯ`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_8.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/vyberi-sebya.mp3`,
+        img: `${url}__medium__/images/best_end_day_8.png`,
+        source: `${url}_spa_zhensovet/tracks/vyberi-sebya.mp3`,
         text: `
           <div class="paragraph-18">
             На двери жизни висит одно объявление. <br>
@@ -556,11 +583,11 @@ export const data = {
         type: `audio`,
         title: `ДВА БРАТА`,
         duration: `11 минут`,
-        outLink: `https://marta-ng.com/2022/uroki_magii/nt.html`,
+        outLink: uroki_magii,
         outLinkText: `УРОКИ МАГИИ`,
         outUnderText: `школы Крайона`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/dva-brata.mp3`,
+        img: `${url}__medium__/images/best_end_day_9.png`,
+        source: `${url}_spa_zhensovet/tracks/dva-brata.mp3`,
         text: `
           <div class="paragraph-18">
             Как часто ты обнаруживаешь, что люди не понимают тебя? <br>
@@ -577,11 +604,11 @@ export const data = {
         type: `audio`,
         title: `ДВА ГОЛОСА`,
         duration: `9 минут`,
-        outLink: `https://marta-ng.com/2022/uroki_magii/nt.html`,
+        outLink: uroki_magii,
         outLinkText: `УРОКИ МАГИИ`,
         outUnderText: `школы Крайона`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_10.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/dva-golosa.mp3`,
+        img: `${url}__medium__/images/best_end_day_10.png`,
+        source: `${url}_spa_zhensovet/tracks/dva-golosa.mp3`,
         text: `
           <div class="paragraph-18">
             Разбили идола. <br class="br">
@@ -598,11 +625,11 @@ export const data = {
         type: `audio`,
         title: `ДРУГ КОРОЛЯ`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_11.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/drug-korolya.mp3`,
+        img: `${url}__medium__/images/best_end_day_11.png`,
+        source: `${url}_spa_zhensovet/tracks/drug-korolya.mp3`,
         text: `
           <div class="paragraph-18">
             Эта медитация может изменить твою жизнь,  <br>
@@ -619,11 +646,11 @@ export const data = {
         type: `audio`,
         title: `ЗЕРКАЛА`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_12.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/zerkala.mp3`,
+        img: `${url}__medium__/images/best_end_day_12.png`,
+        source: `${url}_spa_zhensovet/tracks/zerkala.mp3`,
         text: `
           <div class="paragraph-18">
             Один психолог занимался исследованием любви и ненависти. <br>
@@ -640,11 +667,11 @@ export const data = {
         type: `audio`,
         title: `Как победить без меча, <br>и сколько весят жизненные трудности`,
         duration: `19 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_13.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/kak-pobedit-bez-mecha.mp3`,
+        img: `${url}__medium__/images/best_end_day_13.png`,
+        source: `${url}_spa_zhensovet/tracks/kak-pobedit-bez-mecha.mp3`,
         text: `
           <div class="paragraph-18">
             Существует одно боевое искусство. Оно заключается не в том, <br>
@@ -662,11 +689,11 @@ export const data = {
         type: `audio`,
         title: `ПЛАВАНИЕ ПО БЫТИЮ`,
         duration: `18 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_14.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/plavanie-po-bytiyu.mp3`,
+        img: `${url}__medium__/images/best_end_day_14.png`,
+        source: `${url}_spa_zhensovet/tracks/plavanie-po-bytiyu.mp3`,
         text: `
           <div class="paragraph-18">
             Жить активно, двигаться очень быстро – и не приходить никуда. <br>
@@ -686,11 +713,11 @@ export const data = {
         type: `audio`,
         title: `ПОЛНЫЕ МЕШКИ СЧАСТЬЯ`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2022/pereroditelstvo/nt.html`,
+        outLink: pereroditelstvo,
         outLinkText: `ПЕРЕРОДИТЕЛЬСТВО`,
         outUnderText: `Исправление жизненного сценария`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_15.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/polnye-meshki-schastya.mp3`,
+        img: `${url}__medium__/images/best_end_day_15.png`,
+        source: `${url}_spa_zhensovet/tracks/polnye-meshki-schastya.mp3`,
         text: `
           <div class="paragraph-18">
             Однажды утром люди по всему миру, едва проснувшись, <br>
@@ -710,11 +737,11 @@ export const data = {
         type: `audio`,
         title: `РАЗНОВИДНОСТИ САМООБМАНА`,
         duration: `15 минут`,
-        outLink: `https://marta-ng.com/2022/pereroditelstvo/nt.html`,
+        outLink: pereroditelstvo,
         outLinkText: `ПЕРЕРОДИТЕЛЬСТВО`,
         outUnderText: `Исправление жизненного сценария`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_16.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/raznovidnosti-samoobmana.mp3`,
+        img: `${url}__medium__/images/best_end_day_16.png`,
+        source: `${url}_spa_zhensovet/tracks/raznovidnosti-samoobmana.mp3`,
         text: `
           <div class="paragraph-18">
             Этому взрослому качеству сильно удивляются дети.  <br>
@@ -734,11 +761,11 @@ export const data = {
         type: `audio`,
         title: `САМАЯ ДЕШЁВАЯ ВЕЩЬ НА СВЕТЕ`,
         duration: `16 минут`,
-        outLink: `https://marta-ng.com/2023/sila_totema/next-nt.html`,
+        outLink: sila_totema,
         outLinkText: `СИЛА ТОТЕМА`,
         outUnderText: `Сверхъестественный ресурс`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_17.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/samaya-deshevaya-veshch-na-svete.mp3`,
+        img: `${url}__medium__/images/best_end_day_17.png`,
+        source: `${url}_spa_zhensovet/tracks/samaya-deshevaya-veshch-na-svete.mp3`,
         text: `
           <div class="paragraph-18">
             Есть нечто, что не стоит ничего. Но мы, придавая этому <br>
@@ -756,11 +783,11 @@ export const data = {
         type: `audio`,
         title: `Секрет для нерешительных`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2023/sila_totema/next-nt.html`,
+        outLink: sila_totema,
         outLinkText: `СИЛА ТОТЕМА`,
         outUnderText: `Сверхъестественный ресурс`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_18.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/sekret-dlya-nereshitelnyh.mp3`,
+        img: `${url}__medium__/images/best_end_day_18.png`,
+        source: `${url}_spa_zhensovet/tracks/sekret-dlya-nereshitelnyh.mp3`,
         text: `
           <div class="paragraph-18">
             Этот секрет такого свойства, что, когда его принимаешь <br>
@@ -778,11 +805,11 @@ export const data = {
         type: `audio`,
         title: `СКАЗОЧНАЯ МЕДИТАЦИЯ`,
         duration: `18 минут`,
-        outLink: `https://marta-ng.com/2023/sila_totema/next-nt.html`,
+        outLink: sila_totema,
         outLinkText: `СИЛА ТОТЕМА`,
         outUnderText: `Сверхъестественный ресурс`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_19.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/skazochnaya-meditaciya.mp3`,
+        img: `${url}__medium__/images/best_end_day_19.png`,
+        source: `${url}_spa_zhensovet/tracks/skazochnaya-meditaciya.mp3`,
         text: `
           <div class="paragraph-18">
             Если ты до сих пор не сознаёшь, что являешься сокровищницей, <br>
@@ -797,11 +824,11 @@ export const data = {
         type: `audio`,
         title: `СКВЕРНАЯ ПОСПЕШНОСТЬ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_20.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/skvernaya-pospeshnost.mp3`,
+        img: `${url}__medium__/images/best_end_day_20.png`,
+        source: `${url}_spa_zhensovet/tracks/skvernaya-pospeshnost.mp3`,
         text: `
           <div class="paragraph-18">
             Почему мы злословим? Что заставляет так непростительно <br>
@@ -819,11 +846,11 @@ export const data = {
         type: `audio`,
         title: `СЧАСТЛИВЫЙ ИМПЕРАТОР`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_21.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/schastlivyj-imperator.mp3`,
+        img: `${url}__medium__/images/best_end_day_21.png`,
+        source: `${url}_spa_zhensovet/tracks/schastlivyj-imperator.mp3`,
         text: `
           <div class="paragraph-18">
             Порой даже абсолютной королевской власти не хватает, <br>
@@ -841,11 +868,11 @@ export const data = {
         type: `audio`,
         title: `ТО, ЧЕГО НЕТ`,
         duration: `16 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_22.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/to-chego-net.mp3`,
+        img: `${url}__medium__/images/best_end_day_22.png`,
+        source: `${url}_spa_zhensovet/tracks/to-chego-net.mp3`,
         text: `
           <div class="paragraph-18">
             Можно ли отбросить своё эго, вознамерившись сделать это? <br>
@@ -866,11 +893,11 @@ export const data = {
         type: `audio`,
         title: `УДИВИТЕЛЬНОЕ СОВПАДЕНИЕ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_23.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/udivitelnoe-sovpadenie.mp3`,
+        img: `${url}__medium__/images/best_end_day_23.png`,
+        source: `${url}_spa_zhensovet/tracks/udivitelnoe-sovpadenie.mp3`,
         text: `
           <div class="paragraph-18">
             Эта медитация для тебя только в том случае, если ты веришь в Бога. <br>
@@ -885,11 +912,11 @@ export const data = {
         type: `audio`,
         title: `ХУДОЖНИК И РУДОКОП`,
         duration: `11 минут`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_24.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/hudozhnik-i-rudokop.mp3`,
+        img: `${url}__medium__/images/best_end_day_24.png`,
+        source: `${url}_spa_zhensovet/tracks/hudozhnik-i-rudokop.mp3`,
         text: `
           <div class="paragraph-18">
             Строго говоря, это не притча, а реальная история. <br>
@@ -908,11 +935,11 @@ export const data = {
         type: `audio`,
         title: `ЦЕНА СВЯТОСТИ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_25.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_spa_zhensovet/tracks/cena-svyatosti.mp3`,
+        img: `${url}__medium__/images/best_end_day_25.png`,
+        source: `${url}_spa_zhensovet/tracks/cena-svyatosti.mp3`,
         text: `
           <div class="paragraph-18">
             Почём нынче святость? Этот прагматичный вопрос полезно  <br>
@@ -932,11 +959,11 @@ export const data = {
         type: `audio`,
         title: `МОЛЧАНИЕ ЗА ПРЕДЕЛАМИ ЗВУКА`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/azbuka_sna_2022/nt.html`,
+        outLink: azbuka_sna,
         outLinkText: `АЗБУКА СНА`,
         outUnderText: `Чтобы спать крепко, вкусно, интересно`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_26.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/molchanie_za_predelami_zvuka.mp3`,
+        img: `${url}__medium__/images/best_end_day_26.png`,
+        source: `${url}player/tracks/molchanie_za_predelami_zvuka.mp3`,
         text: `
           <div class="paragraph-18">
             Отложи в сторону свои планы, потому что после этой медитации <br>
@@ -953,11 +980,11 @@ export const data = {
         type: `audio`,
         title: `НЕТОРОПЛИВЫЙ И ПРАВИТЕЛЬ`,
         duration: `25 минут`,
-        outLink: `https://marta-ng.com/azbuka_sna_2022/nt.html`,
+        outLink: azbuka_sna,
         outLinkText: `АЗБУКА СНА`,
         outUnderText: `Чтобы спать крепко, вкусно, интересно`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/best_end_day_27.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/NETOROPLIVIY_I_PRAVITEL.mp3`,
+        img: `${url}__medium__/images/best_end_day_27.png`,
+        source: `${url}player/tracks/NETOROPLIVIY_I_PRAVITEL.mp3`,
         text: `
           <div class="paragraph-18">
             Позволь себе отдохнуть и просто слушай, как мы в детстве <br>
@@ -977,7 +1004,7 @@ export const data = {
       },
     ]
   },
-  women_energy: {
+  women_energy: { // women_energy_19
     title: 'ЖЕНСКАЯ ЭНЕРГИЯ',
     seanses: [
       {
@@ -985,13 +1012,86 @@ export const data = {
         isOpen: false,
         isNew: false,
         type: `audio`,
-        title: `ДВА СЕРДЦА`,
-        duration: `27 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        title: `ТРАНСФЕР В ИСКОННОЕ СОСТОЯНИЕ`,
+        duration: `25 минут`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_2_serdca.mp3`,
+        img: `${url}__medium__/images/transfer_v_iskonnoe_sostoyanie.png`,
+        source: `${url}__medium__/tracks/transfer_v_iskonnoe_sostoyanie.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Сейчас возьми давно необходимый тебе тайм-аут, <br>
+            на какое-то время выйди из бесконечной повседневной  <br>
+            суеты и наберись сил, соединившись с собой настоящей.  <br>
+            Слияние с собой – неповторимый опыт, он становится  <br>
+            сильной опорой не на мгновение, а навсегда.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ГЛУБОКОЕ СОСТОЯНИЕ БЫТИЯ`,
+        duration: `21 минутa`,
+        outLink: mgnovennaya_progressiya,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `${url}__medium__/images/glub_sost_byt.png`,
+        source: `${url}__medium__/tracks/glubokoe_sostoyanie_bytiya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Нам следует осознать одну очень важную вещь: чтобы <br>
+            перестать блуждать во мраке неизвестности, боясь всего  <br>
+            на свете, нужно впустить в себя Абсолютное Знание. Чтобы  <br>
+            его обрести, не требуется получать образование, не нужно  <br>
+            нигде учиться. Абсолютное Знание открыто настежь, когда  <br>
+            ты переживаешь абсолютное бытие. Это совершенно улётное  <br>
+            состояние, оно наполняет ощущением безграничности себя  <br>
+            и своих возможностей. <br class="br"><br class="br">
+            
+            И главное. Глубокое состояние бытия отменяет ограничения, <br>
+            наглядно демонстрируя, что в действительности их не существует.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ВЛАСТЕЛИН НАСТРОЕНИЯ`,
+        duration: `24 минуты`,
+        outLink: mgnovennaya_progressiya,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `${url}__medium__/images/women_energy_19.png`,
+        source: `${url}__medium__/tracks/vlastelin_nastroeniya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Сеанс нейропрограммирования, в ходе которого мы <br>
+            сформируем нейронную сеть, наполненную различными <br>
+            воспоминаниями о чём-то хорошем. Затем привяжем жест, <br>
+            активирующий эту сеть. Используя этот жест, ты сможешь <br>
+            мгновенно переходить из плохого настроения в хорошее, <br>
+            даже приподнятое
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ДВА СЕРДЦА`,
+        duration: `27 минут`,
+        outLink: mgnovennaya_progressiya,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `${url}__medium__/images/women_energy_0.png`,
+        source: `${url}player/tracks/_2_serdca.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе этой медитации ты станешь наполняться <br>
@@ -1009,11 +1109,11 @@ export const data = {
         type: `audio`,
         title: `НАСЫЩЕНИЕ САМОЙ СИЛЬНОЙ ЭНЕРГИЕЙ`,
         duration: `18 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/nasyshenie_samoi_silnoi_energiei.mp3`,
+        img: `${url}__medium__/images/women_energy_1.png`,
+        source: `${url}player/tracks/nasyshenie_samoi_silnoi_energiei.mp3`,
         text: `
           <div class="paragraph-18">
             Если ты утратила прежний тонус, в чём-то застряла <br>
@@ -1030,11 +1130,11 @@ export const data = {
         type: `audio`,
         title: `8 ЭНЕРГИЙ`,
         duration: `28 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/vosem_energii.mp3`,
+        img: `${url}__medium__/images/women_energy_2.png`,
+        source: `${url}player/tracks/vosem_energii.mp3`,
         text: `
           <div class="paragraph-18">
             Это способ прокачать себя 8-ю энергиями, чтобы:
@@ -1057,11 +1157,11 @@ export const data = {
         type: `audio`,
         title: `АНИМА И АНИМУС`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/anima_i_animus.mp3`,
+        img: `${url}__medium__/images/women_energy_3.png`,
+        source: `${url}player/tracks/anima_i_animus.mp3`,
         text: `
           <div class="paragraph-18">
             Приведение в баланс Инь и Янь: <br class="br">
@@ -1082,11 +1182,11 @@ export const data = {
         type: `audio`,
         title: `КОРОЛЕВА ЖИЗНИ`,
         duration: `32 минуты`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
         outUnderText: ``,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/ya_koroleva.mp3`,
+        img: `${url}__medium__/images/women_energy_4.png`,
+        source: `${url}player/tracks/ya_koroleva.mp3`,
         text: `
           <div class="paragraph-18">
             Невероятно сильная медитация очищения, <br>
@@ -1105,11 +1205,11 @@ export const data = {
         type: `audio`,
         title: `РЕЗЕРВУАР ЭНЕРГИИ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
+        outLink: mgnovennaya_progressiya,
         outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
-        outUnderText: `https://marta-ng.com/2022/mgnovennaya_progressiya_nt/`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/ya_koroleva.mp3`,
+        outUnderText: mgnovennaya_progressiya,
+        img: `${url}__medium__/images/women_energy_5.png`,
+        source: `${url}player/tracks/reservuar_energii.mp3`,
         text: `
           <div class="paragraph-18">
             Для преодоления последствий стресса  <br>
@@ -1129,11 +1229,11 @@ export const data = {
         type: `audio`,
         title: `ПРОХЛАДА И ДАВЛЕНИЕ`,
         duration: `6 минут`,
-        outLink: `https://marta-ng.com/biodinamika/nt.html`,
+        outLink: biodinamika,
         outLinkText: `БИОДИНАМИКА`,
         outUnderText: `8 биодинамических упражнений <br>с эффектом перезагрузки`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/prohlada_i_davlenie.mp3`,
+        img: `${url}__medium__/images/women_energy_6.png`,
+        source: `${url}player/tracks/prohlada_i_davlenie.mp3`,
         text: `
           <div class="paragraph-18">
             Сейчас ты сможешь зафиксировать одно контрольное <br>
@@ -1158,11 +1258,11 @@ export const data = {
         type: `audio`,
         title: `ТОТАЛЬНАЯ ПОДЗАРЯДКА`,
         duration: `62 минуты`,
-        outLink: `https://marta-ng.com/biodinamika/nt.html`,
+        outLink: biodinamika,
         outLinkText: `БИОДИНАМИКА`,
         outUnderText: `8 биодинамических упражнений <br>с эффектом перезагрузки`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/total-podzarydka.mp3`,
+        img: `${url}__medium__/images/women_energy_7.png`,
+        source: `${url}player/tracks/total-podzarydka.mp3`,
         text: `
           <div class="paragraph-18">
             Балансировка энергосистемы.<br class="br">
@@ -1183,11 +1283,11 @@ export const data = {
         type: `audio`,
         title: `ЖЕНСКАЯ ЭНЕРГИЯ`,
         duration: `9 минут`,
-        outLink: `https://marta-ng.com/biodinamika/nt.html`,
+        outLink: biodinamika,
         outLinkText: `БИОДИНАМИКА`,
         outUnderText: `8 биодинамических упражнений <br>с эффектом перезагрузки`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_8.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskaya_energiya/zhenskaya_energia.mp3`,
+        img: `${url}__medium__/images/women_energy_8.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskaya_energiya/zhenskaya_energia.mp3`,
         text: `
           <div class="paragraph-18">
             Ты женщина, и ты наполнена <br class="br">
@@ -1203,11 +1303,11 @@ export const data = {
         type: `audio`,
         title: `ПОЯС АФРОДИТЫ`,
         duration: `16 минут`,
-        outLink: `https://marta-ng.com/biodinamika/nt.html`,
+        outLink: biodinamika,
         outLinkText: `БИОДИНАМИКА`,
         outUnderText: `8 биодинамических упражнений <br>с эффектом перезагрузки`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskaya_energiya/poyas_afrodity.mp3`,
+        img: `${url}__medium__/images/women_energy_9.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskaya_energiya/poyas_afrodity.mp3`,
         text: `
           <div class="paragraph-18">
             Обращаясь к этой медитации, ты день за днём станешь <br>
@@ -1226,11 +1326,11 @@ export const data = {
         type: `audio`,
         title: `ПЕРЕЗАГРУЗКА`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/biodinamika/nt.html`,
+        outLink: biodinamika,
         outLinkText: `БИОДИНАМИКА`,
         outUnderText: `8 биодинамических упражнений <br>с эффектом перезагрузки`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_10.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/perezagruzka.mp3`,
+        img: `${url}__medium__/images/women_energy_10.png`,
+        source: `${url}player/tracks/perezagruzka.mp3`,
         text: `
           <div class="paragraph-18">
             Освободись от больного опыта, сними с себя этот гнёт. <br>
@@ -1247,11 +1347,11 @@ export const data = {
         type: `audio`,
         title: `РАДУЖНЫЙ МОСТ`,
         duration: `15 минут`,
-        outLink: `https://marta-ng.com/biodinamika/nt.html`,
+        outLink: biodinamika,
         outLinkText: `БИОДИНАМИКА`,
         outUnderText: `8 биодинамических упражнений <br>с эффектом перезагрузки`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_11.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/perezagruzka.mp3`,
+        img: `${url}__medium__/images/women_energy_11.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/raduzhniy_most.mp3`,
         text: `
           <div class="paragraph-18">
             Поднимись на радужный мост. На нём ты получишь <br>
@@ -1267,11 +1367,11 @@ export const data = {
         type: `audio`,
         title: `ВОЗВРАЩЕНИЕ СОБСТВЕННОЙ ЭНЕРГИИ`,
         duration: `33 минуты`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_12.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskoe_zdorovie/vozvraschenie_sobstvennoy_energii.mp3`,
+        img: `${url}__medium__/images/women_energy_12.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/vozvraschenie_sobstvennoy_energii.mp3`,
         text: `
           <div class="paragraph-18">
             Верни свою энергию, оставленную в нереализованных <br>
@@ -1291,11 +1391,11 @@ export const data = {
         type: `audio`,
         title: `У МЕНЯ ВСЁ БОЛЬШЕ СИЛ`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_13.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/u_menya_bolshe_sil.mp3`,
+        img: `${url}__medium__/images/women_energy_13.png`,
+        source: `${url}player/tracks/u_menya_bolshe_sil.mp3`,
         text: `
           <div class="paragraph-18">
             Практикуя эту медитацию, ежедневно, или, по мере <br>
@@ -1313,11 +1413,11 @@ export const data = {
         type: `audio`,
         title: `ВЕЛИКАЯ МАНТРА ВЕЛИКОГО МАСТЕРА`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_14.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/velikaya_mantara.mp3`,
+        img: `${url}__medium__/images/women_energy_14.png`,
+        source: `${url}player/tracks/velikaya_mantara.mp3`,
         text: `
           <div class="paragraph-18">
             Пребывая в безмолвии… <br class="br">
@@ -1339,11 +1439,11 @@ export const data = {
         type: `audio`,
         title: `МОЩНАЯ МЕДИТАЦИЯ НА ГЕОМЕТРИЧЕСКИЕ ФИГУРЫ`,
         duration: `34 минуты`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_15.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/meditaciya_geometr_figury.mp3`,
+        img: `${url}__medium__/images/women_energy_15.png`,
+        source: `${url}player/tracks/meditaciya_geometr_figury.mp3`,
         text: `
           <div class="paragraph-18">
             Действительно сильная техника, посредством которой <br>
@@ -1370,11 +1470,11 @@ export const data = {
         type: `audio`,
         title: `АПГРЕЙД`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_16.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/upgrade.mp3`,
+        img: `${url}__medium__/images/women_energy_16.png`,
+        source: `${url}player/tracks/upgrade.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе медитации ты сможешь сделать полную <br>
@@ -1393,11 +1493,11 @@ export const data = {
         type: `audio`,
         title: `ОСВЕЖАЮЩАЯ МЕДИТАЦИЯ`,
         duration: `11 минут`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_17.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/serdcevina_sebya/part_1/5.osvezhayushaya_meditacia.mp3`,
+        img: `${url}__medium__/images/women_energy_17.png`,
+        source: `${url}serdcevina_sebya/part_1/5.osvezhayushaya_meditacia.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация на фоне ритмичного повторения мантры, <br>
@@ -1424,11 +1524,11 @@ export const data = {
         type: `audio`,
         title: `ШАВАСАНА`,
         duration: `32 минуты`,
-        outLink: `https://marta-ng.com/2023/kvantovyi_gipnoz/nt.html`,
+        outLink: kvantovyi_gipnoz,
         outLinkText: `КВАНТОВЫЙ ГИПНОЗ`,
         outUnderText: `Матричная энерготерапия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_energy_18.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/celebnaya_relaksaciya/shavasana.mp3`,
+        img: `${url}__medium__/images/women_energy_18.png`,
+        source: `${url}luchshee-nachalo-dnya/celebnaya_relaksaciya/shavasana.mp3`,
         text: `
           <div class="paragraph-18">
             Сеанс в технике Йога-Нидра в позе Шавасана. <br>
@@ -1441,14 +1541,14 @@ export const data = {
       },
     ]
   },
-  women_health: {
+  women_health: { // women_health_21
     title: 'ЖЕНСКОЕ ЗДОРОВЬЕ',
     seanses: [
       {
         isStandart: false,
         isOpen: false,
         title: `Прежде чем начать`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/mrt.png`,
+        img: `${url}__medium__/images/mrt.png`,
         content: `
           <div class="embed-bottom">
           
@@ -1483,15 +1583,51 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
+        type: `video`,
+        title: `ТИБЕТСКОЕ РАСТИРАНИЕ`,
+        duration: `19 минут`,
+        outLink: meta_hiling,
+        outLinkText: `МЕТАХИЛИНГ`,
+        outUnderText: `Вылечись силой слова`,
+        img: `${url}__medium__/images/women_health_21.png`,
+        source: `${url}__medium__/tracks/tibetskoe_rastiranie.mp4`,
+        poster: `${url}__medium__/images/poster_tr_m.jpg`,
+        text: `
+          <div class="paragraph-18">
+            Утренний ритуал, который тибетцы выполняют <br>
+            сразу как проснулись, ещё до умывания. <br>
+            Назначение такого растирания – сбалансировать <br>
+            работу организма, чтобы он функционировал безупречно. <br>
+            Каких ждать эффектов?
+          </div>
+          <ul class="list">
+            <li><div class="paragraph-18">1-й день: ничего, и даже некоторый спад энергии <br>
+              (может клонить в сон);</div></li>
+            <li><div class="paragraph-18">2-й день: сонливость уже вряд ли, но и особого <br>
+              всплеска энергии не почувствуешь;</div></li>
+            <li><div class="paragraph-18">3-й день: отметь, что успела сделать за день. <br>
+              Скорей всего, ни одно запланированное дело <br>
+              не отложишь на завтра.</div></li>
+            <li><div class="paragraph-18">4-й день: на уровне 3-го</div></li>
+            <li><div class="paragraph-18">5-й день: энергии много, настроение на подъёме;</div></li>
+            <li><div class="paragraph-18">К десятому дню поймёшь, что этим надо делиться. <br>
+              (Захочется кого-то научить Тибетскому растиранию)</div></li>
+          </ul>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
         type: `audio`,
         title: `РУКА-ЛЕКАРЬ`,
         duration: `25 минут`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/receive/audio/ruka_lekar.mp3`,
+        img: `${url}__medium__/images/women_health_0.png`,
+        source: `${url}receive/audio/ruka_lekar.mp3`,
         text: `
           <div class="paragraph-18">
             Использование феномена организменного <br>
@@ -1527,11 +1663,11 @@ export const data = {
         type: `audio`,
         title: `НЕЛЕПАЯ МЕДИТАЦИЯ`,
         duration: `18 минут`,
-        outLink: `https://marta-ng.com/2022/torpedo-terapia/nt.html`,
+        outLink: torpedo_terapia,
         outLinkText: `ТОРПЕДО-ТЕРАПИЯ`,
         outUnderText: `Гипнотическое кодирование <br>на эталонное состояние здоровья`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/nelepaya_meditaciya.mp3`,
+        img: `${url}__medium__/images/women_health_1.png`,
+        source: `${url}player/tracks/nelepaya_meditaciya.mp3`,
         text: `
           <div class="paragraph-18">
             Это способ выбросить из себя гнев, <br>
@@ -1549,11 +1685,11 @@ export const data = {
         type: `audio`,
         title: `КОД ВЫЗДОРОВЛЕНИЯ`,
         duration: `27 минут`,
-        outLink: `https://marta-ng.com/2022/torpedo-terapia/nt.html`,
+        outLink: torpedo_terapia,
         outLinkText: `ТОРПЕДО-ТЕРАПИЯ`,
         outUnderText: `Гипнотическое кодирование <br>на эталонное состояние здоровья`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/kod_vyzdorovleniya.mp3`,
+        img: `${url}__medium__/images/women_health_2.png`,
+        source: `${url}player/tracks/kod_vyzdorovleniya.mp3`,
         text: `
           <div class="paragraph-18">
             Лечебная медитация, построенная по специальному <br>
@@ -1577,11 +1713,11 @@ export const data = {
         type: `audio`,
         title: `ДЫХАТЕЛЬНАЯ ГИМНАСТИКА ВИМА ХОФА`,
         duration: `27 минут`,
-        outLink: `https://marta-ng.com/2022/torpedo-terapia/nt.html`,
+        outLink: torpedo_terapia,
         outLinkText: `ТОРПЕДО-ТЕРАПИЯ`,
         outUnderText: `Гипнотическое кодирование <br>на эталонное состояние здоровья`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/dyhatelnaya_gimnastika.mp3`,
+        img: `${url}__medium__/images/women_health_3.png`,
+        source: `${url}player/tracks/dyhatelnaya_gimnastika.mp3`,
         text: `
           <div class="paragraph-18">
             Выполняя эту дыхательную практику, ты сможешь <br>
@@ -1602,11 +1738,11 @@ export const data = {
         type: `audio`,
         title: `ОЧИЩЕНИЕ СЕБЯ ОТ ОСКОЛКОВ`,
         duration: `28 минут`,
-        outLink: `https://marta-ng.com/2022/torpedo-terapia/nt.html`,
+        outLink: torpedo_terapia,
         outLinkText: `ТОРПЕДО-ТЕРАПИЯ`,
         outUnderText: `Гипнотическое кодирование <br>на эталонное состояние здоровья`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/OCHISCHENIE_OT_OSKOLKOV.mp3`,
+        img: `${url}__medium__/images/women_health_4.png`,
+        source: `${url}player/tracks/OCHISCHENIE_OT_OSKOLKOV.mp3`,
         text: `
           <div class="paragraph-18">
             Приготовься к путешествию по своему телу, где ты обнаружишь <br>
@@ -1632,11 +1768,11 @@ export const data = {
         type: `audio`,
         title: `ВСТРЕЧА С ВНУТРЕННИМ НАРОДОМ`,
         duration: `19 минут`,
-        outLink: `https://marta-ng.com/2022/torpedo-terapia/nt.html`,
+        outLink: torpedo_terapia,
         outLinkText: `ТОРПЕДО-ТЕРАПИЯ`,
         outUnderText: `Гипнотическое кодирование <br>на эталонное состояние здоровья`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/vstrecha_s_vnutrennim_narodom.mp3`,
+        img: `${url}__medium__/images/women_health_5.png`,
+        source: `${url}player/tracks/vstrecha_s_vnutrennim_narodom.mp3`,
         text: `
           <div class="paragraph-18">
             Проведя медитацию, отметь все изменения: в теле, <br>
@@ -1653,11 +1789,11 @@ export const data = {
         type: `audio`,
         title: `КАРТА ТЕЛА`,
         duration: `18 минут`,
-        outLink: `https://marta-ng.com/2022/torpedo-terapia/nt.html`,
+        outLink: torpedo_terapia,
         outLinkText: `ТОРПЕДО-ТЕРАПИЯ`,
         outUnderText: `Гипнотическое кодирование <br>на эталонное состояние здоровья`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/karta_tela.mp3`,
+        img: `${url}__medium__/images/women_health_6.png`,
+        source: `${url}player/tracks/karta_tela.mp3`,
         text: `
           <div class="paragraph-18">
             Целебная визуализация с целью исследования, <br>
@@ -1676,11 +1812,11 @@ export const data = {
         type: `audio`,
         title: `ТОПКА`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2022/torpedo-terapia/nt.html`,
+        outLink: torpedo_terapia,
         outLinkText: `ТОРПЕДО-ТЕРАПИЯ`,
         outUnderText: `Гипнотическое кодирование <br>на эталонное состояние здоровья`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/topka.mp3`,
+        img: `${url}__medium__/images/women_health_7.png`,
+        source: `${url}player/tracks/topka.mp3`,
         text: `
           <div class="paragraph-18">
             Причиной всех неполадок, будь то здоровье, отношения, <br>
@@ -1705,11 +1841,11 @@ export const data = {
         type: `audio`,
         title: `ПУЛЬС`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_8.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/Puls.mp3`,
+        img: `${url}__medium__/images/women_health_8.png`,
+        source: `${url}player/tracks/Puls.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация в мощной технике обновления тела, <br>
@@ -1727,11 +1863,11 @@ export const data = {
         type: `audio`,
         title: `МЕДИТАЦИЯ ОТ 82-Х БОЛЕЗНЕЙ`,
         duration: `22 минуты`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/med82.mp3`,
+        img: `${url}__medium__/images/women_health_9.png`,
+        source: `${url}player/tracks/med82.mp3`,
         text: `
           <div class="paragraph-18">
             Подключись к природной силе, которая проявляется <br>
@@ -1749,11 +1885,11 @@ export const data = {
         type: `audio`,
         title: `ВНУТРЕННИЙ СВЕТ`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_10.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/internal_light.mp3`,
+        img: `${url}__medium__/images/women_health_10.png`,
+        source: `${url}player/tracks/internal_light.mp3`,
         text: `
           <div class="paragraph-18">
             В тебе есть внутренняя сила. <br class="br">
@@ -1775,11 +1911,11 @@ export const data = {
         type: `audio`,
         title: `ИСЦЕЛЕНИЕ ВНИМАНИЕМ`,
         duration: `52 минуты`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_11.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/iscelenie_vnimaniem.mp3`,
+        img: `${url}__medium__/images/women_health_11.png`,
+        source: `${url}player/tracks/iscelenie_vnimaniem.mp3`,
         text: `
           <div class="paragraph-18">
             Это новейший метод лечения, ориентированный <br>
@@ -1804,11 +1940,11 @@ export const data = {
         type: `audio`,
         title: `ПОРТАЛ ИСЦЕЛЕНИЯ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_12.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskoe_zdorovie/portal_iscelenia.mp3`,
+        img: `${url}__medium__/images/women_health_12.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/portal_iscelenia.mp3`,
         text: `
           <div class="paragraph-18">
             Побудь в портале исцеления и прими от него <br>
@@ -1823,11 +1959,11 @@ export const data = {
         type: `audio`,
         title: `ФОНТАН`,
         duration: `6 минут`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_13.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskoe_zdorovie/fontan.mp3`,
+        img: `${url}__medium__/images/women_health_13.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/fontan.mp3`,
         text: `
           <div class="paragraph-18">
             Если ты чувствуешь недомогание, вялость, усталость <br>
@@ -1844,11 +1980,11 @@ export const data = {
         type: `audio`,
         title: `ИСЦЕЛЯЮЩЕЕ СОСТОЯНИЕ`,
         duration: `31 минутa`,
-        outLink: `https://marta-ng.com/2022/meta_hiling/nt.html`,
+        outLink: meta_hiling,
         outLinkText: `МЕТАХИЛИНГ`,
         outUnderText: `Вылечись силой слова`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_14.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskoe_zdorovie/iscelyauschee_sostoyanie.mp3`,
+        img: `${url}__medium__/images/women_health_14.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/iscelyauschee_sostoyanie.mp3`,
         text: `
           <div class="paragraph-18">
             Обеспечь себе исцеляющее состояние. <br class="br">
@@ -1866,11 +2002,11 @@ export const data = {
         type: `audio`,
         title: `ЯКОРЬ ПОКОЯ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_15.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskoe_zdorovie/yakor_pokoya.mp3`,
+        img: `${url}__medium__/images/women_health_15.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/yakor_pokoya.mp3`,
         text: `
           <div class="paragraph-18">
             Сеанс установки сильной защиты от стрессов.<br class="br">
@@ -1890,11 +2026,11 @@ export const data = {
         type: `audio`,
         title: `ЛЁГКИЕ НОЖКИ`,
         duration: `19 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_16.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/light_legs.mp3`,
+        img: `${url}__medium__/images/women_health_16.png`,
+        source: `${url}player/tracks/light_legs.mp3`,
         text: `
           <div class="paragraph-18">
             Отнесись к этому аудионастрою как к целебной <br>
@@ -1915,11 +2051,11 @@ export const data = {
         type: `audio`,
         title: `НАБЛЮДЕНИЕ ПРОМЕЖУТКОВ`,
         duration: `19 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_17.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/nabludenie_promezhutkov.mp3`,
+        img: `${url}__medium__/images/women_health_17.png`,
+        source: `${url}player/tracks/nabludenie_promezhutkov.mp3`,
         text: `
           <div class="paragraph-18">
             Присоединяйся к этой практике, где мы будем достигать <br>
@@ -1937,11 +2073,11 @@ export const data = {
         type: `audio`,
         title: `ПРОСТРАНСТВО СИЛЫ`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_18.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/prostranstvo_sily.mp3`,
+        img: `${url}__medium__/images/women_health_18.png`,
+        source: `${url}player/tracks/prostranstvo_sily.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе этой медитации ты сможешь сформировать <br>
@@ -1961,12 +2097,12 @@ export const data = {
         type: `video`,
         title: `ИДЕАЛЬНАЯ НЕ-ДИЕТА`,
         duration: `5 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_19.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskaya_energiya/idealnaya_ne_dieta.mp4`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_ideal_ne_dieta.jpg`,
+        img: `${url}__medium__/images/women_health_19.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskaya_energiya/idealnaya_ne_dieta.mp4`,
+        poster: `${url}__medium__/images/poster_ideal_ne_dieta.jpg`,
         text: `
           <div class="paragraph-18">
             Клиника Мэйо – один из крупнейших центров мира, <br>
@@ -1983,11 +2119,11 @@ export const data = {
         type: `audio`,
         title: `СИСАДМИН`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_health_20.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/ya_sebya_nikogda_ne_pokinu/sisadmin.mp3`,
+        img: `${url}__medium__/images/women_health_20.png`,
+        source: `${url}ya_sebya_nikogda_ne_pokinu/sisadmin.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе медитации в твоём организме установится режим <br>
@@ -2011,14 +2147,14 @@ export const data = {
       },
     ]
   },
-  women_charisma: {
+  women_charisma: { // women_charisma_8
     title: 'ЖЕНСКАЯ ХАРИЗМА',
     seanses: [
       {
         isStandart: false,
         isOpen: false,
         title: `Прежде чем начать`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/mrt.png`,
+        img: `${url}__medium__/images/mrt.png`,
         content: `
           <div class="embed-bottom">
           
@@ -2052,15 +2188,71 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
+        type: `audio`,
+        title: `СВОЯ ЗВЕЗДА`,
+        duration: `8 минут`,
+        outLink: antiaging,
+        outLinkText: `ПРОГРЕССИВНЫЙ АНТИЭЙДЖИНГ`,
+        outUnderText: `
+        <ul class="spec-ul romb">
+          <li>Нейролифтинг. Пластика лица</li>
+          <li>Нейрофитнес. Преображение тела</li>
+          <li>Психокосметика. Гипнотическая процедура</li>
+        </ul>
+        `,
+        img: `${url}__medium__/images/svoya_zvezda.png`,
+        source: `${url}__medium__/tracks/svoya_zvezda.mp3`,
+        text: `
+          <div class="paragraph-18">
+            На Востоке существует миф, что у каждого человека есть <br>
+            своя звезда. Там, на небе, у каждого человека есть особая,  <br>
+            персональная, своя звезда. И всё это скопление звёзд  <br>
+            на небе не общее, а парад индивидуальных звёзд.<br class="br"><br class="br">
+
+            Этот миф прекрасен. А что если это не миф? Вдруг это  <br>
+            так и есть? Во всяком случае, допустить это можно.  <br>
+            И начать все больше и больше настраиваться в лад со  <br>
+            звёздами. Точнее, с одной звездой – со своей. Сонастройка  <br>
+            с персональной звездой открывает приличный такой личный  <br>
+            ресурс, что приводит к тому, чего человек сам от себя не ожидал.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ХАРИЗМА`,
+        duration: `31 минутa`,
+        outLink: iguana,
+        outLinkText: `ИГУАНА`,
+        outUnderText: `Женская магическая практика`,
+        img: `${url}__medium__/images/women_charisma_8.png`,
+        source: `${url}__medium__/tracks/harizma.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Сеанс в технике эриксоновского гипноза, цель которого: <br>
+            улучшение отношения к себе. Речь не идёт о самооценке, <br>
+            напротив, любые оценки отменяются. Ориентир на тотальное <br>
+            принятие, к которому достижения (или их отсутствие) <br>
+            не имеют никакого отношения.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
         type: `audio`,
         title: `БОМБИЧЕСКАЯ ПРОЦЕДУРА ДЛЯ КРАСОТЫ`,
         duration: `32 минуты`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/bombicheska_procedura.mp3`,
+        img: `${url}__medium__/images/women_charisma_0.png`,
+        source: `${url}player/tracks/bombicheska_procedura.mp3`,
         text: `
           <div class="paragraph-18">
             Добро пожаловать на особую косметическую процедуру, <br>
@@ -2086,11 +2278,11 @@ export const data = {
         type: `audio`,
         title: `ВЗГЛЯД САМЫХ ЛЮБЯЩИХ ГЛАЗ`,
         duration: `15 минут`,
-        outLink: `https://marta-ng.com/2022/razm_tvoego_proshlogo/nt.html`,
+        outLink: razm_tvoego_proshlogo,
         outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
         outUnderText: `Отмена состояний, связанных с больным прошлым`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/vzglad_samyh_lyubyash_glaz.mp3`,
+        img: `${url}__medium__/images/women_charisma_1.png`,
+        source: `${url}player/tracks/vzglad_samyh_lyubyash_glaz.mp3`,
         text: `
           <div class="paragraph-18">
             В процессе этой медитации ты выполнишь<br class="br">
@@ -2115,11 +2307,11 @@ export const data = {
         type: `audio`,
         title: `ДВА ВОПРОСА`,
         duration: `10 минут`,
-        outLink: `https://marta-ng.com/2022/razm_tvoego_proshlogo/nt.html`,
+        outLink: razm_tvoego_proshlogo,
         outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
         outUnderText: `Отмена состояний, связанных с больным прошлым`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/2_voprosa.mp3`,
+        img: `${url}__medium__/images/women_charisma_2.png`,
+        source: `${url}player/tracks/2_voprosa.mp3`,
         text: `
           <div class="paragraph-18">
             Как давно ты восхищалась собой? <br class="br">
@@ -2139,11 +2331,11 @@ export const data = {
         type: `audio`,
         title: `ИСПЫТАНИЕ ЗЕРКАЛОМ`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/ispytanie-zerkalom.mp3`,
+        img: `${url}__medium__/images/women_charisma_3.png`,
+        source: `${url}player/tracks/ispytanie-zerkalom.mp3`,
         text: `
           <div class="paragraph-18">
             Соверши красивое медитативное путешествие. <br>
@@ -2160,12 +2352,12 @@ export const data = {
         type: `video`,
         title: `СУМАСШЕДШАЯ ПРИВЛЕКАТЕЛЬНОСТЬ <br>ЗА 7 СЕКУНД`,
         duration: `3 минуты`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_4.png`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_sumash_pr_7_sek.jpg`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskaya_energiya/privlekatelnost_7_sec.mp4`,
+        img: `${url}__medium__/images/women_charisma_4.png`,
+        poster: `${url}__medium__/images/poster_sumash_pr_7_sek.jpg`,
+        source: `${url}luchshee-nachalo-dnya/zhenskaya_energiya/privlekatelnost_7_sec.mp4`,
         text: `
           <div class="paragraph-18">
             Освой этот приём и выполняй его всякий раз, <br>
@@ -2182,12 +2374,12 @@ export const data = {
         type: `video`,
         title: `УПРАЖНЕНИЕ С ЗЕРКАЛОМ`,
         duration: `9 минут`,
-        outLink: `https://marta-ng.com/2022/yabloko/nt.html`,
+        outLink: yabloko,
         outLinkText: `ЯБЛОКО`,
         outUnderText: `Программирование на иммунитет к старению`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_5.png`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_upr_s_zerkalom.jpg`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskaya_energiya/uprajnenie%20s%20zerkalom.mp4`,
+        img: `${url}__medium__/images/women_charisma_5.png`,
+        poster: `${url}__medium__/images/poster_upr_s_zerkalom.jpg`,
+        source: `${url}luchshee-nachalo-dnya/zhenskaya_energiya/uprajnenie%20s%20zerkalom.mp4`,
         text: `
           <div class="paragraph-18">
             Это упражнение имеет репутацию изменяющего жизнь. <br>
@@ -2202,11 +2394,11 @@ export const data = {
         type: `audio`,
         title: `Я ДОВОЛЬНА СВОЕЙ ВНЕШНОСТЬЮ`,
         duration: `44 минуты`,
-        outLink: `https://marta-ng.com/2022/yabloko/nt.html`,
+        outLink: yabloko,
         outLinkText: `ЯБЛОКО`,
         outUnderText: `Программирование на иммунитет к старению`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/receive/audio/ya_dovolna_svoei_vneshnostyu.mp3`,
+        img: `${url}__medium__/images/women_charisma_6.png`,
+        source: `${url}receive/audio/ya_dovolna_svoei_vneshnostyu.mp3`,
         text: `
           <div class="paragraph-18">
             Если ты постоянно думаешь о том,<br class="br">
@@ -2238,11 +2430,11 @@ export const data = {
         type: `audio`,
         title: `РАСКРЫВАЮ СВОЁ СОВЕРШЕНСТВО`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2022/yabloko/nt.html`,
+        outLink: yabloko,
         outLinkText: `ЯБЛОКО`,
         outUnderText: `Программирование на иммунитет к старению`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_charisma_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/raskryvayu_svoe_sovershenstvo.mp3`,
+        img: `${url}__medium__/images/women_charisma_7.png`,
+        source: `${url}player/tracks/raskryvayu_svoe_sovershenstvo.mp3`,
         text: `
           <div class="paragraph-18">
             Этот сеанс для тебя, если ты твёрдо решила <br>
@@ -2267,10 +2459,9 @@ export const data = {
         isStandart: false,
         isOpen: false,
         title: `Прежде чем начать`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/mrt.png`,
+        img: `${url}__medium__/images/mrt.png`,
         content: `
           <div class="embed-bottom">
-          
             <div class="paragraph-18">
               Твоя самость – ядро твоей личности – это самое дорогое, <br>
               что у тебя есть. И как раз на это больше всего покушается <br>
@@ -2281,7 +2472,185 @@ export const data = {
               нужна сильная внутренняя опора. Сеансы этого раздела <br>
               помогут тебе её обрести.
             </div>
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: true,
+        type: `audio`,
+        title: `ПРИЛИПЛО-НАДОЕЛО-СБРОСЬ`,
+        duration: `13 минут`,
+        outLink: psihonautika,
+        outLinkText: `ПСИХОНАВТИКА`,
+        outUnderText: `<ul class="spec-ul">
+          <li>Шаманские путешествия</li>
+          <li>Шаманские путешествия</li>
+          <li>Экспедиции в Высшие миры</li>
+        </ul>`,
+        img: `${url}__medium__/images/priliplo_nadoelo_sbros.png`,
+        source: `${url}__medium__/tracks/priliplo_nadoelo_sbros.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Припомни одно из убеждений в отношении чего-то или себя самой, <br>
+            которое тебя серьёзно ограничивает. Например, что тебе не суждено <br>
+            стать богатой. Или что, в силу каких-то причин, тебе не светит быть <br>
+            счастливой. Или что ты недостаточно образованная, недостаточно <br>
+            привлекательная, недостаточно сексуальная, недостаточно интересная. <br class="br"><br class="br">
             
+            Любое подобное убеждение о себе, которое к тебе прилипло. <br>
+            Возьми его и отдай четырём вопросам, которые хорошо справляются <br>
+            с тем, чтобы отлеплять подобное безвозвратно, навеки.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ЛИНЗА`,
+        duration: `10 минут`,
+        outLink: psihonautika,
+        outLinkText: `ПСИХОНАВТИКА`,
+        outUnderText: `<ul class="spec-ul">
+          <li>Шаманские путешествия</li>
+          <li>Шаманские путешествия</li>
+          <li>Экспедиции в Высшие миры</li>
+        </ul>`,
+        img: `${url}__medium__/images/linza.png`,
+        source: `${url}__medium__/tracks/linza.mp3`,
+        text: `
+          <div class="paragraph-18">
+            То, как сейчас складывается твоя жизнь, определяет всего  <br>
+            один фактор: твоё мнение о себе и своих возможностях.  <br>
+            Если ты думаешь иначе, если считаешь, что твою жизнь  <br>
+            определяют люди и обстоятельства, то это значит, что твоя  <br>
+            самооценка в беде: она даже ниже допустимого минимума.  <br>
+            Нет смысла разбираться, как так вышло. Как-то. Неважно.  <br>
+            Для коррекции самооценки эти воспоминания не нужны.  <br>
+            Нужны другие, их высветит линза. В результате твоя  <br>
+            самооценка, сформированная под влиянием негативных  <br>
+            триггеров, начнёт расти. Вряд ли этот процесс будет  <br>
+            быстрым, но как раз в этом его ценность.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `АБСОЛЮТНОЕ «ДА»`,
+        duration: `10 минут`,
+        outLink: neiro_cibernetika,
+        outLinkText: `НЕЙРОКИБЕРНЕТИКА`,
+        outUnderText: `Трансформация высшей степени <br>за 4 недели`,
+        img: `${url}__medium__/images/absolutnoe_da.png`,
+        source: `${url}__medium__/tracks/absolutnoe_da.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Принимать всё как есть, да ещё делая это с благодарностью, <br>
+            есть целое искусство, и простым его не назовёшь. Но если <br>
+            освоить его, а потом стать в нём мастером, то это приведёт <br>
+            к исчезновению препятствий как таковых. Чтобы уйти с пути <br>
+            «Нет», отказавшись от сопротивления, и встать на путь «Да», <br>
+            где одно лишь глубоко понимающее принятие, эта медитация.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ВИПАСАНА`,
+        duration: `15 минут`,
+        outLink: formula_molitvy,
+        outLinkText: `ФОРМУЛА МОЛИТВЫ`,
+        outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
+        img: `${url}__medium__/images/vipasana.png`,
+        source: `${url}__medium__/tracks/vipasana.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Практика Випассаны приводит к разотождествлению с элементами <br>
+            личного и коллективного опыта, что устраняет саму предпосылку <br>
+            появления страданий, физических или психологических. <br>
+            Випассана – это высший пилотаж жизни, и он точно тебе по силам, <br>
+            раз ты здесь и это видишь.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `РАЗОБЛАЧЕНИЕ ЭГО`,
+        duration: `26 минут`,
+        outLink: nk,
+        outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
+        outUnderText: `Новейшие инстурменты Нового времени, <br>справятся с тем, на что укажешь.`,
+        img: `${url}__medium__/images/razoblachenie_ego.png`,
+        source: `${url}__medium__/tracks/razoblachenie_ego.mp3`,
+        text: `
+          <div class="paragraph-18">
+            В ходе этой медитации ты прояснишь для себя нечто важное, <br>
+            это поможет тебе освободиться от многих ограничений <br>
+            и станет основой построения эффективного сотрудничества <br>
+            с самой собой. Разоблачение эго через понимание его назначения <br>
+            и потребностей - это очень сильный ресурс, практически непревзойдённый
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ПОСЛАНИЕ ОТ ТЕБЯ БУДУЩЕЙ`,
+        duration: `7 минут`,
+        outLink: nk,
+        outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
+        outUnderText: `Новейшие инстурменты Нового времени, <br>справятся с тем, на что укажешь.`,
+        img: `${url}__medium__/images/posl_ot_ss.png`,
+        source: `${url}__medium__/tracks/poslanie_ot_tebya_budushei.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Сегодня тебе пришло письмо. Настоящее, бумажное, <br>
+            письмо, которое принёс почтальон. Ты берёшь конверт  <br>
+            в руки и видишь на нём своё имя. Но отправитель не  <br>
+            значится. Интересно, кто отправил это письмо? И что  <br>
+            в нём? Ты разрезаешь конверт, достаешь письмо и читаешь: <br>
+            «Здравствуй, дорогая, это я, Ты в будущем». Прими  <br>
+            это послание – оно того стоит
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `МЕНЯ ЖДАЛИ МИЛЛИОНЫ ЛЕТ`,
+        duration: `19 минут`,
+        outLink: zhensovet,
+        outLinkText: `ЖенСовет`,
+        outUnderText: `Женский психологический портал`,
+        img: `${url}__medium__/images/menya_zdali.png`,
+        source: `${url}__medium__/tracks/menya_zhdali_triliony_let.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Безмятежность как перманентное состояние. <br>
+            Это основа счастья – в любом его виде, как бы его <br>
+            не понимать на персональном уровне. Безмятежность <br>
+            является тканью счастья, его базовой структурой. Обрести <br>
+            состояние безмятежности и оставаться в нём постоянно - можно, <br>
+            даже в самое неспокойное и напряжённое время. Однако есть одно <br>
+            условие. Если его не выполнять, то ничего не получится. Если выполнить, <br>
+            то безмятежности не придётся достигать, она сама станет непрерывным <br>
+            состоянием. Узнай это условие.
           </div>
         `,
       },
@@ -2292,11 +2661,11 @@ export const data = {
         type: `audio`,
         title: `ТАНЕЦ ШАМАНКИ`,
         duration: `23 минуты`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/shaman.mp3`,
+        img: `${url}__medium__/images/women_self_0.png`,
+        source: `${url}player/tracks/shaman.mp3`,
         text: `
           <div class="paragraph-18">
             Красивая эзотерическая сессия на основе <br>
@@ -2312,11 +2681,11 @@ export const data = {
         type: `audio`,
         title: `ДРУГАЯ РОЛЬ`,
         duration: `10 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/drugaya_rol.mp3`,
+        img: `${url}__medium__/images/women_self_1.png`,
+        source: `${url}player/tracks/drugaya_rol.mp3`,
         text: `
           <div class="paragraph-18">
             Тебе приходило в голову, что то, что ты принимаешь <br>
@@ -2337,11 +2706,11 @@ export const data = {
         type: `audio`,
         title: `ЭНЕРГИЯ СКАЗОЧНОГО ПЕРСОНАЖА`,
         duration: `10 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/energiya_skazochnogo_personazha.mp3`,
+        img: `${url}__medium__/images/women_self_2.png`,
+        source: `${url}player/tracks/energiya_skazochnogo_personazha.mp3`,
         text: `
           <div class="paragraph-18">
             Что ты думаешь о себе? Как ты себя воспринимаешь? <br>
@@ -2360,11 +2729,11 @@ export const data = {
         type: `audio`,
         title: `6-ФАЗОВАЯ МЕДИТАЦИЯ`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/6_fazovoe.mp3`,
+        img: `${url}__medium__/images/women_self_3.png`,
+        source: `${url}player/tracks/6_fazovoe.mp3`,
         text: `
           <div class="paragraph-18">
             Эта медитация – один из мощнейших способов для достижения <br>
@@ -2381,11 +2750,11 @@ export const data = {
         type: `audio`,
         title: `КВАНТОВЫЙ СКАЧОК`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskaya_energiya/kvantoviy_skachok.mp3`,
+        img: `${url}__medium__/images/women_self_4.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskaya_energiya/kvantoviy_skachok.mp3`,
         text: `
           <div class="paragraph-18">
             Осуществи квантовый скачок, чтобы переместиться <br>
@@ -2404,11 +2773,11 @@ export const data = {
         type: `audio`,
         title: `ПРЕОДОЛЕНИЕ КОМПЛЕКСОВ`,
         duration: `32 минуты`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskaya_energiya/preodolenie_komplekas_nepolnocennosti.mp3`,
+        img: `${url}__medium__/images/women_self_5.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskaya_energiya/preodolenie_komplekas_nepolnocennosti.mp3`,
         text: `
           <div class="paragraph-18">
             Сделай своим намерением избавиться от комплексов, <br>
@@ -2428,11 +2797,11 @@ export const data = {
         type: `audio`,
         title: `УВЕРЕННОСТЬ В СЕБЕ`,
         duration: `33 минуты`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/programmirovanie_na_uverennost_v_sebe.mp3`,
+        img: `${url}__medium__/images/women_self_6.png`,
+        source: `${url}programmirovanie_na_uverennost_v_sebe.mp3`,
         text: `
           <div class="paragraph-18">
             Терапия личности, направленная на нейтрализацию <br>
@@ -2454,11 +2823,11 @@ export const data = {
         type: `audio`,
         title: `ОСВОБОЖДАЮСЬ ОТ БЛОКОВ`,
         duration: `9 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskoe_zdorovie/osvobozhdaus_ot_blokov.mp3`,
+        img: `${url}__medium__/images/women_self_7.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/osvobozhdaus_ot_blokov.mp3`,
         text: `
           <div class="paragraph-18">
             Если у тебя есть какая-то проблема, а как от неё избавиться, <br>
@@ -2475,11 +2844,11 @@ export const data = {
         type: `audio`,
         title: `ТРЕТИЙ ГЛАЗ`,
         duration: `23 минуты`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_8.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_3_glaz.mp3`,
+        img: `${url}__medium__/images/women_self_8.png`,
+        source: `${url}player/tracks/_3_glaz.mp3`,
         text: `
           <div class="paragraph-18">
             Сеанс пробуждения функции мозга, усиливающей <br>
@@ -2503,11 +2872,11 @@ export const data = {
         type: `audio`,
         title: `ЛЕКАРСТВО ОТ РУТИНЫ`,
         duration: `16 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/lekarstvo_ot_rutiny.mp3`,
+        img: `${url}__medium__/images/women_self_9.png`,
+        source: `${url}player/tracks/lekarstvo_ot_rutiny.mp3`,
         text: `
           <div class="paragraph-18">
             Рутина – это то, что наводит скуку. <br>
@@ -2531,11 +2900,11 @@ export const data = {
         type: `audio`,
         title: `ЖИДКОЕ СОЗНАНИЕ`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/2022/razm_tvoego_proshlogo/nt.html`,
+        outLink: razm_tvoego_proshlogo,
         outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
         outUnderText: `Отмена состояний, связанных с больным прошлым`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_10.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/zhidkoe_soznanie.mp3`,
+        img: `${url}__medium__/images/women_self_10.png`,
+        source: `${url}player/tracks/zhidkoe_soznanie.mp3`,
         text: `
           <div class="paragraph-18">
             Ты ведь не против того, чтобы познать состояние <br>
@@ -2560,11 +2929,11 @@ export const data = {
         type: `audio`,
         title: `СИЛА РОДА`,
         duration: `19 минут`,
-        outLink: `https://marta-ng.com/2022/razm_tvoego_proshlogo/nt.html`,
+        outLink: razm_tvoego_proshlogo,
         outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
         outUnderText: `Отмена состояний, связанных с больным прошлым`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_11.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/sila_roda.mp3`,
+        img: `${url}__medium__/images/women_self_11.png`,
+        source: `${url}player/tracks/sila_roda.mp3`,
         text: `
           <div class="paragraph-18">
             Ты поддерживаешь связь со своим родом на 3 уровнях: <br>
@@ -2581,11 +2950,11 @@ export const data = {
         type: `audio`,
         title: `МОЙ СОБСТВЕННЫЙ СЧАСТЛИВЫЙ МИР`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/2022/razm_tvoego_proshlogo/nt.html`,
+        outLink: razm_tvoego_proshlogo,
         outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
         outUnderText: `Отмена состояний, связанных с больным прошлым`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_12.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/moy_sobstvennyi_schastlivyi_mir.mp3`,
+        img: `${url}__medium__/images/women_self_12.png`,
+        source: `${url}player/tracks/moy_sobstvennyi_schastlivyi_mir.mp3`,
         text: `
           <div class="paragraph-18">
             Эзотерическая медитация, способная сделать так, <br>
@@ -2605,11 +2974,11 @@ export const data = {
         type: `audio`,
         title: `УСТАНОВКА НА УВЕРЕННОСТЬ`,
         duration: `6 минут`,
-        outLink: `https://marta-ng.com/2022/razm_tvoego_proshlogo/nt.html`,
+        outLink: razm_tvoego_proshlogo,
         outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
         outUnderText: `Отмена состояний, связанных с больным прошлым`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_13.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/affirmacii/ustanovka_na_uverennost.mp3`,
+        img: `${url}__medium__/images/women_self_13.png`,
+        source: `${url}luchshee-nachalo-dnya/affirmacii/ustanovka_na_uverennost.mp3`,
         text: `
           <div class="paragraph-18">
             Подключись к своей внутренней силе, <br>
@@ -2625,11 +2994,11 @@ export const data = {
         type: `audio`,
         title: `ТАЙМ-АУТ`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/2022/razm_tvoego_proshlogo/nt.html`,
+        outLink: razm_tvoego_proshlogo,
         outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
         outUnderText: `Отмена состояний, связанных с больным прошлым`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_14.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/time_out.mp3`,
+        img: `${url}__medium__/images/women_self_14.png`,
+        source: `${url}player/tracks/time_out.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе этой медитации ты потренируешься в присутствии. <br>
@@ -2648,11 +3017,11 @@ export const data = {
         type: `audio`,
         title: `БЛАГОРОДНЫЙ ГОСТЬ`,
         duration: `27 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_15.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/blagorodnyi_gost.mp3`,
+        img: `${url}__medium__/images/women_self_15.png`,
+        source: `${url}player/tracks/blagorodnyi_gost.mp3`,
         text: `
           <div class="paragraph-18">
             Не наполнены ли твои взаимоотношения частыми драмами? <br>
@@ -2673,11 +3042,11 @@ export const data = {
         type: `audio`,
         title: `ЗОЛОТОЙ ДВОРЕЦ`,
         duration: `40 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_16.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/zolotoi_dvorec.mp3`,
+        img: `${url}__medium__/images/women_self_16.png`,
+        source: `${url}player/tracks/zolotoi_dvorec.mp3`,
         text: `
           <div class="paragraph-18">
             Цель медитации: обеспечить продуктивную настройку разума. <br>
@@ -2698,11 +3067,11 @@ export const data = {
         type: `audio`,
         title: `САМЫЙ БЛИЗКИЙ ЧЕЛОВЕК`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_17.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/samyi_blizkii.mp3`,
+        img: `${url}__medium__/images/women_self_17.png`,
+        source: `${url}player/tracks/samyi_blizkii.mp3`,
         text: `
           <div class="paragraph-18">
             В процессе этой медитации заговорит твоё сердце. <br>
@@ -2722,11 +3091,11 @@ export const data = {
         type: `audio`,
         title: `ПРЫЖКИ`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_18.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/pryzhki.mp3`,
+        img: `${url}__medium__/images/women_self_18.png`,
+        source: `${url}player/tracks/pryzhki.mp3`,
         text: `
           <div class="paragraph-18">
             Это интересный и весьма продуктивный ментальный процесс,  <br>
@@ -2745,11 +3114,11 @@ export const data = {
         type: `audio`,
         title: `ОТРАСТИ СЕБЕ КРЫЛЬЯ`,
         duration: `10 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_19.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/otrasti_sebe_krylya.mp3`,
+        img: `${url}__medium__/images/women_self_19.png`,
+        source: `${url}player/tracks/otrasti_sebe_krylya.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация для вызова вдохновения <br>
@@ -2766,11 +3135,11 @@ export const data = {
         type: `audio`,
         title: `СЕЙФ`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_20.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/_stalking/audio/seif.mp3`,
+        img: `${url}__medium__/images/women_self_20.png`,
+        source: `${url}_stalking/audio/seif.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе медитации ты сформируешь комбинированное <br>
@@ -2799,11 +3168,11 @@ export const data = {
         type: `audio`,
         title: `НОВАЯ ЭНЕРГИЯ. УЛУЧШЕНИЕ ЖИЗНИ`,
         duration: `30 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_21.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/novaya_energiya_uluchshenie_zhizni.mp3`,
+        img: `${url}__medium__/images/women_self_21.png`,
+        source: `${url}player/tracks/novaya_energiya_uluchshenie_zhizni.mp3`,
         text: `
           <div class="paragraph-18">
             Гипнотическая медитация для увеличения<br class="br">
@@ -2827,11 +3196,11 @@ export const data = {
         type: `audio`,
         title: `БЫСТРОЕ ОЧИЩЕНИЕ ЖИЗНИ ОТ НЕНУЖНОГО`,
         duration: `22 минуты`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_22.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/bystroe-ocishenie.mp3`,
+        img: `${url}__medium__/images/women_self_22.png`,
+        source: `${url}player/tracks/bystroe-ocishenie.mp3`,
         text: `
           <div class="paragraph-18">
             Сеанс гайд-медитации, решающий 2 задачи:
@@ -2851,11 +3220,11 @@ export const data = {
         type: `audio`,
         title: `ФОРМУЛА ОСВОБОЖДЕНИЯ`,
         duration: `29 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_23.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/formula_osvobozhdeniya.mp3`,
+        img: `${url}__medium__/images/women_self_23.png`,
+        source: `${url}player/tracks/formula_osvobozhdeniya.mp3`,
         text: `
           <div class="paragraph-18">
             Освободись от негативных программ и шаблонов <br>
@@ -2875,11 +3244,11 @@ export const data = {
         type: `audio`,
         title: `ПИЛОТИРУЕМОЕ КРЕСЛО`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_24.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/celebnaya_relaksaciya/pilotiruemoe_kreslo.mp3`,
+        img: `${url}__medium__/images/women_self_24.png`,
+        source: `${url}luchshee-nachalo-dnya/celebnaya_relaksaciya/pilotiruemoe_kreslo.mp3`,
         text: `
           <div class="paragraph-18">
             Если тебя сейчас что-то беспокоит, то садись в пилотируемое
@@ -2895,11 +3264,11 @@ export const data = {
         type: `audio`,
         title: `Я ВЫБИРАЮ РОСКОШЬ БЫТЬ СОБОЙ`,
         duration: `44 минуты`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_25.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/neurocorrectors/ya_vybirayu_roskosh_byt_soboi.mp3`,
+        img: `${url}__medium__/images/women_self_25.png`,
+        source: `${url}neurocorrectors/ya_vybirayu_roskosh_byt_soboi.mp3`,
         text: `
           <div class="paragraph-18">
             <span class="underline">Этот нейрокорректор для тебя, если тебе надоело</span>
@@ -2926,11 +3295,11 @@ export const data = {
         type: `audio`,
         title: `ГАРМОНИЧНЫЕ ОТНОШЕНИЯ СО ВСЕМИ И С СОБОЙ`,
         duration: `27 минут`,
-        outLink: `https://marta-ng.com/2022/nk-nt`,
+        outLink: nk,
         outLinkText: `НЕЙРОКОРРЕКТОРЫ`,
         outUnderText: `Прорыв 3-го тысячелетия`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_self_26.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/garmonichnye-otnosheniy.mp3`,
+        img: `${url}__medium__/images/women_self_26.png`,
+        source: `${url}player/tracks/garmonichnye-otnosheniy.mp3`,
         text: `
           <div class="paragraph-18">
             Приготовься изменить свои представления о том, <br>
@@ -2958,11 +3327,11 @@ export const data = {
         type: `audio`,
         title: `ГИПНОТИЧЕСКАЯ МОЛИТВА О ПРОЦВЕТАНИИ БИЗНЕСА`,
         duration: `8 минут`,
-        outLink: `https://marta-ng.com/denezhnaya_magia/nt.html`,
+        outLink: denezhnaya_magia,
         outLinkText: `ДЕНЕЖНАЯ МАГИЯ`,
         outUnderText: `Курс мгновенной магии <br> на примере денег`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/gipn_mol_o_procvetanii_biznesa.mp3`,
+        img: `${url}__medium__/images/women_independence_0.png`,
+        source: `${url}player/tracks/gipn_mol_o_procvetanii_biznesa.mp3`,
         text: `
           <div class="paragraph-18">
             Обращайся к этой молитве каждый день, <br>
@@ -2981,11 +3350,11 @@ export const data = {
         type: `audio`,
         title: `СИЛЬНЕЙШАЯ ДЕНЕЖНАЯ МЕДИТАЦИЯ`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/denezhnaya_magia/nt.html`,
+        outLink: denezhnaya_magia,
         outLinkText: `ДЕНЕЖНАЯ МАГИЯ`,
         outUnderText: `Курс мгновенной магии <br> на примере денег`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/silneishaia_denezhnaia_meditaciya.mp3`,
+        img: `${url}__medium__/images/women_independence_1.png`,
+        source: `${url}player/tracks/silneishaia_denezhnaia_meditaciya.mp3`,
         text: `
           <div class="paragraph-18">
             Медитативная практика в технике, предложенной Джо Витале. <br> 
@@ -3006,11 +3375,11 @@ export const data = {
         type: `audio`,
         title: `НЕЗНАКОМЫЕ ДЕНЬГИ`,
         duration: `16 минут`,
-        outLink: `https://marta-ng.com/denezhnaya_magia/nt.html`,
+        outLink: denezhnaya_magia,
         outLinkText: `ДЕНЕЖНАЯ МАГИЯ`,
         outUnderText: `Курс мгновенной магии <br> на примере денег`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/neznakomye_dengi.mp3`,
+        img: `${url}__medium__/images/women_independence_2.png`,
+        source: `${url}player/tracks/neznakomye_dengi.mp3`,
         text: `
           <div class="paragraph-18">
             Мы постоянно ищем некий секрет денег, пытаясь понять их природу <br> 
@@ -3028,11 +3397,11 @@ export const data = {
         type: `audio`,
         title: `РЕКА ПРОЦВЕТАНИЯ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/denezhnaya_magia/nt.html`,
+        outLink: denezhnaya_magia,
         outLinkText: `ДЕНЕЖНАЯ МАГИЯ`,
         outUnderText: `Курс мгновенной магии <br> на примере денег`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/reka_procvetaniya.mp3`,
+        img: `${url}__medium__/images/women_independence_3.png`,
+        source: `${url}player/tracks/reka_procvetaniya.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация-настройка на готовность жить благополучно, <br> 
@@ -3052,11 +3421,11 @@ export const data = {
         type: `audio`,
         title: `НА МАТЕРИАЛЬНОЕ БЛАГОПОЛУЧИЕ`,
         duration: `40 минут`,
-        outLink: `https://marta-ng.com/denezhnaya_magia/nt.html`,
+        outLink: denezhnaya_magia,
         outLinkText: `ДЕНЕЖНАЯ МАГИЯ`,
         outUnderText: `Курс мгновенной магии <br> на примере денег`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/receive/audio/gipnoticheskie_zagovory/na_materialnoe_blagopoluchie.mp3`,
+        img: `${url}__medium__/images/women_independence_4.png`,
+        source: `${url}receive/audio/gipnoticheskie_zagovory/na_materialnoe_blagopoluchie.mp3`,
         text: `
           <div class="paragraph-18">
             Гипнотический сеанс удаления последствий негативного опыта, <br>
@@ -3076,11 +3445,11 @@ export const data = {
         type: `audio`,
         title: `БЛАГОДАРЮ`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/blagodaruy.mp3`,
+        img: `${url}__medium__/images/women_independence_5.png`,
+        source: `${url}player/tracks/blagodaruy.mp3`,
         text: `
           <div class="paragraph-18">
             Когда благодаришь имеющееся, то притягиваешь <br>
@@ -3098,12 +3467,12 @@ export const data = {
         type: `video`,
         title: `ПРОЩЕНИЕ ДЕНЕГ`,
         duration: `14 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_6.png`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_prosh_deneg.jpg`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/prosenie_deneg.mp4`,
+        img: `${url}__medium__/images/women_independence_6.png`,
+        poster: `${url}__medium__/images/poster_prosh_deneg.jpg`,
+        source: `${url}player/tracks/prosenie_deneg.mp4`,
         text: `
           <div class="paragraph-18">
             Очищение от денежных блоков от микро-зажимов в теле, <br>
@@ -3122,12 +3491,12 @@ export const data = {
         type: `video`,
         title: `МЕДИТАЦИЯ НА ЖИЗНЬ С ИЗБЫТКОМ`,
         duration: `5 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_7.png`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_med_zhizn_s_izbytkom.jpg`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/denezhnyi_dostatok/meditacia_na_zhizn_s_izbitkom.mp4`,
+        img: `${url}__medium__/images/women_independence_7.png`,
+        poster: `${url}__medium__/images/poster_med_zhizn_s_izbytkom.jpg`,
+        source: `${url}luchshee-nachalo-dnya/denezhnyi_dostatok/meditacia_na_zhizn_s_izbitkom.mp4`,
         text: `
           <div class="paragraph-18">
             Богатства – повсюду.<br class="br">
@@ -3149,12 +3518,12 @@ export const data = {
         type: `video`,
         title: `ПРИТЯЖЕНИЕ ЗАЯВЛЕННОЙ СУММЫ ДЕНЕГ`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_8.png`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_prityazhenie_zayavlennoy_summy_deneg.jpg`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/denezhnyi_dostatok/prityazhenie_zayavlennoy_summy_deneg.mp4`,
+        img: `${url}__medium__/images/women_independence_8.png`,
+        poster: `${url}__medium__/images/poster_prityazhenie_zayavlennoy_summy_deneg.jpg`,
+        source: `${url}luchshee-nachalo-dnya/denezhnyi_dostatok/prityazhenie_zayavlennoy_summy_deneg.mp4`,
         text: `
           <div class="paragraph-18">
             Сколько сейчас тебе нужно денег?<br class="br">
@@ -3171,11 +3540,11 @@ export const data = {
         type: `audio`,
         title: `ПЕРЕДАЧА ПРОБЛЕМЫ ВЫСШИМ СИЛАМ`,
         duration: `26 минут`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/peredacha_problemy_vysshimi_silami.mp3`,
+        img: `${url}__medium__/images/women_independence_9.png`,
+        source: `${url}player/tracks/peredacha_problemy_vysshimi_silami.mp3`,
         text: `
           <div class="paragraph-18">
             Отдай свою проблему на откуп всеведущему сознанию. <br>
@@ -3195,11 +3564,11 @@ export const data = {
         type: `audio`,
         title: `ПРИВЛЕЧЕНИЕ ДЕНЕГ`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2022/gipn_modernizaciya/nt.html`,
+        outLink: gipn_modernizaciya,
         outLinkText: `ГИПНОТИЧЕСКАЯ МОДЕРНИЗАЦИЯ`,
         outUnderText: `Дизайн человеческих ресурсов`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_independence_10.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/affirmacii/privlechenie_deneg.mp3`,
+        img: `${url}__medium__/images/women_independence_10.png`,
+        source: `${url}luchshee-nachalo-dnya/affirmacii/privlechenie_deneg.mp3`,
         text: `
           <div class="paragraph-18">
             Дай себе обещание перестать отталкивать деньги. <br>
@@ -3229,11 +3598,11 @@ export const data = {
         type: `audio`,
         title: `ПЕРЧАТКА ВЫЗОВА`,
         duration: `15 минут`,
-        outLink: `https://marta-ng.com/2022/uroki_magii/nt.html`,
+        outLink: uroki_magii,
         outLinkText: `УРОКИ МАГИИ`,
         outUnderText: `Обучение с последующей <br>инициацией в действительные маги`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/perchatka_vyzova.mp3`,
+        img: `${url}__medium__/images/women_dreams_0.png`,
+        source: `${url}player/tracks/perchatka_vyzova.mp3`,
         text: `
           <div class="paragraph-18">
             Перчатку вызова ты бросишь в лицо своим проблемам. <br>
@@ -3253,11 +3622,11 @@ export const data = {
         type: `audio`,
         title: `ЛЮБИМОЕ КИНО`,
         duration: `23 минуты`,
-        outLink: `https://marta-ng.com/2022/uroki_magii/nt.html`,
+        outLink: uroki_magii,
         outLinkText: `УРОКИ МАГИИ`,
         outUnderText: `Обучение с последующей <br>инициацией в действительные маги`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/lubimoe_kino.mp3`,
+        img: `${url}__medium__/images/women_dreams_1.png`,
+        source: `${url}player/tracks/lubimoe_kino.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе медитации я сделаю несколько полезных  <br>
@@ -3278,11 +3647,11 @@ export const data = {
         type: `audio`,
         title: `УРА, СБЫЛОСЬ!`,
         duration: `35 минут`,
-        outLink: `https://marta-ng.com/2022/uroki_magii/nt.html`,
+        outLink: uroki_magii,
         outLinkText: `УРОКИ МАГИИ`,
         outUnderText: `Обучение с последующей <br>инициацией в действительные маги`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/Ura%2C%20sbylos%21.mp3`,
+        img: `${url}__medium__/images/women_dreams_2.png`,
+        source: `${url}Ura%2C%20sbylos%21.mp3`,
         text: `
           <div class="paragraph-18">
             Придай своему главному желанию силу автоматической <br>
@@ -3303,11 +3672,11 @@ export const data = {
         type: `audio`,
         title: `МАНИФЕСТ ВОПЛОЩЕНИЯ ЖЕЛАЕМОГО`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2022/uroki_magii/nt.html`,
+        outLink: uroki_magii,
         outLinkText: `УРОКИ МАГИИ`,
         outUnderText: `Обучение с последующей <br>инициацией в действительные маги`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/manifest_volosheniya_zhelaemogo.mp3`,
+        img: `${url}__medium__/images/women_dreams_3.png`,
+        source: `${url}player/tracks/manifest_volosheniya_zhelaemogo.mp3`,
         text: `
           <div class="paragraph-18">
             Если ты знаешь, что исполнение твоих желаний - <br>
@@ -3334,11 +3703,11 @@ export const data = {
         type: `audio`,
         title: `УТРО ВЕЧЕРА МУДРЕЕ`,
         duration: `8 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/utro_mudree.mp3`,
+        img: `${url}__medium__/images/women_dreams_4.png`,
+        source: `${url}player/tracks/utro_mudree.mp3`,
         text: `
           <div class="paragraph-18">
             Техника динамичной (и достаточно точной) <br>
@@ -3360,11 +3729,11 @@ export const data = {
         type: `audio`,
         title: `СТРЕЛА`,
         duration: `23 минуты`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/strela.mp3`,
+        img: `${url}__medium__/images/women_dreams_5.png`,
+        source: `${url}player/tracks/strela.mp3`,
         text: `
           <div class="paragraph-18">
             Силовая медитация, формирующая в разуме <br>
@@ -3384,11 +3753,11 @@ export const data = {
         type: `audio`,
         title: `ОДНО СИЛЬНОЕ СЛОВО`,
         duration: `8 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/odno_silnoe_slovo.mp3`,
+        img: `${url}__medium__/images/women_dreams_6.png`,
+        source: `${url}player/tracks/odno_silnoe_slovo.mp3`,
         text: `
           <div class="paragraph-18">
             Узнай это сильное слово, имеющее силу команды. <br>
@@ -3407,11 +3776,11 @@ export const data = {
         type: `audio`,
         title: `ВНУТРЕННИЙ МАГНИТ`,
         duration: `11 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ispolnenie_zhelanii/Vnutrenniy_magnit.mp3`,
+        img: `${url}__medium__/images/women_dreams_7.png`,
+        source: `${url}luchshee-nachalo-dnya/ispolnenie_zhelanii/Vnutrenniy_magnit.mp3`,
         text: `
           <div class="paragraph-18">
             Сформируй внутри себя сильный магнит <br class="br">
@@ -3429,11 +3798,11 @@ export const data = {
         type: `audio`,
         title: `ОТНЫНЕ МЕЧТАЮ ПРАВИЛЬНО`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_8.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ispolnenie_zhelanii/otnine_mechtau_pravilno.mp3`,
+        img: `${url}__medium__/images/women_dreams_8.png`,
+        source: `${url}luchshee-nachalo-dnya/ispolnenie_zhelanii/otnine_mechtau_pravilno.mp3`,
         text: `
           <div class="paragraph-18">
             Возьми ответственность за свое Новогоднее<br class="br">
@@ -3451,11 +3820,11 @@ export const data = {
         type: `audio`,
         title: `ТВОЯ НОВАЯ ЛИЧНОСТНАЯ ИСТОРИЯ`,
         duration: `72 минуты`,
-        outLink: `https://marta-ng.com/2023/iguana/nt.html`,
+        outLink: iguana,
         outLinkText: `ИГУАНА`,
         outUnderText: `Женская магическая практика`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ispolnenie_zhelanii/tvoya_novaya_lichnostnaya_istoria.mp3`,
+        img: `${url}__medium__/images/women_dreams_9.png`,
+        source: `${url}luchshee-nachalo-dnya/ispolnenie_zhelanii/tvoya_novaya_lichnostnaya_istoria.mp3`,
         text: `
           <div class="paragraph-18">
             Позволь наступить переменам, которые <br class="br">
@@ -3473,12 +3842,12 @@ export const data = {
         type: `video`,
         title: `ЧТОБЫ МЕЧТА СБЫЛАСЬ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_10.png`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_choby_mechta.jpg`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/chtobi_mechti_sbivalis.mp4`,
+        img: `${url}__medium__/images/women_dreams_10.png`,
+        poster: `${url}__medium__/images/poster_choby_mechta.jpg`,
+        source: `${url}chtobi_mechti_sbivalis.mp4`,
         text: `
           <div class="paragraph-18">
             Будущее нельзя предвидеть, зато его можно <br>
@@ -3494,12 +3863,12 @@ export const data = {
         type: `video`,
         title: `ПРИТВОРИСЬ БОГОМ`,
         duration: `10 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_11.png`,
-        poster: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/poster_pritvoris_bogom.jpg`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ispolnenie_zhelanii/kak_pritvoritsya_bogom.mp4`,
+        img: `${url}__medium__/images/women_dreams_11.png`,
+        poster: `${url}__medium__/images/poster_pritvoris_bogom.jpg`,
+        source: `${url}luchshee-nachalo-dnya/ispolnenie_zhelanii/kak_pritvoritsya_bogom.mp4`,
         text: `
           <div class="paragraph-18">
             Если можешь притвориться<br class="br">
@@ -3515,11 +3884,11 @@ export const data = {
         type: `audio`,
         title: `ПОЗВОЛЯЮ ПРОИЗОЙТИ ЧУДУ`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_12.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ezotericheskie/pozvolyayu_proizoyti_chudu.mp3`,
+        img: `${url}__medium__/images/women_dreams_12.png`,
+        source: `${url}luchshee-nachalo-dnya/ezotericheskie/pozvolyayu_proizoyti_chudu.mp3`,
         text: `
           <div class="paragraph-18">
             Ты хочешь полетать? Полетай – ты можешь.<br class="br">
@@ -3537,11 +3906,11 @@ export const data = {
         type: `audio`,
         title: `МНОГО ДАЛЬШЕ ГОРИЗОНТА`,
         duration: `10 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_13.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ezotericheskie/mnogo_dalshe_gorizonta.mp3`,
+        img: `${url}__medium__/images/women_dreams_13.png`,
+        source: `${url}luchshee-nachalo-dnya/ezotericheskie/mnogo_dalshe_gorizonta.mp3`,
         text: `
           <div class="paragraph-18">
             Сделай свой интуитивный канал более сильным, более восприимчивым. <br>
@@ -3560,11 +3929,11 @@ export const data = {
         type: `audio`,
         title: `ПОПРОСИ АНГЕЛОВ`,
         duration: `18 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_14.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ezotericheskie/poprosi_angelov.mp3`,
+        img: `${url}__medium__/images/women_dreams_14.png`,
+        source: `${url}luchshee-nachalo-dnya/ezotericheskie/poprosi_angelov.mp3`,
         text: `
           <div class="paragraph-18">
             Подумай сейчас о том, что у тебя есть<br class="br">
@@ -3583,11 +3952,11 @@ export const data = {
         type: `audio`,
         title: `СУДНО, НА КОТОРОМ ПЛЫВУ`,
         duration: `25 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_15.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ezotericheskie/sudno_na_kotorom_plivu.mp3`,
+        img: `${url}__medium__/images/women_dreams_15.png`,
+        source: `${url}luchshee-nachalo-dnya/ezotericheskie/sudno_na_kotorom_plivu.mp3`,
         text: `
           <div class="paragraph-18">
             Сеанс качественной, на всех уровнях, релаксации<br class="br">
@@ -3607,11 +3976,11 @@ export const data = {
         type: `audio`,
         title: `Я РАЗРЕШАЮ СЕБЕ САМОЕ ЛУЧШЕЕ`,
         duration: `3 минуты`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_dreams_16.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/affirmacii/ya_razreshau_sebe.mp3`,
+        img: `${url}__medium__/images/women_dreams_16.png`,
+        source: `${url}luchshee-nachalo-dnya/affirmacii/ya_razreshau_sebe.mp3`,
         text: `
           <div class="paragraph-18">
             Если прослушивать этот трек в течение 3-х дней, <br>
@@ -3632,13 +4001,163 @@ export const data = {
         isOpen: false,
         isNew: true,
         type: `audio`,
-        title: `ГОВОРИТ БЕЗМОЛВИЕ`,
-        duration: `13 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        title: `МАСТЕР-МЕДИТАЦИЯ`,
+        duration: `22 минуты`,
+        outLink: neirohiling,
+        outLinkText: `НЕЙРОХИЛИНГ`,
+        outUnderText: `Преобразование проблемного <br>
+          состояния здоровья в наилучшее`,
+        img: `${url}__medium__/images/master_meditaciya.png`,
+        source: `${url}__medium__/tracks/master_meditaciya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты считаешь, что пробуждённость – это то состояние, к которому <br>
+            люди стремятся, чтобы спрятаться от реальности и всех её страхов, <br>
+            то ты думаешь так напрасно. Пробуждённость – это Мастерство, <br>
+            сопряжённое со сверхэффективностью и щедро приправленное <br>
+            могуществом, для которого невозможного мало. <br class="br"><br class="br">
+            
+            Однако если цель – состояние пробуждённости, то как представить <br>
+            себе эту цель? Я верю, что справиться с этой задачей тебе поможет <br>
+            Мастер-медитация. Она, как мастер-ключ, открывает состояние,  <br>
+            в котором ты не исчезаешь в океане сознания, а напротив,  <br>
+            отчётливо, явно, ощущаешь, что существуешь везде, сейчас,  <br>
+            всегда. И где здесь бегство от материальной реальности?  <br>
+            Это великое мастерство ею управлять, держа ориентир  <br>
+            на свои земные задачи/цели/хотелки.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ИМЯ ИИСУСА`,
+        duration: `10 минут`,
+        outLink: formula_molitvy,
+        outLinkText: `ФОРМУЛА МОЛИТВЫ`,
+        outUnderText: `9 прогрессивных инстументов <br>
+          для новой жизни в новое время`,
+        img: `${url}__medium__/images/imaya_iisusa.png`,
+        source: `${url}__medium__/tracks/imaya_iisusa.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если тебя вдохновляет имя Иисуса, настройся сейчас на него, <br>
+            и в процессе медитации придёт отклик. Ты не можешь его предугадать,  <br>
+            тебе не дано знать, что именно им станет, и как именно он проявится  <br>
+            внутри или снаружи. Просто будь в ожидании отклика, и родится мантра.  <br>
+            Никто извне не может дать тебе эту мантру; она родится сама, <br>
+            когда ты глубоко настроишься на имя Иисуса.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `У ПОДНОЖИЯ ГОРЫ СТОЯЛИ ДВОЕ`,
+        duration: `nn минут`,
+        outLink: nabor_ot_depressii,
+        outLinkText: `НАБОР ОТ ДЕПРЕССИИ`,
+        outUnderText: `Бокс-антидепрессант`,
+        img: `${url}__medium__/images/u_podnozhiya_gory.png`,
+        source: `${url}__medium__/tracks/u_podnozhiya_gory.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Это одна из техисторий, которые работают как подкрепление, <br>
+            открывая находящееся в слепой зоне. Такие истории помогают <br>
+            согреться, дают силы, чтобы вытащить себя из мрака. Порой они <br>
+            приводят к пониманию, что дорога, по которой сейчас идёшь, <br>
+            не совсем та (а может, совсем не та), которую ты выбрала, <br>
+            и настала пора скорректировать жизненный маршрут
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `БУМАЖНЫЙ КОРАБЛИК ВО МРАКЕ`,
+        duration: `7 минут`,
+        outLink: nabor_ot_depressii,
+        outLinkText: `НАБОР ОТ ДЕПРЕССИИ`,
+        outUnderText: `Бокс-антидепрессант`,
+        img: `${url}__medium__/images/bum_kor.png`,
+        source: `${url}__medium__/tracks/bumazhnyi_korablik_vo_mrake.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Расположись удобно и немного отдохни. <br>
+            Пусть твои заботы, планы, волнения и стремления подождут, <br>
+            пока ты слушаешь историю о женщине, так похожую на тебя
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `КАСАНИЕ ЗАВЕСЫ`,
+        duration: `27 минут`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/govorit_bezmolvie.wav.mp3`,
+        img: `${url}__medium__/images/kas_zav.png`,
+        source: `${url}__medium__/tracks/kasanie_zavesy.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Сейчас побудьте вместе - ты и твой ангел-хранитель. <br>
+            Ты можешь спросить его о чём угодно. Например, как его зовут. <br>
+            У него есть имя, узнай его. Возможно, у тебя не один, а два <br>
+            ангела-хранителя. Так часто бывает. Точнее, редко, когда <br>
+            ангел-хранитель один. Хранителей обычно двое, они открыты <br>
+            контакту, и сейчас самое время его осуществить и глубоко <br>
+            проникнуться осознанием, что вы вместе постоянно, и никогда, <br>
+            ни одного мгновения, не бываете врозь. Что означает: <br>
+            ты под защитой и в безопасности всегда. Пусть твои хранители <br>
+            подтвердят это прямо сейчас, сделав это насколько возможно <br>
+            четко и внятно.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ПРЕКРАЩЕНИЕ СТРАДАНИЙ`,
+        duration: `23 минуты`,
+        outLink: pereroditelstvo,
+        outLinkText: `ПЕРЕРОДИТЕЛЬСТВО`,
+        outUnderText: `Исправление жизненного сценария`,
+        img: `${url}__medium__/images/women_soul_13.png`,
+        source: `${url}__medium__/tracks/prekrasheniestradaniy.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Страдание – это не только физическая боль. <br>
+            Уныние, гнев, страх, недовольство, обида, ярость, <br>
+            вина – всё это формы страдания. Любое, всё, что <br>
+            нарушает душевный покой, есть страдание. <br>
+            Если ты готова его прекратить, отменив страдание <br>
+            как таковое, то вот способ это сделать
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ГОВОРИТ БЕЗМОЛВИЕ`,
+        duration: `13 минут`,
+        outLink: zhensovet,
+        outLinkText: `ЖенСовет`,
+        outUnderText: `Женский психологический портал`,
+        img: `${url}__medium__/images/women_soul_0.png`,
+        source: `${url}player/tracks/govorit_bezmolvie.wav.mp3`,
         text: `
           <div class="paragraph-18">
             Безмолвие – твоя изначальная природа, <br>
@@ -3657,11 +4176,11 @@ export const data = {
         type: `audio`,
         title: `МЕДИТАЦИЯ БОЛЬШОГО СЕРДЦА`,
         duration: `27 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/receive/audio/med.mp3`,
+        img: `${url}__medium__/images/women_soul_1.png`,
+        source: `${url}receive/audio/med.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация для входа в состояние максимально <br>
@@ -3687,11 +4206,11 @@ export const data = {
         type: `audio`,
         title: `ОТПУСКАЮ ПРОШЛОЕ. ЗАКРЫВАЮ СТАРОЕ`,
         duration: `8 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/zhenskoe_zdorovie/Otpuskau_proshloe._Zakrivayu_staroe.mp3`,
+        img: `${url}__medium__/images/women_soul_2.png`,
+        source: `${url}luchshee-nachalo-dnya/zhenskoe_zdorovie/Otpuskau_proshloe._Zakrivayu_staroe.mp3`,
         text: `
           <div class="paragraph-18">
             Порой непросто отпустить прошлое и закрыть старое. <br>
@@ -3710,11 +4229,11 @@ export const data = {
         type: `audio`,
         title: `ИЗ ГОЛОВЫ В ПУПОК`,
         duration: `24 минуты`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/iz_golovy_v_pupok.mp3`,
+        img: `${url}__medium__/images/women_soul_3.png`,
+        source: `${url}player/tracks/iz_golovy_v_pupok.mp3`,
         text: `
           <div class="paragraph-18">
             Сессия посвящена тому, чтобы максимально приблизиться <br>
@@ -3737,11 +4256,11 @@ export const data = {
         type: `audio`,
         title: `МОМЕНТ ИСТИНЫ`,
         duration: `8 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/moment_istiny.mp3`,
+        img: `${url}__medium__/images/women_soul_4.png`,
+        source: `${url}player/tracks/moment_istiny.mp3`,
         text: `
           <div class="paragraph-18">
             Сейчас у тебя уже есть возможность понять, как выглядит <br>
@@ -3762,11 +4281,11 @@ export const data = {
         type: `audio`,
         title: `ПОКОЙ БОГА`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/pokoi_boga.mp3`,
+        img: `${url}__medium__/images/women_soul_5.png`,
+        source: `${url}player/tracks/pokoi_boga.mp3`,
         text: `
           <div class="paragraph-18">
             Сейчас у тебя есть возможность войти в состояние Бога, <br>
@@ -3789,11 +4308,11 @@ export const data = {
         type: `audio`,
         title: `ВОСХОЖДЕНИЕ НА ПЛАН ДУШИ`,
         duration: `36 минут`,
-        outLink: `https://marta-ng.com/2022/formula_molitvy/nt.html`,
+        outLink: formula_molitvy,
         outLinkText: `ФОРМУЛА МОЛИТВЫ`,
         outUnderText: `9 прогрессивных инстументов <br>для новой жизни в новое время`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_6.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/voshozhdenie_na_plan_dushi.mp3`,
+        img: `${url}__medium__/images/women_soul_6.png`,
+        source: `${url}player/tracks/voshozhdenie_na_plan_dushi.mp3`,
         text: `
           <div class="paragraph-18">
             То, на чём построен этот сеанс, является <br>
@@ -3814,11 +4333,11 @@ export const data = {
         type: `audio`,
         title: `РОДОВОЕ НАСЛЕДИЕ`,
         duration: `21 минутa`,
-        outLink: `https://marta-ng.com/2023/gipn_progressiya_2023/nt.html`,
+        outLink: gipn_progressiya,
         outLinkText: `ГИПНОТИЧЕСКАЯ ПРОГРЕССИЯ`,
         outUnderText: `Глубинные изменения за 3 сеанса`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_7.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/ancestral_heritage.mp3`,
+        img: `${url}__medium__/images/women_soul_7.png`,
+        source: `${url}player/tracks/ancestral_heritage.mp3`,
         text: `
           <div class="paragraph-18">
             Прямо сейчас тебе открыта возможность <br>
@@ -3835,11 +4354,11 @@ export const data = {
         type: `audio`,
         title: `КОСМИЧЕСКИЙ СТРАННИК`,
         duration: `13 минут`,
-        outLink: `https://marta-ng.com/2023/gipn_progressiya_2023/nt.html`,
+        outLink: gipn_progressiya,
         outLinkText: `ГИПНОТИЧЕСКАЯ ПРОГРЕССИЯ`,
         outUnderText: `Глубинные изменения за 3 сеанса`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_8.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ezotericheskie/kosmicheskiy_strannik.mp3`,
+        img: `${url}__medium__/images/women_soul_8.png`,
+        source: `${url}luchshee-nachalo-dnya/ezotericheskie/kosmicheskiy_strannik.mp3`,
         text: `
           <div class="paragraph-18">
             Побывай в космосе, отстранившись от всего повседневного. <br>
@@ -3855,11 +4374,11 @@ export const data = {
         type: `audio`,
         title: `ПОСЛАНИЕ С НЕБЕС`,
         duration: `38 минут`,
-        outLink: `https://marta-ng.com/2023/gipn_progressiya_2023/nt.html`,
+        outLink: gipn_progressiya,
         outLinkText: `ГИПНОТИЧЕСКАЯ ПРОГРЕССИЯ`,
         outUnderText: `Глубинные изменения за 3 сеанса`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_9.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/ezotericheskie/poslanie_s_nebes.mp3`,
+        img: `${url}__medium__/images/women_soul_9.png`,
+        source: `${url}luchshee-nachalo-dnya/ezotericheskie/poslanie_s_nebes.mp3`,
         text: `
           <div class="paragraph-18">
             Сеанс настройки сознания для расширения <br>
@@ -3875,11 +4394,11 @@ export const data = {
         type: `audio`,
         title: `ОСВЕЩЕНИЕ ВНУТРЕННЕГО`,
         duration: `12 минут`,
-        outLink: `https://marta-ng.com/2023/gipn_progressiya_2023/nt.html`,
+        outLink: gipn_progressiya,
         outLinkText: `ГИПНОТИЧЕСКАЯ ПРОГРЕССИЯ`,
         outUnderText: `Глубинные изменения за 3 сеанса`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_10.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/osveshenie_vnutrennego.mp3`,
+        img: `${url}__medium__/images/women_soul_10.png`,
+        source: `${url}player/tracks/osveshenie_vnutrennego.mp3`,
         text: `
           <div class="paragraph-18">
             В ходе этой медитации ты можешь переместиться <br>
@@ -3903,11 +4422,11 @@ export const data = {
         type: `audio`,
         title: `ВСТРЕЧА С ВНУТРЕННИМ РОДИТЕЛЕМ`,
         duration: `15 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_11.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/vstrcha_s_vnutrennim_roditelem.mp3`,
+        img: `${url}__medium__/images/women_soul_11.png`,
+        source: `${url}player/tracks/vstrcha_s_vnutrennim_roditelem.mp3`,
         text: `
           <div class="paragraph-18">
             Бери меня за руку, и я отведу тебя в одно спокойное <br>
@@ -3927,11 +4446,11 @@ export const data = {
         type: `audio`,
         title: `ПТИЦА`,
         duration: `17 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/women_soul_12.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/ptica.mp3`,
+        img: `${url}__medium__/images/women_soul_12.png`,
+        source: `${url}player/tracks/ptica.mp3`,
         text: `
           <div class="paragraph-18">
             Где-то там, высоко в небе, поближе к солнцу, <br>
@@ -3954,13 +4473,199 @@ export const data = {
         isOpen: false,
         isNew: true,
         type: `audio`,
-        title: `СИНЕЕ ЯЙЦО`,
-        duration: `3 минуты`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        title: `НАИМЕНЬШЕЕ УСИЛИЕ`,
+        duration: `16 минут`,
+        outLink: neiro_cibernetika,
+        outLinkText: `НЕЙРОКИБЕРНЕТИКА`,
+        outUnderText: `Трансформация высшей степени <br>за 4 недели`,
+        img: `${url}__medium__/images/naimenshee_usilee.png`,
+        source: `${url}__medium__/tracks/naimenshee_usilee.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Вопрос со звёздочкой: что лучше, сопротивление или смирение? <br>
+            Лучше практиковать «нет» или лучше на всё «да»? Похоже, ни то, <br>
+            ни другое, т.к. существует третье: принцип, совершенно освобождающий <br>
+            от этого трудного выбора, и он не имеет ничего общего <br>
+            ни с уступчивостью, ни с несговорчивостью.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `12 ½ НЕДЕЛЬ`,
+        duration: `13 минут`,
+        outLink: neiro_cibernetika,
+        outLinkText: `НЕЙРОКИБЕРНЕТИКА`,
+        outUnderText: `Трансформация высшей степени <br>за 4 недели`,
+        img: `${url}__medium__/images/dvenadcat_s_polovinoi_nedel.png`,
+        source: `${url}__medium__/tracks/dvenadcat_s_polovinoi_nedel.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Один человек внушил себе, что он глупый. <br>
+            Другой напридумал, что не умеет ладить с людьми. <br>
+            Третья убедила себя, что она некрасивая. <br>
+            Четвёртая запрограммировала себя на неудачливость. <br>
+            Пятая считает, что она никудышная мать. <br>
+            А твоё ограничение в чём? Что, по твоему мнению, <br>
+            в тебе недостаточно хорошо или даже совсем плохо? <br>
+            И что ты с этим делаешь? Миришься? Или, того хуже, сражаешься <br>
+            с этим недостатком? Попробуй технику впечатывания – и то, <br>
+            в чём ты не дотягиваешь, удивительным образом восполнится.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `САМАЯ КОРОТКАЯ МЕДИТАЦИЯ В МИРЕ`,
+        duration: `10 минут`,
+        outLink: psihonautika,
+        outLinkText: `ПСИХОНАВТИКА`,
+        outUnderText: `<ul class="spec-ul">
+          <li>Шаманские путешествия</li>
+          <li>Шаманские путешествия</li>
+          <li>Экспедиции в Высшие миры</li>
+        </ul>`,
+        img: `${url}__medium__/images/samaya_korotkaya_meditaciyz.png`,
+        source: `${url}__medium__/tracks/samaya_korotkaya_meditaciyz.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Эта медитация занимает всего 30 секунд, а открывается <br>
+            многое, очень многое, потому что будет качественно меняться  <br>
+            твоя энергия. Это изменение будешь чувствовать не только ты,  <br>
+            но и твоё окружение: люди будут ощущать присутствие твоей  <br>
+            энергии, бессознательно отмечая, что с тобой что-то происходит,  <br>
+            что-то из неведомого питает в тебя, делая тебя притягательной, <br>
+            теплой, особенной.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ДЕТОКС ВНУТРЕННИХ МОЗГОЕДОВ`,
+        duration: `11 минут`,
+        outLink: mgnovennaya_progressiya,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>
+          В НАИЛУЧШЕЕ СОСТОЯНИЕ
+        `,
+        outUnderText: ``,
+        img: `${url}__medium__/images/detox_vnutrennih_mozgoedov.png`,
+        source: `${url}__medium__/tracks/detox_vnutrennih_mozgoedov.mp3`,
+        text: `
+          <div class="paragraph-18">
+            <strong class="aeb">Мозгоеды:</strong> твои внутренние голоса (громкие мысли), которыми <br>
+            ты оскорбляешь себя и унижаешь, называя некрасивыми словами <br>
+            и  высыпая на свою бедную головушку всякие требования и претензии.<br class="br"><br class="br">
+            
+            Детокс мозгоедов: сущностное преобразование, в результате которого <br>
+            внутренние мозгоеды радикально изменяют характер: прекращают <br>
+            свирепствовать, шипеть и нудить и принимаются всячески тебя <br>
+            поддерживать – терпеливо, бережно, с большой любовью.<br class="br"><br class="br">
+            
+            <strong class="aeb">Детокс внутренних мозгоедов</strong> – это весьма эффективный приём, <br>
+            ведь это не что иное, как  очищение внутреннего пространства <br>
+            от недовольств и страданий. Это приводит к самому главному - <br>
+            восстановлению собственной целостности.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `ИСТИННОЕ ЛИЦО МЫСЛЯЩЕГО УМА`,
+        duration: `24 минуты`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/podcast_0.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/blue_agg.mp3`,
+        img: `${url}__medium__/images/istennoe.png`,
+        source: `${url}__medium__/tracks/nastoyashee_lico_myslyashego_uma.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Что есть наш мыслящий ум? Если присмотреться, то это лес <br>
+            одних и тех же мыслей плюс дрова знаний, большая часть <br>
+            которых - всего лишь гипотезы и поспешные концепции. <br>
+            И мы ещё отождествляем себя со своим умом – считаем, <br>
+            что именно ум нас определяет, а мысли, которые он в себе <br>
+            крутит, являются нашими. И это капкан. <br>
+            Если понаблюдаешь, как действует твой мыслящий ум, ты <br>
+            обнаружишь это сразу: он находится в состоянии голодной <br>
+            недостаточности, причём постоянно. Именно поэтому то скука, <br>
+            то неудовлетворённость (в разновидностях), то сразу всё вместе. <br>
+            И это постоянные наши спутники, увы. И пока мы мыслим, <br>
+            мы от них не отвяжемся. <br class="br"><br class="br">
+            
+            Но есть один способ, весьма действенный, позволяющий  <br>
+            держать неудовлетворённость и скуку на расстоянии. Это приводит <br>
+            к освобождению от страданий – как тех, что ты причиняешь себе  <br>
+            и другим, так и тех, что другие тебе причиняют. Освой этот способ.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `МЕТОД УНИТАЗА`,
+        duration: `6 минут`,
+        outLink: zhensovet,
+        outLinkText: `ЖенСовет`,
+        outUnderText: `Женский психологический портал`,
+        img: `${url}__medium__/images/podcast_6.png`,
+        source: `${url}__medium__/tracks/metod_unitaza.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Медитация-лайфхак, где демонстрируется <br>
+            действенный способ, как всего за пару минут <br>
+            превратить отвратительное настроение в прекрасное.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `СТРАТЕГИЯ МОНМОРАНСИ`,
+        duration: `5 минут`,
+        outLink: biodinamika,
+        outLinkText: `БИОДИНАМИКА`,
+        outUnderText: `8 биодинамических упражнений <br>с эффектом перезагрузки`,
+        img: `${url}__medium__/images/podcast_7.png`,
+        source: `${url}__medium__/tracks/strategiamonmoransi.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты сдерживаешь эмоции, боясь прослыть <br>
+            неуравновешенной истеричкой, то ты делаешь это зря. <br>
+            Недовольство имеет свойство копиться внутри <br>
+            и все там разрушать, образуя всякие болячки. <br>
+            Чтобы этого не допустить – стратегия Монморанси, <br>
+            элегантная и экологичная
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `СИНЕЕ ЯЙЦО`,
+        duration: `3 минуты`,
+        outLink: zhensovet,
+        outLinkText: `ЖенСовет`,
+        outUnderText: `Женский психологический портал`,
+        img: `${url}__medium__/images/podcast_0.png`,
+        source: `${url}player/tracks/blue_agg.mp3`,
         text: `
           <div class="paragraph-18">
             Освой один сильный защитный приём, <br>
@@ -3977,11 +4682,11 @@ export const data = {
         type: `audio`,
         title: `ПРЕОБРАЗОВАНИЕ ГНЕВА`,
         duration: `9 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/podcast_1.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/receive/audio/preobrazovanie_.mp3`,
+        img: `${url}__medium__/images/podcast_1.png`,
+        source: `${url}receive/audio/preobrazovanie_.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация-лайфхак, где ты узнаешь самый лучший, <br>
@@ -4002,11 +4707,11 @@ export const data = {
         type: `audio`,
         title: `ГАМБУРГЕР С МУХАМИ`,
         duration: `3 минуты`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/podcast_2.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/gamburger_s_muhami.mp3`,
+        img: `${url}__medium__/images/podcast_2.png`,
+        source: `${url}player/tracks/gamburger_s_muhami.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация-лайфхак, где показывается способ укротить <br>
@@ -4023,11 +4728,11 @@ export const data = {
         type: `audio`,
         title: `4 ПРЕДМЕТА`,
         duration: `20 минут`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/podcast_3.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/_4_predmeta.mp3`,
+        img: `${url}__medium__/images/podcast_3.png`,
+        source: `${url}player/tracks/_4_predmeta.mp3`,
         text: `
           <div class="paragraph-18">
             Медитация-лайфхак, в ходе которой: <br>
@@ -4048,11 +4753,11 @@ export const data = {
         type: `audio`,
         title: `МЕЖДУ ДВУМЯ ПОДМЫШКАМИ`,
         duration: `22 минуты`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/podcast_4.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/mezhdu_podmyshkami.mp3`,
+        img: `${url}__medium__/images/podcast_4.png`,
+        source: `${url}player/tracks/mezhdu_podmyshkami.mp3`,
         text: `
           <div class="paragraph-18">
             Испытай этот лайфхак. И посмотри, как это у тебя <br>
@@ -4071,11 +4776,11 @@ export const data = {
         type: `audio`,
         title: `МЕТОД ЧЕМОДАНА`,
         duration: `3 минуты`,
-        outLink: `https://marta-ng.com/2023/zhensovet/`,
+        outLink: zhensovet,
         outLinkText: `ЖенСовет`,
         outUnderText: `Женский психологический портал`,
-        img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/podcast_5.png`,
-        source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/method_chemodana.mp3`,
+        img: `${url}__medium__/images/podcast_5.png`,
+        source: `${url}player/tracks/method_chemodana.mp3`,
         text: `
           <div class="paragraph-18">
             Представь, что у тебя на коленях лежит огромный чемодан. <br>
@@ -4116,8 +4821,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_0.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/okean_spokoistviya.mp3`,
+            img: `${url}__medium__/images/sos_0.png`,
+            source: `${url}player/tracks/okean_spokoistviya.mp3`,
             text: `
               <div class="paragraph-18">
                 Если тебе никогда не приходилось бывать на территории <br>
@@ -4139,8 +4844,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_1.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/luchshee-nachalo-dnya/celebnaya_relaksaciya/Bistriy_sbros_negativnogo.mp3`,
+            img: `${url}__medium__/images/sos_1.png`,
+            source: `${url}luchshee-nachalo-dnya/celebnaya_relaksaciya/Bistriy_sbros_negativnogo.mp3`,
             text: `
               <div class="paragraph-18">
                 Отложи всё на время – пусть подождёт.  <br class="br">
@@ -4161,8 +4866,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_2.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/player/tracks/bozhestvennoe_iscelenie_negativa.mp3`,
+            img: `${url}__medium__/images/sos_2.png`,
+            source: `${url}player/tracks/bozhestvennoe_iscelenie_negativa.mp3`,
             text: `
               <div class="paragraph-18">
                 В процессе этой медитации ты совершишь путешествие <br>
@@ -4188,7 +4893,7 @@ export const data = {
             isStandart: false,
             isOpen: false,
             title: `Об инструментах экстренной помощи`,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/mrt.png`,
+            img: `${url}__medium__/images/mrt.png`,
             content: `
               <div class="embed-bottom">
               
@@ -4304,8 +5009,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_3.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/volnovoy-immunitet.mp3`,
+            img: `${url}__medium__/images/sos_3.png`,
+            source: `${url}zvukovie-matrici/volnovoy-immunitet.mp3`,
             text: `
               <div class="paragraph-18">
                 Клинические испытания продемонстрировали, что данная <br>
@@ -4363,8 +5068,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_4.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/zdoroviy-son.mp3`,
+            img: `${url}__medium__/images/sos_4.png`,
+            source: `${url}zvukovie-matrici/zdoroviy-son.mp3`,
             text: `
               <div class="paragraph-18">
                 Матрица помогает справиться с бессонницей, эмоциональным <br>
@@ -4394,8 +5099,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_5.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/davlenie-v-norme.mp3`,
+            img: `${url}__medium__/images/sos_5.png`,
+            source: `${url}zvukovie-matrici/davlenie-v-norme.mp3`,
             text: `
               <div class="paragraph-18">
                 Волновая матрица, укрепляющая сосудистую систему <br>
@@ -4437,8 +5142,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_6.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/allergii-net.mp3`,
+            img: `${url}__medium__/images/sos_6.png`,
+            source: `${url}zvukovie-matrici/allergii-net.mp3`,
             text: `
               <div class="paragraph-18">
                 Сеанс волновой матричной терапии, содержащий в себе акустические <br>
@@ -4481,8 +5186,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_7.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/zdorovie-zheludok-i-kishechnik.mp3`,
+            img: `${url}__medium__/images/sos_7.png`,
+            source: `${url}zvukovie-matrici/zdorovie-zheludok-i-kishechnik.mp3`,
             text: `
               <div class="paragraph-18">
                 Волновая матрица, содержащая частоты 123 целебных растений, <br>
@@ -4528,8 +5233,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_8.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/zdorovie_sustavi.mp3`,
+            img: `${url}__medium__/images/sos_8.png`,
+            source: `${url}zvukovie-matrici/zdorovie_sustavi.mp3`,
             text: `
               <div class="paragraph-18">
                 Строго говоря, матрица «Здоровые суставы» обеспечивает  <br>
@@ -4579,8 +5284,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_9.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/zdorovie-legkie-bronkhi-gorlo.mp3`,
+            img: `${url}__medium__/images/sos_9.png`,
+            source: `${url}zvukovie-matrici/zdorovie-legkie-bronkhi-gorlo.mp3`,
             text: `
               <div class="paragraph-18">
                 Сейчас болезни органов дыхания – наиболее часто встречающийся <br>
@@ -4613,8 +5318,8 @@ export const data = {
             outLink: ``,
             outLinkText: ``,
             outUnderText: ``,
-            img: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/__medium__/images/sos_10.png`,
-            source: `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/zvukovie-matrici/zdorovie-sosudi-i-serdce.mp3`,
+            img: `${url}__medium__/images/sos_10.png`,
+            source: `${url}zvukovie-matrici/zdorovie-sosudi-i-serdce.mp3`,
             text: `
               <div class="paragraph-18">
                 Одна из самых востребованных волновых матриц, что является <br>
@@ -4632,6 +5337,146 @@ export const data = {
                 3 дня – перерыв. И так 3 раза, чтобы общая продолжительность  <br>
                 курса получилась 30 дней. Кратность прослушивания: 2 раз в день, <br>
                 исключая вечернее время.
+              </div>
+            `,
+          },
+        ],
+      },
+      'chapter-2': {
+        title: `Экстренная помощь <br> при недомоганиях`,
+        seanses: [
+          {
+            isStandart: false,
+            isOpen: false,
+            title: `Об инструментах экстренной помощи`,
+            img: `${url}__medium__/images/mrt.png`,
+            content: `
+              <div class="embed-bottom">
+              
+                <div class="paragraph-18">
+                  В качестве экстренной помощи при различного рода  <br>
+                  недомоганиях здесь предлагается весьма эффективные  <br>
+                  инструменты воздействия: волновые матрицы Гаряева,  <br>
+                  которые представляют собой квантово-звуковые отображения  <br>
+                  эталонно здорового состояния человека и, попадая  <br>
+                  в мозг слушающего, оказывают выраженное целебное воздействие <br>
+                  на индивидуальный геном. Это создает условия для улучшения  <br>
+                  состояния, вплоть до полного и окончательного выздоровления.
+                </div>
+                
+                <div class="paragraph-18">
+                  <span class="fz24 asb">Звучание волновых матриц</span>
+                </div>
+                
+                <div class="paragraph-18">
+                   Звучание матриц Гаряева своеобразно. Лечебные звуки <br>
+                   напоминают помехи радиоприёмника. Это обусловлено методикой <br>
+                   передачи информации посредством радиоволн, которая  <br>
+                   не ориентирована на приятность прослушивания.  <br>
+                   Матрицы Гаряева – это лечебный инструмент,  <br>
+                   и он не обязан быть приятным. У каждой из волновых  <br>
+                   программ свои задачи, и они направлены не на эстетическое  <br>
+                   удовольствие, а на восстановление здоровья.
+                </div>
+                
+                <div class="paragraph-18">
+                  <span class="fz24 asb">Правила применения волновых матриц</span>
+                </div>
+                            
+                <div class="paragraph-18">
+                  Треки с волновыми матрицами разной продолжительности – <br>
+                  от 16 минут до 1,5 часов. Если выбранный трек продолжительностью <br>
+                  больше 20 минут, то, при желании, можно производить прослушивание  <br>
+                  дробно, с увеличением времени прослушивания. Например: первые <br>
+                  3 подхода по 15-20 минут, следующие 3 подхода на 10 минут больше – <br>
+                  и так до конца трека, через каждые 3 дня увеличивая время  <br>
+                  прослушивания на 10 минут. Предлагаемая схема не является  <br>
+                  обязательной. Допустимо прослушивание трека целиком, начиная  <br>
+                  с первого же подхода.<br class="br"><br class="br">
+
+                  При прослушивании волновых матриц громкость звука должна быть  <br>
+                  комфортной. Допустимо, если звуки будут минимально слышимыми.  <br>
+                  Прослушивание можно производить в любое время суток, действуя <br>
+                  по схеме: 7 дней – прослушивание; 3 дня – перерыв. И так 3 раза, <br>
+                  чтобы общая продолжительность курса получилась 30 дней.<br class="br"><br class="br">
+                  
+                  При прослушивании можно использовать наушники. <br>
+                  Но это требование не является обязательным, хотя и желательным. <br>
+                  Во время прослушивания можно заниматься своими делами, <br>
+                  но посторонние звуки следует исключить, звуковое поле вокруг <br>
+                  должно быть исключительно матричным. <br class="br"><br class="br">
+                  
+                  Хорошо во время проигрывания программы рядом с источником  <br>
+                  звука ставить ёмкость с водой. После окончания прослушивания  <br>
+                  выпивать полный стакан воды, делая это мелкими глотками.  <br>
+                  В ходе курса рекомендуется насыщенный питьевой режим:  <br>
+                  1,5 литра воды в сутки и более.
+                </div>
+                
+                <div class="paragraph-18">
+                  <span class="fz24 asb">Воздействие волновых матриц</span>
+                </div>
+                
+                <div class="paragraph-18">
+                  В первые дни прослушивания может возникать некоторое ухудшение самочувствия. Это связано с перестройкой клеточного поведения.
+                  Эту перестройку инициируют частоты волновых матриц. Обычно перестройка длится 1-3 дня, потом ощущения дискомфорта исчезают,
+                  и состояние улучшается, становясь лучше стартового. Если этого
+                  не произошло, следует прекратить прослушивание, сделав перерыв
+                  на 3 дня, после чего возобновить применение выбранной волновой матрицы.
+                </div>
+                
+                <div class="paragraph-18">
+                  <span class="fz24 asb">Эффект волновых матриц</span>
+                </div>
+                
+                <div class="paragraph-18">
+                  Несмотря на увесистую статистику большого количества выздоровлений, снятия многих диагнозов, а также положительных результатов по целому ряду заболеваний, матричная терапия не может гарантировать стопроцентного излечения всеми каждому. Отзыв на воздействие, оказываемое волновыми матрицами, проявляется субъективно.
+                  Чаще пациенты с первого прослушивания получают хорошие
+                  результаты, но бывает, что на выздоровление уходят месяцы. Это
+                  зависит от стадии болезни и от общего состояния на момент начала применения волновых матриц.
+                </div>
+                
+                <div class="paragraph-18">
+                  <span class="fz24 asb red">Важно</span>
+                </div>
+                
+                <div class="paragraph-18">
+                  Применение матриц Гаряева не означает отказ <br>
+                  от официальной медицины, но дополняет её. <br>
+                  Применение матриц Гаряева не отменяет физическую активность, <br>
+                  но настоятельно её рекомендует. Двигательная активность <br>
+                  в период прослушивания волновых матриц должна быть полноценной, <br>
+                  ориентированной на классическую норму: не менее 8 тысяч шагов <br>
+                  в день.<br class="br"><br class="br">
+    
+                  Поведение «Царствуй, лёжа на боку» - категорически неприемлемо.
+                </div>
+                
+              </div>
+            `,
+          },
+          {
+            isStandart: true,
+            isOpen: false,
+            isNew: true,
+            type: `audio`,
+            title: `ФОКУСИНГ`,
+            duration: `39 минут`,
+            outLink: razm_tvoego_proshlogo,
+            outLinkText: `РАЗМИНИРОВАНИЕ ТВОЕГО ПРОШЛОГО`,
+            outUnderText: `Отмена состояний, <br>
+             связанных с больным прошлым
+            `,
+            img: `${url}__medium__/images/focusing.png`,
+            source: `${url}__medium__/tracks/focusing.mp3`,
+            text: `
+              <div class="paragraph-18">
+                Обратившись к Фокусингу, ты узнаешь  специфическую дорогу <br>
+                к бесценному опыту, который находится в тебе самой. <br>
+                Эта дорога пролегает по области телесного чувствования, которое <br>
+                является основным ощутимым материалом твоей личности. <br>
+                Я проведу тебя по этой дороге и по пути помогу развязать узел <br>
+                твоей проблемы – той, на которую ты сама укажешь.
               </div>
             `,
           },

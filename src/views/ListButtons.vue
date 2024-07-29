@@ -4,8 +4,13 @@
 
     <div class="instructions inner-page">
       <app-header
-          :title="!isSOSPage ? data[chapterName]?.title : 'SOS-ПРОГРАММЫ'"
-          :backgroungImg="background"/>
+          :backgroungImg="background"
+          :title="!isSOSPage
+            ? $route.params.chapter === 'chapter-2'
+              ? 'SOS-ПРОГРАММЫ'
+              : data[chapterName]?.title
+            : 'SOS-ПРОГРАММЫ'"
+      />
 
       <div class="buttons-wrapper">
 
@@ -18,6 +23,7 @@
       </div>
 
     </div>
+
   </div>
 </template>
 
@@ -33,7 +39,8 @@ export default {
   methods: {
     ...mapMutations(['changeChapter']),
     toClose() {
-      this.seanses.forEach(item => item.isOpen = false)
+      if (this.$route.name !== "sos_programs")
+        this.seanses.forEach(item => item.isOpen = false)
     }
   },
   data() {
@@ -61,15 +68,20 @@ export default {
     },
     seanses() {
       if (!this.isSOSPage) {
-        return this.chapterName === ''
-            ? this.data[this.defaultChapterName].seanses
-            : this.data[this.chapterName].seanses
+        if (this.chapterName === 'chapter-2') {
+          return this.data['sos_programs'].chapters['chapter-2'].seanses
+        } else {
+          return this.chapterName === ''
+              ? this.data[this.defaultChapterName].seanses
+              : this.data[this.chapterName].seanses
+        }
+
       } else {
-          if (this.obj === ''){
-            return this.data['sos_programs'].chapters['chapter-0'].seanses
-          } else {
-            return this.data['sos_programs'].chapters[this.obj].seanses
-          }
+        if (this.obj === '') {
+          return this.data['sos_programs'].chapters['chapter-0'].seanses
+        } else {
+          return this.data['sos_programs'].chapters[this.obj].seanses
+        }
       }
     }
   },
@@ -85,11 +97,9 @@ export default {
 
     window.scrollTo(0, 0)
   },
-  // beforeUnmount() {
-  //   if (this?.seanses) {
-  //     console.log('this?.seanses in', this?.seanses)
-  //   }
-  // },
+  unmounted() {
+    this.toClose()
+  },
   components: {
     AppHeader,
     DropNav,

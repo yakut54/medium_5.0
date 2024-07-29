@@ -11,7 +11,7 @@ export  const btns = [
   {linkTo: 'podcast', title: 'ПОДКАСТЫ'},
   {linkTo: 'sos_programs', title: 'SOS-ПРОГРАММЫ'},
   {linkTo: 'new-menu', title: 'НОВИНКИ МЕСЯЦА'},
-  {linkTo: 'hits', title: 'ХИТЫ 2023 ГОДА'},
+  {linkTo: 'hits', title: 'Хиты этого года'},
   {linkTo: 'instructions', title: 'ИНСТРУКЦИИ'},
   {linkTo: 'support', title: 'ПОДДЕРЖКА'},
 ]
