@@ -13,7 +13,7 @@ import {
   denezhnaya_magia,
   gipn_modernizaciya,
   razm_tvoego_proshlogo,
-  mgnovennaya_progressiya, neiro_cibernetika, psihonautika,
+  mgnovennaya_progressiya, neiro_cibernetika, psihonautika, neiromaining, antiaging,
 } from './constants'
 
 export const tiles = [
@@ -105,5 +105,20 @@ export const tiles = [
     title: `Нейрокибернетика`,
     link: neiro_cibernetika,
     subtitle: `Трансформация высшей степени <br>за 4 недели`
+  },
+  {
+    title: `антиэйджинг`,
+    link: antiaging,
+    subtitle: `<ul class="spec-ul romb">
+          <li>Нейролифтинг. <br>Пластика лица</li>
+          <li>Нейрофитнес. <br>Преображение тела</li>
+          <li>Психокосметика. Гипнотическая процедура</li>
+        </ul>`
+  },
+  {
+    title: `НейроМайнинг`,
+    link: neiromaining,
+    subtitle: `Нейроинженеринговое программирование 
+            на денежный прирост, которому пока нет равных`
   },
 ].reverse()

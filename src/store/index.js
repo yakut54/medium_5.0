@@ -14,7 +14,7 @@ export default createStore({
     isPlay: false,
     defaultChapterName: 'best_start_day',
     chapterName: '',
-    regPattern: /<br( class="show_\d{3}")*>/
+    regPattern: /<br( class="(show_\d{3}|hide_add)")*>/
   },
   mutations: {
     changePage: (state, linkTo) => {

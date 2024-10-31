@@ -582,6 +582,8 @@ html, body, #app, .wrapper{
   width: 100%;
 }
 .tile-item{
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -590,7 +592,7 @@ html, body, #app, .wrapper{
   min-height: 200px;
   border-radius: 20px;
   background: radial-gradient(farthest-corner at 171px 20px, rgba(255,255,255,1) 0%, rgba(112,240,255,1) 100%);
-  box-shadow: 0px 2px 6px 0px #0000008c;
+  box-shadow: 0 2px 6px 0 #0000008c;
   margin-bottom: 10px;
   padding-left: 20px;
   cursor: pointer;
@@ -1236,6 +1238,9 @@ blockquote {
   padding-left: 0;
 }
 
+.hide_add{display: none;}
+.wrap-news-btns .hide_add{display: block;}
+
 .spec-ul{
   list-style-type: none;
 }
@@ -1250,6 +1255,7 @@ blockquote {
   width: 25px;
   height: 25px;
   left: 0;
+  top: 0;
 }
 .spec-ul.romb li:after{
   content: '◈';

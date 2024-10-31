@@ -1,7 +1,7 @@
 // const isAnSon = /an-son/.test(location.pathname)
 const isAnSon = true
-// export const url = `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/`
-export const url = `https://api.selcdn.ru/v1/SEL_53369/mng/`
+export const url = `https://a1e7d4e8-08c8-47e2-a422-e6e814c27d08.selstorage.ru/`
+// export const url = `https://api.selcdn.ru/v1/SEL_53369/mng/`
 export const zhensovet = `/2023/zhensovet/`
 export const pereroditelstvo = !isAnSon
   ? `/2022/pereroditelstvo/nt.html`
@@ -67,5 +67,8 @@ export const antiaging = !isAnSon
   ? `/goods/antiaging/`
   : `/goods/antiaging/`
 export const neirohiling = !isAnSon
-	? `/goods/neirohiling_dm/`
-	: `/goods/neirohiling_dm/`
+	? `/goods/neirohiling/`
+	: `/goods/neirohiling/`
+export const neiromaining = !isAnSon
+	? `/audio-katalog/neiromaining?days=4`
+	: `/audio-katalog/neiromaining?days=4`

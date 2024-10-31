@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
-const pageName = 'medium-spa-5.1.7'
+const pageName = 'medium-spa-5.1.9'
 
 const outputDir = pageName
 const publicPath = process.env.NODE_ENV === 'production'

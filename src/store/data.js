@@ -12,6 +12,7 @@ import {
   meta_hiling,
   neirohiling,
   psihonautika,
+  neiromaining,
   pereroditelstvo,
   torpedo_terapia,
   formula_molitvy,
@@ -1004,9 +1005,39 @@ export const data = {
       },
     ]
   },
-  women_energy: { // women_energy_19
+  women_energy: {
     title: 'ЖЕНСКАЯ ЭНЕРГИЯ',
     seanses: [
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: true,
+        type: `audio`,
+        title: `СО ХАМ`,
+        duration: `21 минутa`,
+        outLink: psihonautika,
+        outLinkText: `ПСИХОНАВТИКА`,
+        outUnderText: `<ul class="spec-ul">
+          <li>Шаманские путешествия</li>
+          <li>Шаманские путешествия</li>
+          <li>Экспедиции в Высшие миры</li>
+        </ul>`,
+        img: `${url}__medium__/images/so-ham.png`,
+        source: `${url}__medium__/tracks/so-ham-kundalini-meditaciya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Проведя эту медитацию несколько раз, ты будешь чувствовать <br>
+            в себе неиссякаемый источник женской силы и мудрости. Твоя  <br>
+            интуиция будет становиться острее с каждым днём. Ты будешь  <br>
+            легко выражать свои мысли и чувства, ничего не боясь. Твой  <br>
+            голос будет услышан. Твоя творческая энергия будет свободно  <br>
+            течь, позволяя тебе создавать прекрасное. Ты будешь привлекать  <br>
+            к себе гармоничные отношения. Твоя внутренняя суть: та, кто  <br>
+            ты есть, - будет проявляться во всём, что ты делаешь. Ты готова  <br>
+            к этому? Тогда начинай медитацию.
+          </div>
+        `,
+      },
       {
         isStandart: true,
         isOpen: false,
@@ -1577,6 +1608,43 @@ export const data = {
               «Женское здоровье»
             </div>
             
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `САД ЖЕНСКОГО ЗДОРОВЬЯ`,
+        duration: `20 минут`,
+        outLink: neirohiling,
+        outLinkText: `НЕЙРОХИЛИНГ`,
+        outUnderText: `Преобразование проблемного <br>
+          состояния здоровья в наилучшее`,
+        img: `${url}__medium__/images/sad_zh_zdorovya.png`,
+        source: `${url}__medium__/tracks/sad_zh_zdorovya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты прямо сейчас готова испытать инновационный подход <br>
+            к управлению своим здоровьем, то в следующие 20 минут <br>
+            активируются внутренние ресурсы твоего организма. <br>
+            Это произойдёт благодаря ключевым процессам, в ходе которых
+          </div>
+          <ul class="list">
+            <li><div class="paragraph-18">Оптимизируются нейронные связи <br>
+              опорно-двигательного аппарата;</div></li>
+            <li><div class="paragraph-18">Стимулируется вагусный нерв;</div></li>
+            <li><div class="paragraph-18">Активируется диафрагмальное дыхание;</div></li>
+            <li><div class="paragraph-18">Осуществится балансировка гормональной системы.</div></li>
+          </ul>
+          <div class="paragraph-18">
+            Эта медитация, основанная на открытиях в области <br>
+            психонейроиммунологии – действительно сильный инструмент <br>
+            саморегуляции, производящий тонкую настройку систем организма. <br class="br"><br class="br">
+            
+            Нажми кнопку «Play», и твой мозг сам произведёт эту настройку, <br>
+            ориентируясь на передаваемые визуальные метафоры.
           </div>
         `,
       },
@@ -2190,6 +2258,36 @@ export const data = {
         isOpen: false,
         isNew: false,
         type: `audio`,
+        title: `АЛХИМИЯ ОЧАРОВАНИЯ. <br>
+         ПРОБУЖДЕНИЕ ВНУТРЕННЕЙ ЗВЕЗДЫ.
+        `,
+        duration: `14 минут`,
+        outLink: neiro_cibernetika,
+        outLinkText: `НЕЙРОКИБЕРНЕТИКА`,
+        outUnderText: `Трансформация высшей степени <br>за 4 недели`,
+        img: `${url}__medium__/images/alhimiya_ocharovaniya.png`,
+        source: `${url}__medium__/tracks/alhimiya_ocharovaniya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты хочешь узнать рецепт магнетического обаяния, <br>
+            то он в этой медитации. Здесь ты получишь все необходимые <br>
+            ингредиенты: порошок уверенности, эссенцию загадочности, <br>
+            кристаллы искренности, звёздную пудру индивидуальности, <br>
+            кусочек лунного камня для внутреннего сияния, концентрат росы <br>
+            самопринятия и ещё кое-что вдобавок. <br class="br"><br class="br">
+            
+            Эта медитация – как апгрейд операционной системы твоего обаяния. <br>
+            Никакой магии – только работа с внутренним потенциалом.<br class="br"><br class="br">
+            
+            Жми кнопку «Play», чтобы твоя внутренняя звезда засияла.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
         title: `СВОЯ ЗВЕЗДА`,
         duration: `8 минут`,
         outLink: antiaging,
@@ -2479,6 +2577,38 @@ export const data = {
         isStandart: true,
         isOpen: false,
         isNew: true,
+        type: `audio`,
+        title: `ДИКАЯ РОЗА`,
+        duration: `14 минут`,
+        outLink: neiro_cibernetika,
+        outLinkText: `НЕЙРОКИБЕРНЕТИКА`,
+        outUnderText: `Трансформация высшей степени <br>за 4 недели`,
+        img: `${url}__medium__/images/dikaia-roza.png`,
+        source: `${url}__medium__/tracks/dikaya-roza-meditaciya-autentichnosti.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты устала подстраиваться под чужие мнения/ожидания  <br>
+            и готова дать слово своей истинной природе, то эта медитация  <br>
+            специально для тебя. Пока ты будешь наслаждаться состоянием  <br>
+            глубокого покоя, твое подсознание будет работать над тем, чтобы:
+          </div>
+          <ul class="list">
+            <li style="list-style-type: decimal;"><div class="paragraph-18">Активировать твой внутренний код подлинности;</div></li>
+            <li style="list-style-type: decimal;"><div class="paragraph-18">Усилить природную способность к регенерации после стрессов;</div></li>
+            <li style="list-style-type: decimal;"><div class="paragraph-18">Укрепить твой иммунитет к чужим манипуляциям;</div></li>
+            <li style="list-style-type: decimal;"><div class="paragraph-18">Настроить внутренний компас на твою истинную суть</div></li>
+          </ul>
+          <div class="paragraph-18">
+            Через работу с отражением в виртуальном озере и мудрость древних <br>
+            притч ты подключишься к пониманию, что твоя природная «дикость» - <br>
+            это и есть твоя главная сила. Она в твоей подлинной самости.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
         type: `audio`,
         title: `ПРИЛИПЛО-НАДОЕЛО-СБРОСЬ`,
         duration: `13 минут`,
@@ -3323,6 +3453,67 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
+        isNew: true,
+        type: `audio`,
+        title: `ДЕНЕЖНЫЙ ВОДОПРОВОД`,
+        duration: `20 минут`,
+        outLink: neiromaining,
+        outLinkText: `НЕЙРОМАЙНИНГ`,
+        outUnderText: `Нейроинженеринговое программирование <br>
+            на денежный прирост, которому пока нет равных`,
+        img: `${url}__medium__/images/denezhnyi_vodoprovod.png`,
+        source: `${url}__medium__/tracks/denezhnyy-vodoprovod.mp3`,
+        text: `
+          <div class="paragraph-18">
+            В ходе этой медитации мы используем мощные метафоры, <br>
+            чтобы поручить твоему подсознанию активировать скрытые  <br>
+            каналы денежных поступлений; устранить т.н. «засоры»  <br>
+            в финансовых потоках; преобразовать долги в возможности  <br>
+            и настроить твою внутреннюю систему на то, чтобы обнаружились <br>
+            те возможности, которые имеют наибольший потенциал сделать  <br>
+            твои денежные потоки заметно более интенсивными.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: false,
+        type: `audio`,
+        title: `СИМФОНИЯ СВОБОДЫ. <br class="hide_add">ОРКЕСТР НЕЗАВИСИМОСТИ`,
+        duration: `9 минут`,
+        outLink: psihonautika,
+        outLinkText: `ПСИХОНАВТИКА`,
+        outUnderText: `<ul class="spec-ul">
+          <li>Шаманские путешествия</li>
+          <li>Шаманские путешествия</li>
+          <li>Экспедиции в Высшие миры</li>
+        </ul>`,
+        img: `${url}__medium__/images/simfoniya.png`,
+        source: `${url}__medium__/tracks/simfoniya.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты готова к интересному эксперименту, в результате которого <br>
+            станешь более уверенной в принятии решений, более сильной <br>
+            по части личной автономии и куда более стресс-устойчивой, то <br>
+            позволь себе отдохнуть и насладиться Симфонией Свободы   <br>
+            в исполнении Оркестра Независимости. Пока ты будешь отдыхать, <br>
+            твой мозг станет активно трудиться, чтобы:
+          </div>
+           <ul class="list">
+            <li style="list-style-type: decimal"><div class="paragraph-18">Произвести апгрейд системы принятия решений</div></li>
+            <li style="list-style-type: decimal;"><div class="paragraph-18">Осуществить тонкую настройку шкалы эмоций</div></li>
+            <li style="list-style-type: decimal;"><div class="paragraph-18">Усилить сигнал внутреннего GPS для навигации по жизни</div></li>
+            <li style="list-style-type: decimal;"><div class="paragraph-18">Настроить нейронные связи на креативность.</div></li>
+          </ul>
+          <div class="paragraph-18">
+            Готова к этому?  Тогда жми кнопку «Play»
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
         isNew: false,
         type: `audio`,
         title: `ГИПНОТИЧЕСКАЯ МОЛИТВА О ПРОЦВЕТАНИИ БИЗНЕСА`,
@@ -3999,7 +4190,7 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
         type: `audio`,
         title: `МАСТЕР-МЕДИТАЦИЯ`,
         duration: `22 минуты`,
@@ -4471,7 +4662,7 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
         type: `audio`,
         title: `НАИМЕНЬШЕЕ УСИЛИЕ`,
         duration: `16 минут`,
