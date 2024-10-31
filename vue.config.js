@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
-const pageName = 'medium_5.0'
+const pageName = 'medium-spa-5.1.9'
 
 const outputDir = pageName
 const publicPath = process.env.NODE_ENV === 'production'
@@ -10,5 +10,8 @@ module.exports = defineConfig({
   transpileDependencies: true,
   productionSourceMap: false,
   publicPath,
-  outputDir
+  outputDir,
+  devServer: {
+    host: 'localhost'
+  }
 })

@@ -38,7 +38,7 @@ export default {
     ...mapState(['btns'])
   },
   methods: {
-    ...mapMutations(['changePage', 'changeChapter']),
+    ...mapMutations(['changePage', 'changeChapter', 'toggleIsSOSPage', 'toggleIsNews']),
     onChangePage(linkTo) {
       this.changePage(linkTo)
       this.changeChapter(linkTo)
@@ -47,6 +47,8 @@ export default {
   mounted() {
     localStorage.clear()
     this.changeChapter('')
+    this.toggleIsSOSPage(false)
+    this.toggleIsNews(false)
     window.scrollTo(0, 0)
   },
 }

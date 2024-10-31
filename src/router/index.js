@@ -10,12 +10,17 @@ const routes = [
   {
     path: '/:chapter',
     name: 'list-items',
-    component: () => import('../views/ListItems')
+    component: () => import('../views/ListButtons')
   },
   {
     path: '/new-menu',
     name: 'new-menu',
     component: () => import('../views/NewMenu')
+  },
+  {
+    path: '/sos_programs',
+    name: 'sos_programs',
+    component: () => import('../views/SOSMenu')
   },
   {
     path: '/instructions',
@@ -28,12 +33,12 @@ const routes = [
     component: () => import('../views/Support')
   },
   {
-    path: '/audio',
+    path: '/:chapter/audio',
     name: 'audio',
     component: () => import('../views/Audio')
   },
   {
-    path: '/video',
+    path: '/:chapter/video',
     name: 'video',
     component: () => import('../views/Video')
   },

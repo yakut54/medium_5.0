@@ -2,24 +2,22 @@
   <div class="drop-menu">
     <div class="top-nav">
       <div class="left-top-nav">
-        <img
-            @click="$router.back()"
-            src="@/assets/images/arrow.png"
-            alt="" class="top-nav-back">
+        <back-button :theme="'dark-arrow'"/>
       </div>
       <div class="center-top-nav">
         <img alt="" src="@/assets/images/title_medium.png" class="top-nav-title-medium"/>
       </div>
       <div class="right-top-nav">
-        <i :class="['fa', isDrop ? 'fa-times' : 'fa-bars']" @click="toggleIsDrop"></i>
+        <i :class="['fa', isDrop ? 'fa-times' : 'fa-bars']" @click="toggleIsDrop(!isDrop)"></i>
       </div>
     </div>
     <div :class="[isDrop ? 'drop-nav drop' : 'drop-nav']">
 
       <div
-        class="nav-item"
-        v-for="btn in dropBtn"
-        @click="onChangePage(btn.linkTo)">{{ btn.title.replace(pattern, '') }}</div>
+          class="nav-item"
+          v-for="btn in dropBtn"
+          @click="onChangePage(btn.linkTo)">{{ btn.title.replace(regPattern, '') }}
+      </div>
 
     </div>
   </div>
@@ -31,33 +29,33 @@ import {mapState, mapMutations} from 'vuex'
 
 export default {
   name: "DropNav",
-  data(){
-    return {
-      pattern: /<br class="show_\d{3}">/
-    }
-  },
-  watch:{
-    $route (to, from){
-      if(this.$route.name === 'list-items'){
-        this.changeChapter(this.$route.params.chapter)
-      }
+  watch: {
+    $route() {
+
+      // if (this.$route.name === 'list-items') {
+      //   this.changeChapter(this.$route.params.chapter)
+      //   this.data[this.$route.params.chapter]
+      //       .seanses.forEach(item => item.isOpen = false)
+      // }
     }
   },
   methods: {
-    ...mapMutations(['toggleIsDrop', 'changePage', 'changeChapter']),
-    onChangePage(linkTo){
+    ...mapMutations(['toggleIsDrop', 'changePage', 'changeChapter', 'toggleIsSOSPage']),
+    onChangePage(linkTo) {
       this.changePage(linkTo)
       this.changeChapter(linkTo)
-      this.toggleIsDrop()
+      this.toggleIsDrop(false)
+      this.toggleIsSOSPage(false)
+      window.scrollTo(0, 0)
     }
   },
   computed: {
-    ...mapState(['isDrop', 'btns', 'chapterName']),
-    dropBtn(){
+    ...mapState(['isDrop', 'btns', 'chapterName', 'regPattern', 'data', 'isSOSPage']),
+    dropBtn() {
       return this.btns.filter((item, idx) => {
         if (idx < 11) return item
       })
     }
-  }
+  },
 }
 </script>
