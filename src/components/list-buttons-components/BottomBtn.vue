@@ -41,16 +41,25 @@ export default {
       let index
       let obj = localStorage.getItem('obj') || 'chapter-0'
 
+      console.log('TEST BB 1')
+
       if(!this.isSOSPage){
         if(obj === 'chapter-2'){
+          console.log('TEST BB 2')
           index = this.data['sos_programs']?.chapters['chapter-2'].seanses.indexOf(this.seans)
+          console.log('TEST BB 3')
         } else {
+          console.log('TEST BB 4')
           index = this.data[this.chapterName]?.seanses.indexOf(this.seans)
+          console.log('this.chapterName', this.chapterName)
+          console.log('TEST BB 5', this.seans)
         }
       } else {
+        console.log('TEST BB 6')
         index = this.data['sos_programs']?.chapters[obj].seanses.indexOf(this.seans)
+        console.log('TEST BB 7')
       }
-
+      console.log('TEST BB 8')
       this.openMediaView(index)
       localStorage.setItem('index', `${index}`)
     }

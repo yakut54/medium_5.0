@@ -20,8 +20,5 @@ export default {
     // Logger,
     SpecialLine
   },
-  mounted() {
-
-  }
 }
 </script>

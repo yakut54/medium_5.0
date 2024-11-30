@@ -372,6 +372,32 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
+        isNew: true,
+        type: `audio`,
+        title: `ХРАНИТЕЛЬНИЦА ВРЕМЕНИ`,
+        duration: `16 минут`,
+        outLink: mgnovennaya_progressiya,
+        outLinkText: `МГНОВЕННАЯ ПРОГРЕССИЯ <br>В НАИЛУЧШЕЕ СОСТОЯНИЕ`,
+        outUnderText: ``,
+        img: `${url}__medium__/images/hranitelnica_vremeni.png`,
+        source: `${url}__medium__/tracks/hranitelnica_vremeni.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если вечером тебе трудно отпустить события прошедшего дня, <br>
+            а напряженные мысли продолжают крутиться в голове, мешая уснуть,  <br>
+            попробуй сомническую медитацию, в ходе которой происходит  <br>
+            естественный переход в здоровый сон. Это обеспечивают три  <br>
+            нейро-якоря: один для сбалансированного завершения дневного  <br>
+            цикла, второй для активации альфа-ритмов мозга, третий для  <br>
+            перехода к дельта-состоянию (глубокий сон). Регулярное  <br>
+            прослушивание этого сеанса медитации помогает восстановить  <br>
+            здоровый ритм засыпания.
+          </div>
+        `,
+      },
+      {
+        isStandart: true,
+        isOpen: false,
         isNew: false,
         type: `audio`,
         title: `МАШИНА ВРЕМЕНИ`,
@@ -1011,7 +1037,7 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
         type: `audio`,
         title: `СО ХАМ`,
         duration: `21 минутa`,
@@ -2576,7 +2602,7 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
         type: `audio`,
         title: `ДИКАЯ РОЗА`,
         duration: `14 минут`,
@@ -3453,7 +3479,7 @@ export const data = {
       {
         isStandart: true,
         isOpen: false,
-        isNew: true,
+        isNew: false,
         type: `audio`,
         title: `ДЕНЕЖНЫЙ ВОДОПРОВОД`,
         duration: `20 минут`,
@@ -3782,6 +3808,29 @@ export const data = {
   women_dreams: {
     title: 'ЖЕНСКИЕ МЕЧТЫ',
     seanses: [
+      {
+        isStandart: true,
+        isOpen: false,
+        isNew: true,
+        type: `audio`,
+        title: `ПЛЕТУЩАЯ СУДЬБУ`,
+        duration: `15 минут`,
+        outLink: neiro_cibernetika,
+        outLinkText: `НЕЙРОКИБЕРНЕТИКА`,
+        outUnderText: `Трансформация высшей степени <br>за 4 недели`,
+        img: `${url}__medium__/images/pletuschaya_sudbu.png`,
+        source: `${url}__medium__/images/pletuschaya_sudbu.mp3`,
+        text: `
+          <div class="paragraph-18">
+            Если ты хочешь перемен, но накатанная колея тебя не выпускает, <br>
+            то вот способ открыться изменениям: сеанс глубинной визуализации  <br>
+            в технике творческого перепрограммирования подсознания. В ходе  <br>
+            сеанса ты увидишь, как различные аспекты твоей жизни - ценности,  <br>
+            таланты, мечты, опыт - сплетаются в новый узор судьбы. Одно лишь <br>
+             наблюдение за этим активирует потенциалы вдохновляющих перемен.
+          </div>
+        `,
+      },
       {
         isStandart: true,
         isOpen: false,
@@ -5000,84 +5049,6 @@ export const data = {
     title: 'SOS-ПРОГРАММЫ',
     chapters: {
       'chapter-0': {
-        title: `От беспокойства`,
-        seanses: [
-          {
-            isStandart: true,
-            isOpen: false,
-            isNew: false,
-            type: `audio`,
-            title: `ОКЕАН СПОКОЙСТВИЯ`,
-            duration: `14 минут`,
-            outLink: ``,
-            outLinkText: ``,
-            outUnderText: ``,
-            img: `${url}__medium__/images/sos_0.png`,
-            source: `${url}player/tracks/okean_spokoistviya.mp3`,
-            text: `
-              <div class="paragraph-18">
-                Если тебе никогда не приходилось бывать на территории <br>
-                самой крупной акватории на свете – Океане Спокойствия,  <br>
-                - то у тебя есть проблемы. И скорей всего, немалые. <br>
-                Давай сюда одну из таких проблем и позволь Океану <br>
-                Спокойствия растворить её в своих чистых водах. <br>
-                Это очень мощная медитация. Это признают все.
-              </div>
-            `,
-          },
-          {
-            isStandart: true,
-            isOpen: false,
-            isNew: false,
-            type: `audio`,
-            title: `БЫСТРЫЙ СБРОС НЕГАТИВНОГО`,
-            duration: `13 минут`,
-            outLink: ``,
-            outLinkText: ``,
-            outUnderText: ``,
-            img: `${url}__medium__/images/sos_1.png`,
-            source: `${url}luchshee-nachalo-dnya/celebnaya_relaksaciya/Bistriy_sbros_negativnogo.mp3`,
-            text: `
-              <div class="paragraph-18">
-                Отложи всё на время – пусть подождёт.  <br class="br">
-                Пусть мир занимается своими делами, <br class="br">
-                а ты займись своим, чтобы освободиться <br class="br">
-                от накопленных напряжений и расчистить <br class="br">
-                место для всего хорошего.
-              </div>
-            `,
-          },
-          {
-            isStandart: true,
-            isOpen: false,
-            isNew: false,
-            type: `audio`,
-            title: `БОЖЕСТВЕННОЕ ИСЦЕЛЕНИЕ НЕГАТИВА`,
-            duration: `17 минут`,
-            outLink: ``,
-            outLinkText: ``,
-            outUnderText: ``,
-            img: `${url}__medium__/images/sos_2.png`,
-            source: `${url}player/tracks/bozhestvennoe_iscelenie_negativa.mp3`,
-            text: `
-              <div class="paragraph-18">
-                В процессе этой медитации ты совершишь путешествие <br>
-                в одно удивительное место, где исцеляется всё, что <br>
-                нуждается в исцелении. Побывав в этом месте, <br>
-                ты почувствуешь себя прекрасно – во всех отношениях. <br class="br"><br class="br">
-                
-                Эта медитация признана сильным средством <br>
-                при лечении соматических заболеваний различной <br>
-                степени тяжести – от легкой до очень тяжёлой. <br>
-                Медитация незаменима также при депрессии, <br>
-                синдроме хронической усталости и в период <br>
-                восстановления после болезни
-              </div>
-            `,
-          },
-        ],
-      },
-      'chapter-1': {
         title: `Экстренная помощь <br> при недомоганиях`,
         seanses: [
           {
@@ -5533,8 +5504,8 @@ export const data = {
           },
         ],
       },
-      'chapter-2': {
-        title: `Экстренная помощь <br> при недомоганиях`,
+      'chapter-1': {
+        title: `Экстренная помощь <br> при сложной проблеме`,
         seanses: [
           {
             isStandart: false,
@@ -5672,7 +5643,117 @@ export const data = {
             `,
           },
         ],
-      }
+      },
+      'chapter-2': {
+        title: `От беспокойства`,
+        seanses: [
+          {
+            isStandart: true,
+            isOpen: false,
+            isNew: true,
+            type: `audio`,
+            title: `ЧЕРТОГИ ТИШИНЫ`,
+            duration: `14 минут`,
+            outLink: psihonautika,
+            outLinkText: `ПСИХОНАВТИКА`,
+            outUnderText: `<ul class="spec-ul">
+              <li>Шаманские путешествия</li>
+              <li>Шаманские путешествия</li>
+              <li>Экспедиции в Высшие миры</li>
+            </ul>`,
+            img: `${url}__medium__/images/chertogi_tishany.png`,
+            source: `${url}__medium__/tracks/chertogi_tishany.mp3`,
+            text: `
+              <div class="paragraph-18">
+                Если тебя порой преследуют навязчивые мысли, ты испытываешь  <br>
+                тревожность и беспричинное внутреннее беспокойство, то этот  <br>
+                сеанс медитации для тебя. На сеансе применяются древние  <br>
+                техники глубинной релаксации в сочетании с современными  <br>
+                методами нейропрограммирования, что обеспечивает стабилизацию <br>
+                эмоционального состояния, снижает уровень стресса и нормализует  <br>
+                сон. Для наглядности и устойчивости эффекта в ходе сеанса  <br>
+                ты получишь ключ доступа к состоянию эмоционального баланса.  <br>
+                Используя этот ключ (особый жест), ты сможешь произвольно  <br>
+                отменять стрессовое состояние и восстанавливать эмоциональное  <br>
+                равновесие.
+              </div>
+            `,
+          },
+          {
+            isStandart: true,
+            isOpen: false,
+            isNew: false,
+            type: `audio`,
+            title: `ОКЕАН СПОКОЙСТВИЯ`,
+            duration: `14 минут`,
+            outLink: ``,
+            outLinkText: ``,
+            outUnderText: ``,
+            img: `${url}__medium__/images/sos_0.png`,
+            source: `${url}player/tracks/okean_spokoistviya.mp3`,
+            text: `
+              <div class="paragraph-18">
+                Если тебе никогда не приходилось бывать на территории <br>
+                самой крупной акватории на свете – Океане Спокойствия,  <br>
+                - то у тебя есть проблемы. И скорей всего, немалые. <br>
+                Давай сюда одну из таких проблем и позволь Океану <br>
+                Спокойствия растворить её в своих чистых водах. <br>
+                Это очень мощная медитация. Это признают все.
+              </div>
+            `,
+          },
+          {
+            isStandart: true,
+            isOpen: false,
+            isNew: false,
+            type: `audio`,
+            title: `БЫСТРЫЙ СБРОС НЕГАТИВНОГО`,
+            duration: `13 минут`,
+            outLink: ``,
+            outLinkText: ``,
+            outUnderText: ``,
+            img: `${url}__medium__/images/sos_1.png`,
+            source: `${url}luchshee-nachalo-dnya/celebnaya_relaksaciya/Bistriy_sbros_negativnogo.mp3`,
+            text: `
+              <div class="paragraph-18">
+                Отложи всё на время – пусть подождёт.  <br class="br">
+                Пусть мир занимается своими делами, <br class="br">
+                а ты займись своим, чтобы освободиться <br class="br">
+                от накопленных напряжений и расчистить <br class="br">
+                место для всего хорошего.
+              </div>
+            `,
+          },
+          {
+            isStandart: true,
+            isOpen: false,
+            isNew: false,
+            type: `audio`,
+            title: `БОЖЕСТВЕННОЕ ИСЦЕЛЕНИЕ НЕГАТИВА`,
+            duration: `17 минут`,
+            outLink: ``,
+            outLinkText: ``,
+            outUnderText: ``,
+            img: `${url}__medium__/images/sos_2.png`,
+            source: `${url}player/tracks/bozhestvennoe_iscelenie_negativa.mp3`,
+            text: `
+              <div class="paragraph-18">
+                В процессе этой медитации ты совершишь путешествие <br>
+                в одно удивительное место, где исцеляется всё, что <br>
+                нуждается в исцелении. Побывав в этом месте, <br>
+                ты почувствуешь себя прекрасно – во всех отношениях. <br class="br"><br class="br">
+                
+                Эта медитация признана сильным средством <br>
+                при лечении соматических заболеваний различной <br>
+                степени тяжести – от легкой до очень тяжёлой. <br>
+                Медитация незаменима также при депрессии, <br>
+                синдроме хронической усталости и в период <br>
+                восстановления после болезни
+              </div>
+            `,
+          },
+        ],
+      },
     }
   }
 }

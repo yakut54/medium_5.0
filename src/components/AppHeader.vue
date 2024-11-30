@@ -20,15 +20,15 @@
       <p class="paragraph-18 paragraph-18-1lh">Быстрое засыпание <br class="br">Глубокий сон всю ночь</p>
     </template>
 
-    <template v-if="backgroungImg === 'chapter-0'">
+    <template v-if="backgroungImg === 'chapter-2'">
       <div class="app-header-title-mini asb" v-html="'ОТ БЕСПОКОЙСТВА'"></div>
     </template>
 
-    <template v-if="backgroungImg === 'chapter-1'">
+    <template v-if="backgroungImg === 'chapter-0'">
       <div class="app-header-title-mini asb" v-html="'ЭКСТРЕННАЯ ПОМОЩЬ <br>ПРИ НЕДОМОГАНИЯХ'"></div>
     </template>
 
-    <template v-if="backgroungImg === 'chapter-2'">
+    <template v-if="backgroungImg === 'chapter-1'">
       <div class="app-header-title-mini asb" v-html="'ЭКСТРЕННАЯ ПОМОЩЬ <br>ПРИ СЛОЖНОЙ ПРОБЛЕМЕ'"></div>
     </template>
   </header>

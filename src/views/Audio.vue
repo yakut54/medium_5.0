@@ -52,7 +52,7 @@ export default {
     seanses() {
       if (!this.isSOSPage) {
 
-        if(this.chapterName === 'chapter-2') {
+        if (this.chapterName === 'chapter-2') {
           return this.data['sos_programs'].chapters['chapter-2'].seanses
         } else {
           return this.chapterName === ''

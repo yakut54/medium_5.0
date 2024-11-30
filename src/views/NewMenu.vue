@@ -8,6 +8,18 @@
 
         <template v-if="newSeanses.length">
           <div
+              @click="onChangePageTemp('chapter-2', `${url}__medium__/tracks/chertogi_tishany.mp3`)"
+              class="news-btn"
+          >
+            <div class="news-btn-left">
+              <p v-html="'ЧЕРТОГИ ТИШИНЫ'"></p>
+            </div>
+            <div class="news-btn-right">
+              <img alt="" src="https://api.selcdn.ru/v1/SEL_53369/mng/__medium__/images/chertogi_tishany.png"/>
+            </div>
+          </div>
+
+          <div
               @click="onChangePage(item.chapter, item.id)"
               class="news-btn"
               v-for="item in newSeanses"
@@ -20,17 +32,6 @@
             </div>
           </div>
 
-          <!--          <div-->
-          <!--              @click="onChangePageTemp('chapter-2', `${url}__medium__/tracks/focusing.mp3`)"-->
-          <!--              class="news-btn"-->
-          <!--          >-->
-          <!--            <div class="news-btn-left">-->
-          <!--              <p v-html="'ФОКУСИНГ'"></p>-->
-          <!--            </div>-->
-          <!--            <div class="news-btn-right">-->
-          <!--              <img alt="" src="https://api.selcdn.ru/v1/SEL_53369/mng/__medium__/images/focusing.png"/>-->
-          <!--            </div>-->
-          <!--          </div>-->
         </template>
 
         <div v-else class="app-header-title">
@@ -75,11 +76,13 @@ export default {
   methods: {
     ...mapMutations(['changePage', 'changeChapter', 'toggleIsNews', 'changeNewId', 'toggleIsSOSPage']),
     onChangePage(linkTo, newId) {
+      console.log('changePage ', linkTo, newId)
       this.changeNewId(newId)
       this.changePage(linkTo)
       this.changeChapter(linkTo)
     },
     onChangePageTemp(linkTo, newId) {
+      console.log('onChangePageTemp ', linkTo, newId)
       this.changeNewId(newId)
       this.changePage(linkTo)
       this.changeChapter(linkTo)

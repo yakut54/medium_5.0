@@ -26,5 +26,6 @@ export default {
   right: 0;
   background: #fff;
   border: 1px dotted #636363;
+  z-index: 54;
 }
 </style>

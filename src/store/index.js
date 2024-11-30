@@ -18,6 +18,7 @@ export default createStore({
   },
   mutations: {
     changePage: (state, linkTo) => {
+
       if (linkTo !== 'hits'
         && linkTo !== 'support'
         && linkTo !== 'instructions'
