@@ -12,7 +12,7 @@
               class="news-btn"
           >
             <div class="news-btn-left">
-              <p v-html="'ЧЕРТОГИ ТИШИНЫ'"></p>
+              <p v-html="'ЧЕРТОГИ ТИШАНЫ'"></p>
             </div>
             <div class="news-btn-right">
               <img alt="" src="https://api.selcdn.ru/v1/SEL_53369/mng/__medium__/images/chertogi_tishany.png"/>

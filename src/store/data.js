@@ -3819,7 +3819,7 @@ export const data = {
         outLinkText: `НЕЙРОКИБЕРНЕТИКА`,
         outUnderText: `Трансформация высшей степени <br>за 4 недели`,
         img: `${url}__medium__/images/pletuschaya_sudbu.png`,
-        source: `${url}__medium__/images/pletuschaya_sudbu.mp3`,
+        source: `${url}__medium__/tracks/pletuschaya_sudbu.mp3`,
         text: `
           <div class="paragraph-18">
             Если ты хочешь перемен, но накатанная колея тебя не выпускает, <br>
@@ -5652,7 +5652,7 @@ export const data = {
             isOpen: false,
             isNew: true,
             type: `audio`,
-            title: `ЧЕРТОГИ ТИШИНЫ`,
+            title: `ЧЕРТОГИ ТИШАНЫ`,
             duration: `14 минут`,
             outLink: psihonautika,
             outLinkText: `ПСИХОНАВТИКА`,
